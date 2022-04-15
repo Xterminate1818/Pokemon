@@ -1,0 +1,1487 @@
+{
+    "Absorb": {
+        "type": "Grass",
+        "category": "special",
+        "power": "20",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "User recovers half the HP inflicted on opponent.",
+        "tags": []
+    },
+    "Acid": {
+        "type": "Poison",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "May lower opponent's Special Defense.",
+        "tags": []
+    },
+    "Acid Armor": {
+        "type": "Poison",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Sharply raises user's Defense.",
+        "tags": []
+    },
+    "Agility": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Sharply raises user's Speed.",
+        "tags": []
+    },
+    "Amnesia": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Sharply raises user's Special Defense.",
+        "tags": []
+    },
+    "Aurora Beam": {
+        "type": "Ice",
+        "category": "special",
+        "power": "65",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "May lower opponent's Attack.",
+        "tags": []
+    },
+    "Barrage": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "15",
+        "accuracy": "85",
+        "pp": "20",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Barrier": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Sharply raises user's Defense.",
+        "tags": []
+    },
+    "Bide": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "User takes damage for two turns then strikes back double.",
+        "tags": []
+    },
+    "Bind": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "15",
+        "accuracy": "85",
+        "pp": "20",
+        "description": "Traps opponent, damaging them for 4-5 turns.",
+        "tags": []
+    },
+    "Bite": {
+        "type": "Dark",
+        "category": "physical",
+        "power": "60",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Blizzard": {
+        "type": "Ice",
+        "category": "special",
+        "power": "110",
+        "accuracy": "70",
+        "pp": "5",
+        "description": "May freeze opponent.",
+        "tags": []
+    },
+    "Body Slam": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "85",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May paralyze opponent.",
+        "tags": []
+    },
+    "Bone Club": {
+        "type": "Ground",
+        "category": "physical",
+        "power": "65",
+        "accuracy": "85",
+        "pp": "20",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Bonemerang": {
+        "type": "Ground",
+        "category": "physical",
+        "power": "50",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "Hits twice in one turn.",
+        "tags": []
+    },
+    "Bubble": {
+        "type": "Water",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "May lower opponent's Speed.",
+        "tags": []
+    },
+    "Bubble Beam": {
+        "type": "Water",
+        "category": "special",
+        "power": "65",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "May lower opponent's Speed.",
+        "tags": []
+    },
+    "Clamp": {
+        "type": "Water",
+        "category": "physical",
+        "power": "35",
+        "accuracy": "85",
+        "pp": "15",
+        "description": "Traps opponent, damaging them for 4-5 turns.",
+        "tags": []
+    },
+    "Comet Punch": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "18",
+        "accuracy": "85",
+        "pp": "15",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Confuse Ray": {
+        "type": "Ghost",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Confuses opponent.",
+        "tags": []
+    },
+    "Confusion": {
+        "type": "Psychic",
+        "category": "special",
+        "power": "50",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "May confuse opponent.",
+        "tags": []
+    },
+    "Constrict": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "10",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "May lower opponent's Speed by one stage.",
+        "tags": []
+    },
+    "Conversion": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Changes user's type to that of its first move.",
+        "tags": []
+    },
+    "Counter": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "When hit by a Physical Attack, user strikes back with 2x power.",
+        "tags": []
+    },
+    "Crabhammer": {
+        "type": "Water",
+        "category": "physical",
+        "power": "100",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "High critical hit ratio.",
+        "tags": []
+    },
+    "Cut": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "50",
+        "accuracy": "95",
+        "pp": "30",
+        "description": "",
+        "tags": []
+    },
+    "Defense Curl": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "40",
+        "description": "Raises user's Defense.",
+        "tags": []
+    },
+    "Dig": {
+        "type": "Ground",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Digs underground on first turn, attacks on second. Can also escape from caves.",
+        "tags": []
+    },
+    "Disable": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "Opponent can't use its last attack for a few turns.",
+        "tags": []
+    },
+    "Dizzy Punch": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "70",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "May confuse opponent.",
+        "tags": []
+    },
+    "Double Kick": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "30",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "Hits twice in one turn.",
+        "tags": []
+    },
+    "Double Slap": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "15",
+        "accuracy": "85",
+        "pp": "10",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Double Team": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "15",
+        "description": "Raises user's Evasiveness.",
+        "tags": []
+    },
+    "Double-Edge": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "120",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "User receives recoil damage.",
+        "tags": []
+    },
+    "Dragon Rage": {
+        "type": "Dragon",
+        "category": "special",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Always inflicts 40 HP.",
+        "tags": []
+    },
+    "Dream Eater": {
+        "type": "Psychic",
+        "category": "special",
+        "power": "100",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "User recovers half the HP inflicted on a sleeping opponent.",
+        "tags": []
+    },
+    "Drill Peck": {
+        "type": "Flying",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "",
+        "tags": []
+    },
+    "Earthquake": {
+        "type": "Ground",
+        "category": "physical",
+        "power": "100",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Power is doubled if opponent is underground from using Dig.",
+        "tags": []
+    },
+    "Egg Bomb": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "100",
+        "accuracy": "75",
+        "pp": "10",
+        "description": "",
+        "tags": []
+    },
+    "Ember": {
+        "type": "Fire",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "May burn opponent.",
+        "tags": []
+    },
+    "Explosion": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "250",
+        "accuracy": "100",
+        "pp": "5",
+        "description": "User faints.",
+        "tags": []
+    },
+    "Fire Blast": {
+        "type": "Fire",
+        "category": "special",
+        "power": "110",
+        "accuracy": "85",
+        "pp": "5",
+        "description": "May burn opponent.",
+        "tags": []
+    },
+    "Fire Punch": {
+        "type": "Fire",
+        "category": "physical",
+        "power": "75",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May burn opponent.",
+        "tags": []
+    },
+    "Fire Spin": {
+        "type": "Fire",
+        "category": "special",
+        "power": "35",
+        "accuracy": "85",
+        "pp": "15",
+        "description": "Traps opponent, damaging them for 4-5 turns.",
+        "tags": []
+    },
+    "Fissure": {
+        "type": "Ground",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "30",
+        "pp": "5",
+        "description": "One-Hit-KO, if it hits.",
+        "tags": []
+    },
+    "Flamethrower": {
+        "type": "Fire",
+        "category": "special",
+        "power": "90",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May burn opponent.",
+        "tags": []
+    },
+    "Flash": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "Lowers opponent's Accuracy.",
+        "tags": []
+    },
+    "Fly": {
+        "type": "Flying",
+        "category": "physical",
+        "power": "90",
+        "accuracy": "95",
+        "pp": "15",
+        "description": "Flies up on first turn, attacks on second turn.",
+        "tags": []
+    },
+    "Focus Energy": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Increases critical hit ratio.",
+        "tags": []
+    },
+    "Fury Attack": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "15",
+        "accuracy": "85",
+        "pp": "20",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Fury Swipes": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "18",
+        "accuracy": "80",
+        "pp": "15",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Glare": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "Paralyzes opponent.",
+        "tags": []
+    },
+    "Growl": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "40",
+        "description": "Lowers opponent's Attack.",
+        "tags": []
+    },
+    "Growth": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Raises user's Attack and Special Attack.",
+        "tags": []
+    },
+    "Guillotine": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "30",
+        "pp": "5",
+        "description": "One-Hit-KO, if it hits.",
+        "tags": []
+    },
+    "Gust": {
+        "type": "Flying",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "Hits Pok\u00e9mon using Fly/Bounce with double power.",
+        "tags": []
+    },
+    "Harden": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Raises user's Defense.",
+        "tags": []
+    },
+    "Haze": {
+        "type": "Ice",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Resets all stat changes.",
+        "tags": []
+    },
+    "Headbutt": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "70",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "High Jump Kick": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "130",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "If it misses, the user loses half their HP.",
+        "tags": []
+    },
+    "Horn Attack": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "65",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "",
+        "tags": []
+    },
+    "Horn Drill": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "30",
+        "pp": "5",
+        "description": "One-Hit-KO, if it hits.",
+        "tags": []
+    },
+    "Hydro Pump": {
+        "type": "Water",
+        "category": "special",
+        "power": "110",
+        "accuracy": "80",
+        "pp": "5",
+        "description": "",
+        "tags": []
+    },
+    "Hyper Beam": {
+        "type": "Normal",
+        "category": "special",
+        "power": "150",
+        "accuracy": "90",
+        "pp": "5",
+        "description": "User must recharge next turn.",
+        "tags": []
+    },
+    "Hyper Fang": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "90",
+        "pp": "15",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Hypnosis": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "60",
+        "pp": "20",
+        "description": "Puts opponent to sleep.",
+        "tags": []
+    },
+    "Ice Beam": {
+        "type": "Ice",
+        "category": "special",
+        "power": "90",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "May freeze opponent.",
+        "tags": []
+    },
+    "Ice Punch": {
+        "type": "Ice",
+        "category": "physical",
+        "power": "75",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May freeze opponent.",
+        "tags": []
+    },
+    "Jump Kick": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "100",
+        "accuracy": "95",
+        "pp": "10",
+        "description": "If it misses, the user loses half their HP.",
+        "tags": []
+    },
+    "Karate Chop": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "50",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "High critical hit ratio.",
+        "tags": []
+    },
+    "Kinesis": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "80",
+        "pp": "15",
+        "description": "Lowers opponent's Accuracy.",
+        "tags": []
+    },
+    "Leech Life": {
+        "type": "Bug",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "User recovers half the HP inflicted on opponent.",
+        "tags": []
+    },
+    "Leech Seed": {
+        "type": "Grass",
+        "category": "status",
+        "power": "-",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "Drains HP from opponent each turn.",
+        "tags": []
+    },
+    "Leer": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "Lowers opponent's Defense.",
+        "tags": []
+    },
+    "Lick": {
+        "type": "Ghost",
+        "category": "physical",
+        "power": "30",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "May paralyze opponent.",
+        "tags": []
+    },
+    "Light Screen": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Halves damage from Special attacks for 5 turns.",
+        "tags": []
+    },
+    "Lovely Kiss": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "75",
+        "pp": "10",
+        "description": "Puts opponent to sleep.",
+        "tags": []
+    },
+    "Low Kick": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "The heavier the opponent, the stronger the attack.",
+        "tags": []
+    },
+    "Meditate": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "40",
+        "description": "Raises user's Attack.",
+        "tags": []
+    },
+    "Mega Drain": {
+        "type": "Grass",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "User recovers half the HP inflicted on opponent.",
+        "tags": []
+    },
+    "Mega Kick": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "120",
+        "accuracy": "75",
+        "pp": "5",
+        "description": "",
+        "tags": []
+    },
+    "Mega Punch": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "85",
+        "pp": "20",
+        "description": "",
+        "tags": []
+    },
+    "Metronome": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "User performs almost any move in the game at random.",
+        "tags": []
+    },
+    "Mimic": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "Copies the opponent's last move.",
+        "tags": []
+    },
+    "Minimize": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "Sharply raises user's Evasiveness.",
+        "tags": []
+    },
+    "Mirror Move": {
+        "type": "Flying",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "User performs the opponent's last move.",
+        "tags": []
+    },
+    "Mist": {
+        "type": "Ice",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "User's stats cannot be changed for a period of time.",
+        "tags": []
+    },
+    "Night Shade": {
+        "type": "Ghost",
+        "category": "special",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "Inflicts damage equal to user's level.",
+        "tags": []
+    },
+    "Pay Day": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "A small amount of money is gained after the battle resolves.",
+        "tags": []
+    },
+    "Peck": {
+        "type": "Flying",
+        "category": "physical",
+        "power": "35",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "",
+        "tags": []
+    },
+    "Petal Dance": {
+        "type": "Grass",
+        "category": "special",
+        "power": "120",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "User attacks for 2-3 turns but then becomes confused.",
+        "tags": []
+    },
+    "Pin Missile": {
+        "type": "Bug",
+        "category": "physical",
+        "power": "25",
+        "accuracy": "95",
+        "pp": "20",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Poison Gas": {
+        "type": "Poison",
+        "category": "status",
+        "power": "-",
+        "accuracy": "90",
+        "pp": "40",
+        "description": "Poisons opponent.",
+        "tags": []
+    },
+    "Poison Powder": {
+        "type": "Poison",
+        "category": "status",
+        "power": "-",
+        "accuracy": "75",
+        "pp": "35",
+        "description": "Poisons opponent.",
+        "tags": []
+    },
+    "Poison Sting": {
+        "type": "Poison",
+        "category": "physical",
+        "power": "15",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "May poison the opponent.",
+        "tags": []
+    },
+    "Pound": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "",
+        "tags": []
+    },
+    "Psybeam": {
+        "type": "Psychic",
+        "category": "special",
+        "power": "65",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "May confuse opponent.",
+        "tags": []
+    },
+    "Psychic": {
+        "type": "Psychic",
+        "category": "special",
+        "power": "90",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "May lower opponent's Special Defense.",
+        "tags": []
+    },
+    "Psywave": {
+        "type": "Psychic",
+        "category": "special",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "Inflicts damage 50-150% of user's level.",
+        "tags": []
+    },
+    "Quick Attack": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "User attacks first.",
+        "tags": []
+    },
+    "Rage": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "20",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "Raises user's Attack when hit.",
+        "tags": []
+    },
+    "Razor Leaf": {
+        "type": "Grass",
+        "category": "physical",
+        "power": "55",
+        "accuracy": "95",
+        "pp": "25",
+        "description": "High critical hit ratio.",
+        "tags": []
+    },
+    "Razor Wind": {
+        "type": "Normal",
+        "category": "special",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Charges on first turn, attacks on second. High critical hit ratio.",
+        "tags": []
+    },
+    "Recover": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "User recovers half its max HP.",
+        "tags": []
+    },
+    "Reflect": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Halves damage from Physical attacks for 5 turns.",
+        "tags": []
+    },
+    "Rest": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "User sleeps for 2 turns, but user is fully healed.",
+        "tags": []
+    },
+    "Roar": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "In battles, the opponent switches. In the wild, the Pok\u00e9mon runs.",
+        "tags": []
+    },
+    "Rock Slide": {
+        "type": "Rock",
+        "category": "physical",
+        "power": "75",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Rock Throw": {
+        "type": "Rock",
+        "category": "physical",
+        "power": "50",
+        "accuracy": "90",
+        "pp": "15",
+        "description": "",
+        "tags": []
+    },
+    "Rolling Kick": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "60",
+        "accuracy": "85",
+        "pp": "15",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Sand Attack": {
+        "type": "Ground",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "Lowers opponent's Accuracy.",
+        "tags": []
+    },
+    "Scratch": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "",
+        "tags": []
+    },
+    "Screech": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "85",
+        "pp": "40",
+        "description": "Sharply lowers opponent's Defense.",
+        "tags": []
+    },
+    "Seismic Toss": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "Inflicts damage equal to user's level.",
+        "tags": []
+    },
+    "Self-Destruct": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "200",
+        "accuracy": "100",
+        "pp": "5",
+        "description": "User faints.",
+        "tags": []
+    },
+    "Sharpen": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "30",
+        "description": "Raises user's Attack.",
+        "tags": []
+    },
+    "Sing": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "55",
+        "pp": "15",
+        "description": "Puts opponent to sleep.",
+        "tags": []
+    },
+    "Skull Bash": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "130",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Raises Defense on first turn, attacks on second.",
+        "tags": []
+    },
+    "Sky Attack": {
+        "type": "Flying",
+        "category": "physical",
+        "power": "140",
+        "accuracy": "90",
+        "pp": "5",
+        "description": "Charges on first turn, attacks on second. May cause flinching. High critical hit ratio.",
+        "tags": []
+    },
+    "Slam": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "75",
+        "pp": "20",
+        "description": "",
+        "tags": []
+    },
+    "Slash": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "70",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "High critical hit ratio.",
+        "tags": []
+    },
+    "Sleep Powder": {
+        "type": "Grass",
+        "category": "status",
+        "power": "-",
+        "accuracy": "75",
+        "pp": "15",
+        "description": "Puts opponent to sleep.",
+        "tags": []
+    },
+    "Sludge": {
+        "type": "Poison",
+        "category": "special",
+        "power": "65",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "May poison opponent.",
+        "tags": []
+    },
+    "Smog": {
+        "type": "Poison",
+        "category": "special",
+        "power": "30",
+        "accuracy": "70",
+        "pp": "20",
+        "description": "May poison opponent.",
+        "tags": []
+    },
+    "Smokescreen": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "Lowers opponent's Accuracy.",
+        "tags": []
+    },
+    "Soft-Boiled": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "User recovers half its max HP.",
+        "tags": []
+    },
+    "Solar Beam": {
+        "type": "Grass",
+        "category": "special",
+        "power": "120",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "Charges on first turn, attacks on second.",
+        "tags": []
+    },
+    "Sonic Boom": {
+        "type": "Normal",
+        "category": "special",
+        "power": "-",
+        "accuracy": "90",
+        "pp": "20",
+        "description": "Always inflicts 20 HP.",
+        "tags": []
+    },
+    "Spike Cannon": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "20",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "Hits 2-5 times in one turn.",
+        "tags": []
+    },
+    "Splash": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "40",
+        "description": "Doesn't do ANYTHING.",
+        "tags": []
+    },
+    "Spore": {
+        "type": "Grass",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "Puts opponent to sleep.",
+        "tags": []
+    },
+    "Stomp": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "65",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Strength": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "",
+        "tags": []
+    },
+    "String Shot": {
+        "type": "Bug",
+        "category": "status",
+        "power": "-",
+        "accuracy": "95",
+        "pp": "40",
+        "description": "Sharply lowers opponent's Speed.",
+        "tags": []
+    },
+    "Struggle": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "50",
+        "accuracy": "-",
+        "pp": "-",
+        "description": "Only usable when all PP are gone. Hurts the user.",
+        "tags": []
+    },
+    "Stun Spore": {
+        "type": "Grass",
+        "category": "status",
+        "power": "-",
+        "accuracy": "75",
+        "pp": "30",
+        "description": "Paralyzes opponent.",
+        "tags": []
+    },
+    "Submission": {
+        "type": "Fighting",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "80",
+        "pp": "20",
+        "description": "User receives recoil damage.",
+        "tags": []
+    },
+    "Substitute": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "Uses HP to creates a decoy that takes hits.",
+        "tags": []
+    },
+    "Super Fang": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "-",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "Always takes off half of the opponent's HP.",
+        "tags": []
+    },
+    "Supersonic": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "55",
+        "pp": "20",
+        "description": "Confuses opponent.",
+        "tags": []
+    },
+    "Surf": {
+        "type": "Water",
+        "category": "special",
+        "power": "90",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "Hits all adjacent Pok\u00e9mon.",
+        "tags": []
+    },
+    "Swift": {
+        "type": "Normal",
+        "category": "special",
+        "power": "60",
+        "accuracy": "\u221e",
+        "pp": "20",
+        "description": "Ignores Accuracy and Evasiveness.",
+        "tags": []
+    },
+    "Swords Dance": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Sharply raises user's Attack.",
+        "tags": []
+    },
+    "Tackle": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "",
+        "tags": []
+    },
+    "Tail Whip": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "Lowers opponent's Defense.",
+        "tags": []
+    },
+    "Take Down": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "90",
+        "accuracy": "85",
+        "pp": "20",
+        "description": "User receives recoil damage.",
+        "tags": []
+    },
+    "Teleport": {
+        "type": "Psychic",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "Allows user to flee wild battles; also warps player to last Pok\u00e9Center.",
+        "tags": []
+    },
+    "Thrash": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "120",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "User attacks for 2-3 turns but then becomes confused.",
+        "tags": []
+    },
+    "Thunder": {
+        "type": "Electric",
+        "category": "special",
+        "power": "110",
+        "accuracy": "70",
+        "pp": "10",
+        "description": "May paralyze opponent.",
+        "tags": []
+    },
+    "Thunder Punch": {
+        "type": "Electric",
+        "category": "physical",
+        "power": "75",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May paralyze opponent.",
+        "tags": []
+    },
+    "Thunder Shock": {
+        "type": "Electric",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "May paralyze opponent.",
+        "tags": []
+    },
+    "Thunder Wave": {
+        "type": "Electric",
+        "category": "status",
+        "power": "-",
+        "accuracy": "90",
+        "pp": "20",
+        "description": "Paralyzes opponent.",
+        "tags": []
+    },
+    "Thunderbolt": {
+        "type": "Electric",
+        "category": "special",
+        "power": "90",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May paralyze opponent.",
+        "tags": []
+    },
+    "Toxic": {
+        "type": "Poison",
+        "category": "status",
+        "power": "-",
+        "accuracy": "90",
+        "pp": "10",
+        "description": "Badly poisons opponent.",
+        "tags": []
+    },
+    "Transform": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "10",
+        "description": "User takes on the form and attacks of the opponent.",
+        "tags": []
+    },
+    "Tri Attack": {
+        "type": "Normal",
+        "category": "special",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "10",
+        "description": "May paralyze, burn or freeze opponent.",
+        "tags": []
+    },
+    "Twineedle": {
+        "type": "Bug",
+        "category": "physical",
+        "power": "25",
+        "accuracy": "100",
+        "pp": "20",
+        "description": "Hits twice in one turn. May poison opponent.",
+        "tags": []
+    },
+    "Vine Whip": {
+        "type": "Grass",
+        "category": "physical",
+        "power": "45",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "",
+        "tags": []
+    },
+    "Vise Grip": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "55",
+        "accuracy": "100",
+        "pp": "30",
+        "description": "",
+        "tags": []
+    },
+    "Water Gun": {
+        "type": "Water",
+        "category": "special",
+        "power": "40",
+        "accuracy": "100",
+        "pp": "25",
+        "description": "",
+        "tags": []
+    },
+    "Waterfall": {
+        "type": "Water",
+        "category": "physical",
+        "power": "80",
+        "accuracy": "100",
+        "pp": "15",
+        "description": "May cause flinching.",
+        "tags": []
+    },
+    "Whirlwind": {
+        "type": "Normal",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "20",
+        "description": "In battles, the opponent switches. In the wild, the Pok\u00e9mon runs.",
+        "tags": []
+    },
+    "Wing Attack": {
+        "type": "Flying",
+        "category": "physical",
+        "power": "60",
+        "accuracy": "100",
+        "pp": "35",
+        "description": "",
+        "tags": []
+    },
+    "Withdraw": {
+        "type": "Water",
+        "category": "status",
+        "power": "-",
+        "accuracy": "-",
+        "pp": "40",
+        "description": "Raises user's Defense.",
+        "tags": []
+    },
+    "Wrap": {
+        "type": "Normal",
+        "category": "physical",
+        "power": "15",
+        "accuracy": "90",
+        "pp": "20",
+        "description": "Traps opponent, damaging them for 4-5 turns.",
+        "tags": []
+    }
+}

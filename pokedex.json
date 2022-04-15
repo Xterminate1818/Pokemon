@@ -1,0 +1,2032 @@
+{
+    "Bulbasaur": {
+        "id": "001",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "318",
+        "hp": "45",
+        "attack": "49",
+        "defense": "49",
+        "sp-attack": "65",
+        "sp-defense": "65",
+        "speed": "45"
+    },
+    "Ivysaur": {
+        "id": "002",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "405",
+        "hp": "60",
+        "attack": "62",
+        "defense": "63",
+        "sp-attack": "80",
+        "sp-defense": "80",
+        "speed": "60"
+    },
+    "Venusaur": {
+        "id": "003",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "525",
+        "hp": "80",
+        "attack": "82",
+        "defense": "83",
+        "sp-attack": "100",
+        "sp-defense": "100",
+        "speed": "80"
+    },
+    "Charmander": {
+        "id": "004",
+        "type": [
+            "Fire"
+        ],
+        "total": "309",
+        "hp": "39",
+        "attack": "52",
+        "defense": "43",
+        "sp-attack": "60",
+        "sp-defense": "50",
+        "speed": "65"
+    },
+    "Charmeleon": {
+        "id": "005",
+        "type": [
+            "Fire"
+        ],
+        "total": "405",
+        "hp": "58",
+        "attack": "64",
+        "defense": "58",
+        "sp-attack": "80",
+        "sp-defense": "65",
+        "speed": "80"
+    },
+    "Charizard": {
+        "id": "006",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "total": "534",
+        "hp": "78",
+        "attack": "84",
+        "defense": "78",
+        "sp-attack": "109",
+        "sp-defense": "85",
+        "speed": "100"
+    },
+    "Squirtle": {
+        "id": "007",
+        "type": [
+            "Water"
+        ],
+        "total": "314",
+        "hp": "44",
+        "attack": "48",
+        "defense": "65",
+        "sp-attack": "50",
+        "sp-defense": "64",
+        "speed": "43"
+    },
+    "Wartortle": {
+        "id": "008",
+        "type": [
+            "Water"
+        ],
+        "total": "405",
+        "hp": "59",
+        "attack": "63",
+        "defense": "80",
+        "sp-attack": "65",
+        "sp-defense": "80",
+        "speed": "58"
+    },
+    "Blastoise": {
+        "id": "009",
+        "type": [
+            "Water"
+        ],
+        "total": "530",
+        "hp": "79",
+        "attack": "83",
+        "defense": "100",
+        "sp-attack": "85",
+        "sp-defense": "105",
+        "speed": "78"
+    },
+    "Caterpie": {
+        "id": "010",
+        "type": [
+            "Bug"
+        ],
+        "total": "195",
+        "hp": "45",
+        "attack": "30",
+        "defense": "35",
+        "sp-attack": "20",
+        "sp-defense": "20",
+        "speed": "45"
+    },
+    "Metapod": {
+        "id": "011",
+        "type": [
+            "Bug"
+        ],
+        "total": "205",
+        "hp": "50",
+        "attack": "20",
+        "defense": "55",
+        "sp-attack": "25",
+        "sp-defense": "25",
+        "speed": "30"
+    },
+    "Butterfree": {
+        "id": "012",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "total": "395",
+        "hp": "60",
+        "attack": "45",
+        "defense": "50",
+        "sp-attack": "90",
+        "sp-defense": "80",
+        "speed": "70"
+    },
+    "Weedle": {
+        "id": "013",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "total": "195",
+        "hp": "40",
+        "attack": "35",
+        "defense": "30",
+        "sp-attack": "20",
+        "sp-defense": "20",
+        "speed": "50"
+    },
+    "Kakuna": {
+        "id": "014",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "total": "205",
+        "hp": "45",
+        "attack": "25",
+        "defense": "50",
+        "sp-attack": "25",
+        "sp-defense": "25",
+        "speed": "35"
+    },
+    "Beedrill": {
+        "id": "015",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "total": "395",
+        "hp": "65",
+        "attack": "90",
+        "defense": "40",
+        "sp-attack": "45",
+        "sp-defense": "80",
+        "speed": "75"
+    },
+    "Pidgey": {
+        "id": "016",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "251",
+        "hp": "40",
+        "attack": "45",
+        "defense": "40",
+        "sp-attack": "35",
+        "sp-defense": "35",
+        "speed": "56"
+    },
+    "Pidgeotto": {
+        "id": "017",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "349",
+        "hp": "63",
+        "attack": "60",
+        "defense": "55",
+        "sp-attack": "50",
+        "sp-defense": "50",
+        "speed": "71"
+    },
+    "Pidgeot": {
+        "id": "018",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "479",
+        "hp": "83",
+        "attack": "80",
+        "defense": "75",
+        "sp-attack": "70",
+        "sp-defense": "70",
+        "speed": "101"
+    },
+    "Rattata": {
+        "id": "019",
+        "type": [
+            "Normal"
+        ],
+        "total": "253",
+        "hp": "30",
+        "attack": "56",
+        "defense": "35",
+        "sp-attack": "25",
+        "sp-defense": "35",
+        "speed": "72"
+    },
+    "Raticate": {
+        "id": "020",
+        "type": [
+            "Normal"
+        ],
+        "total": "413",
+        "hp": "55",
+        "attack": "81",
+        "defense": "60",
+        "sp-attack": "50",
+        "sp-defense": "70",
+        "speed": "97"
+    },
+    "Spearow": {
+        "id": "021",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "262",
+        "hp": "40",
+        "attack": "60",
+        "defense": "30",
+        "sp-attack": "31",
+        "sp-defense": "31",
+        "speed": "70"
+    },
+    "Fearow": {
+        "id": "022",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "442",
+        "hp": "65",
+        "attack": "90",
+        "defense": "65",
+        "sp-attack": "61",
+        "sp-defense": "61",
+        "speed": "100"
+    },
+    "Ekans": {
+        "id": "023",
+        "type": [
+            "Poison"
+        ],
+        "total": "288",
+        "hp": "35",
+        "attack": "60",
+        "defense": "44",
+        "sp-attack": "40",
+        "sp-defense": "54",
+        "speed": "55"
+    },
+    "Arbok": {
+        "id": "024",
+        "type": [
+            "Poison"
+        ],
+        "total": "448",
+        "hp": "60",
+        "attack": "95",
+        "defense": "69",
+        "sp-attack": "65",
+        "sp-defense": "79",
+        "speed": "80"
+    },
+    "Pikachu": {
+        "id": "025",
+        "type": [
+            "Electric"
+        ],
+        "total": "320",
+        "hp": "35",
+        "attack": "55",
+        "defense": "40",
+        "sp-attack": "50",
+        "sp-defense": "50",
+        "speed": "90"
+    },
+    "Raichu": {
+        "id": "026",
+        "type": [
+            "Electric"
+        ],
+        "total": "485",
+        "hp": "60",
+        "attack": "90",
+        "defense": "55",
+        "sp-attack": "90",
+        "sp-defense": "80",
+        "speed": "110"
+    },
+    "Sandshrew": {
+        "id": "027",
+        "type": [
+            "Ground"
+        ],
+        "total": "300",
+        "hp": "50",
+        "attack": "75",
+        "defense": "85",
+        "sp-attack": "20",
+        "sp-defense": "30",
+        "speed": "40"
+    },
+    "Sandslash": {
+        "id": "028",
+        "type": [
+            "Ground"
+        ],
+        "total": "450",
+        "hp": "75",
+        "attack": "100",
+        "defense": "110",
+        "sp-attack": "45",
+        "sp-defense": "55",
+        "speed": "65"
+    },
+    "Nidoran\u2640": {
+        "id": "029",
+        "type": [
+            "Poison"
+        ],
+        "total": "275",
+        "hp": "55",
+        "attack": "47",
+        "defense": "52",
+        "sp-attack": "40",
+        "sp-defense": "40",
+        "speed": "41"
+    },
+    "Nidorina": {
+        "id": "030",
+        "type": [
+            "Poison"
+        ],
+        "total": "365",
+        "hp": "70",
+        "attack": "62",
+        "defense": "67",
+        "sp-attack": "55",
+        "sp-defense": "55",
+        "speed": "56"
+    },
+    "Nidoqueen": {
+        "id": "031",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "total": "505",
+        "hp": "90",
+        "attack": "92",
+        "defense": "87",
+        "sp-attack": "75",
+        "sp-defense": "85",
+        "speed": "76"
+    },
+    "Nidoran\u2642": {
+        "id": "032",
+        "type": [
+            "Poison"
+        ],
+        "total": "273",
+        "hp": "46",
+        "attack": "57",
+        "defense": "40",
+        "sp-attack": "40",
+        "sp-defense": "40",
+        "speed": "50"
+    },
+    "Nidorino": {
+        "id": "033",
+        "type": [
+            "Poison"
+        ],
+        "total": "365",
+        "hp": "61",
+        "attack": "72",
+        "defense": "57",
+        "sp-attack": "55",
+        "sp-defense": "55",
+        "speed": "65"
+    },
+    "Nidoking": {
+        "id": "034",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "total": "505",
+        "hp": "81",
+        "attack": "102",
+        "defense": "77",
+        "sp-attack": "85",
+        "sp-defense": "75",
+        "speed": "85"
+    },
+    "Clefairy": {
+        "id": "035",
+        "type": [
+            "Fairy"
+        ],
+        "total": "323",
+        "hp": "70",
+        "attack": "45",
+        "defense": "48",
+        "sp-attack": "60",
+        "sp-defense": "65",
+        "speed": "35"
+    },
+    "Clefable": {
+        "id": "036",
+        "type": [
+            "Fairy"
+        ],
+        "total": "483",
+        "hp": "95",
+        "attack": "70",
+        "defense": "73",
+        "sp-attack": "95",
+        "sp-defense": "90",
+        "speed": "60"
+    },
+    "Vulpix": {
+        "id": "037",
+        "type": [
+            "Fire"
+        ],
+        "total": "299",
+        "hp": "38",
+        "attack": "41",
+        "defense": "40",
+        "sp-attack": "50",
+        "sp-defense": "65",
+        "speed": "65"
+    },
+    "Ninetales": {
+        "id": "038",
+        "type": [
+            "Fire"
+        ],
+        "total": "505",
+        "hp": "73",
+        "attack": "76",
+        "defense": "75",
+        "sp-attack": "81",
+        "sp-defense": "100",
+        "speed": "100"
+    },
+    "Jigglypuff": {
+        "id": "039",
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "total": "270",
+        "hp": "115",
+        "attack": "45",
+        "defense": "20",
+        "sp-attack": "45",
+        "sp-defense": "25",
+        "speed": "20"
+    },
+    "Wigglytuff": {
+        "id": "040",
+        "type": [
+            "Normal",
+            "Fairy"
+        ],
+        "total": "435",
+        "hp": "140",
+        "attack": "70",
+        "defense": "45",
+        "sp-attack": "85",
+        "sp-defense": "50",
+        "speed": "45"
+    },
+    "Zubat": {
+        "id": "041",
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "total": "245",
+        "hp": "40",
+        "attack": "45",
+        "defense": "35",
+        "sp-attack": "30",
+        "sp-defense": "40",
+        "speed": "55"
+    },
+    "Golbat": {
+        "id": "042",
+        "type": [
+            "Poison",
+            "Flying"
+        ],
+        "total": "455",
+        "hp": "75",
+        "attack": "80",
+        "defense": "70",
+        "sp-attack": "65",
+        "sp-defense": "75",
+        "speed": "90"
+    },
+    "Oddish": {
+        "id": "043",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "320",
+        "hp": "45",
+        "attack": "50",
+        "defense": "55",
+        "sp-attack": "75",
+        "sp-defense": "65",
+        "speed": "30"
+    },
+    "Gloom": {
+        "id": "044",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "395",
+        "hp": "60",
+        "attack": "65",
+        "defense": "70",
+        "sp-attack": "85",
+        "sp-defense": "75",
+        "speed": "40"
+    },
+    "Vileplume": {
+        "id": "045",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "490",
+        "hp": "75",
+        "attack": "80",
+        "defense": "85",
+        "sp-attack": "110",
+        "sp-defense": "90",
+        "speed": "50"
+    },
+    "Paras": {
+        "id": "046",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": "285",
+        "hp": "35",
+        "attack": "70",
+        "defense": "55",
+        "sp-attack": "45",
+        "sp-defense": "55",
+        "speed": "25"
+    },
+    "Parasect": {
+        "id": "047",
+        "type": [
+            "Bug",
+            "Grass"
+        ],
+        "total": "405",
+        "hp": "60",
+        "attack": "95",
+        "defense": "80",
+        "sp-attack": "60",
+        "sp-defense": "80",
+        "speed": "30"
+    },
+    "Venonat": {
+        "id": "048",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "total": "305",
+        "hp": "60",
+        "attack": "55",
+        "defense": "50",
+        "sp-attack": "40",
+        "sp-defense": "55",
+        "speed": "45"
+    },
+    "Venomoth": {
+        "id": "049",
+        "type": [
+            "Bug",
+            "Poison"
+        ],
+        "total": "450",
+        "hp": "70",
+        "attack": "65",
+        "defense": "60",
+        "sp-attack": "90",
+        "sp-defense": "75",
+        "speed": "90"
+    },
+    "Diglett": {
+        "id": "050",
+        "type": [
+            "Ground"
+        ],
+        "total": "265",
+        "hp": "10",
+        "attack": "55",
+        "defense": "25",
+        "sp-attack": "35",
+        "sp-defense": "45",
+        "speed": "95"
+    },
+    "Dugtrio": {
+        "id": "051",
+        "type": [
+            "Ground"
+        ],
+        "total": "425",
+        "hp": "35",
+        "attack": "100",
+        "defense": "50",
+        "sp-attack": "50",
+        "sp-defense": "70",
+        "speed": "120"
+    },
+    "Meowth": {
+        "id": "052",
+        "type": [
+            "Normal"
+        ],
+        "total": "290",
+        "hp": "40",
+        "attack": "45",
+        "defense": "35",
+        "sp-attack": "40",
+        "sp-defense": "40",
+        "speed": "90"
+    },
+    "Persian": {
+        "id": "053",
+        "type": [
+            "Normal"
+        ],
+        "total": "440",
+        "hp": "65",
+        "attack": "70",
+        "defense": "60",
+        "sp-attack": "65",
+        "sp-defense": "65",
+        "speed": "115"
+    },
+    "Psyduck": {
+        "id": "054",
+        "type": [
+            "Water"
+        ],
+        "total": "320",
+        "hp": "50",
+        "attack": "52",
+        "defense": "48",
+        "sp-attack": "65",
+        "sp-defense": "50",
+        "speed": "55"
+    },
+    "Golduck": {
+        "id": "055",
+        "type": [
+            "Water"
+        ],
+        "total": "500",
+        "hp": "80",
+        "attack": "82",
+        "defense": "78",
+        "sp-attack": "95",
+        "sp-defense": "80",
+        "speed": "85"
+    },
+    "Mankey": {
+        "id": "056",
+        "type": [
+            "Fighting"
+        ],
+        "total": "305",
+        "hp": "40",
+        "attack": "80",
+        "defense": "35",
+        "sp-attack": "35",
+        "sp-defense": "45",
+        "speed": "70"
+    },
+    "Primeape": {
+        "id": "057",
+        "type": [
+            "Fighting"
+        ],
+        "total": "455",
+        "hp": "65",
+        "attack": "105",
+        "defense": "60",
+        "sp-attack": "60",
+        "sp-defense": "70",
+        "speed": "95"
+    },
+    "Growlithe": {
+        "id": "058",
+        "type": [
+            "Fire"
+        ],
+        "total": "350",
+        "hp": "55",
+        "attack": "70",
+        "defense": "45",
+        "sp-attack": "70",
+        "sp-defense": "50",
+        "speed": "60"
+    },
+    "Arcanine": {
+        "id": "059",
+        "type": [
+            "Fire"
+        ],
+        "total": "555",
+        "hp": "90",
+        "attack": "110",
+        "defense": "80",
+        "sp-attack": "100",
+        "sp-defense": "80",
+        "speed": "95"
+    },
+    "Poliwag": {
+        "id": "060",
+        "type": [
+            "Water"
+        ],
+        "total": "300",
+        "hp": "40",
+        "attack": "50",
+        "defense": "40",
+        "sp-attack": "40",
+        "sp-defense": "40",
+        "speed": "90"
+    },
+    "Poliwhirl": {
+        "id": "061",
+        "type": [
+            "Water"
+        ],
+        "total": "385",
+        "hp": "65",
+        "attack": "65",
+        "defense": "65",
+        "sp-attack": "50",
+        "sp-defense": "50",
+        "speed": "90"
+    },
+    "Poliwrath": {
+        "id": "062",
+        "type": [
+            "Water",
+            "Fighting"
+        ],
+        "total": "510",
+        "hp": "90",
+        "attack": "95",
+        "defense": "95",
+        "sp-attack": "70",
+        "sp-defense": "90",
+        "speed": "70"
+    },
+    "Abra": {
+        "id": "063",
+        "type": [
+            "Psychic"
+        ],
+        "total": "310",
+        "hp": "25",
+        "attack": "20",
+        "defense": "15",
+        "sp-attack": "105",
+        "sp-defense": "55",
+        "speed": "90"
+    },
+    "Kadabra": {
+        "id": "064",
+        "type": [
+            "Psychic"
+        ],
+        "total": "400",
+        "hp": "40",
+        "attack": "35",
+        "defense": "30",
+        "sp-attack": "120",
+        "sp-defense": "70",
+        "speed": "105"
+    },
+    "Alakazam": {
+        "id": "065",
+        "type": [
+            "Psychic"
+        ],
+        "total": "500",
+        "hp": "55",
+        "attack": "50",
+        "defense": "45",
+        "sp-attack": "135",
+        "sp-defense": "95",
+        "speed": "120"
+    },
+    "Machop": {
+        "id": "066",
+        "type": [
+            "Fighting"
+        ],
+        "total": "305",
+        "hp": "70",
+        "attack": "80",
+        "defense": "50",
+        "sp-attack": "35",
+        "sp-defense": "35",
+        "speed": "35"
+    },
+    "Machoke": {
+        "id": "067",
+        "type": [
+            "Fighting"
+        ],
+        "total": "405",
+        "hp": "80",
+        "attack": "100",
+        "defense": "70",
+        "sp-attack": "50",
+        "sp-defense": "60",
+        "speed": "45"
+    },
+    "Machamp": {
+        "id": "068",
+        "type": [
+            "Fighting"
+        ],
+        "total": "505",
+        "hp": "90",
+        "attack": "130",
+        "defense": "80",
+        "sp-attack": "65",
+        "sp-defense": "85",
+        "speed": "55"
+    },
+    "Bellsprout": {
+        "id": "069",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "300",
+        "hp": "50",
+        "attack": "75",
+        "defense": "35",
+        "sp-attack": "70",
+        "sp-defense": "30",
+        "speed": "40"
+    },
+    "Weepinbell": {
+        "id": "070",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "390",
+        "hp": "65",
+        "attack": "90",
+        "defense": "50",
+        "sp-attack": "85",
+        "sp-defense": "45",
+        "speed": "55"
+    },
+    "Victreebel": {
+        "id": "071",
+        "type": [
+            "Grass",
+            "Poison"
+        ],
+        "total": "490",
+        "hp": "80",
+        "attack": "105",
+        "defense": "65",
+        "sp-attack": "100",
+        "sp-defense": "70",
+        "speed": "70"
+    },
+    "Tentacool": {
+        "id": "072",
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "total": "335",
+        "hp": "40",
+        "attack": "40",
+        "defense": "35",
+        "sp-attack": "50",
+        "sp-defense": "100",
+        "speed": "70"
+    },
+    "Tentacruel": {
+        "id": "073",
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "total": "515",
+        "hp": "80",
+        "attack": "70",
+        "defense": "65",
+        "sp-attack": "80",
+        "sp-defense": "120",
+        "speed": "100"
+    },
+    "Geodude": {
+        "id": "074",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "total": "300",
+        "hp": "40",
+        "attack": "80",
+        "defense": "100",
+        "sp-attack": "30",
+        "sp-defense": "30",
+        "speed": "20"
+    },
+    "Graveler": {
+        "id": "075",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "total": "390",
+        "hp": "55",
+        "attack": "95",
+        "defense": "115",
+        "sp-attack": "45",
+        "sp-defense": "45",
+        "speed": "35"
+    },
+    "Golem": {
+        "id": "076",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "total": "495",
+        "hp": "80",
+        "attack": "120",
+        "defense": "130",
+        "sp-attack": "55",
+        "sp-defense": "65",
+        "speed": "45"
+    },
+    "Ponyta": {
+        "id": "077",
+        "type": [
+            "Fire"
+        ],
+        "total": "410",
+        "hp": "50",
+        "attack": "85",
+        "defense": "55",
+        "sp-attack": "65",
+        "sp-defense": "65",
+        "speed": "90"
+    },
+    "Rapidash": {
+        "id": "078",
+        "type": [
+            "Fire"
+        ],
+        "total": "500",
+        "hp": "65",
+        "attack": "100",
+        "defense": "70",
+        "sp-attack": "80",
+        "sp-defense": "80",
+        "speed": "105"
+    },
+    "Slowpoke": {
+        "id": "079",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "total": "315",
+        "hp": "90",
+        "attack": "65",
+        "defense": "65",
+        "sp-attack": "40",
+        "sp-defense": "40",
+        "speed": "15"
+    },
+    "Slowbro": {
+        "id": "080",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "total": "490",
+        "hp": "95",
+        "attack": "75",
+        "defense": "110",
+        "sp-attack": "100",
+        "sp-defense": "80",
+        "speed": "30"
+    },
+    "Magnemite": {
+        "id": "081",
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "total": "325",
+        "hp": "25",
+        "attack": "35",
+        "defense": "70",
+        "sp-attack": "95",
+        "sp-defense": "55",
+        "speed": "45"
+    },
+    "Magneton": {
+        "id": "082",
+        "type": [
+            "Electric",
+            "Steel"
+        ],
+        "total": "465",
+        "hp": "50",
+        "attack": "60",
+        "defense": "95",
+        "sp-attack": "120",
+        "sp-defense": "70",
+        "speed": "70"
+    },
+    "Farfetch'd": {
+        "id": "083",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "377",
+        "hp": "52",
+        "attack": "90",
+        "defense": "55",
+        "sp-attack": "58",
+        "sp-defense": "62",
+        "speed": "60"
+    },
+    "Doduo": {
+        "id": "084",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "310",
+        "hp": "35",
+        "attack": "85",
+        "defense": "45",
+        "sp-attack": "35",
+        "sp-defense": "35",
+        "speed": "75"
+    },
+    "Dodrio": {
+        "id": "085",
+        "type": [
+            "Normal",
+            "Flying"
+        ],
+        "total": "470",
+        "hp": "60",
+        "attack": "110",
+        "defense": "70",
+        "sp-attack": "60",
+        "sp-defense": "60",
+        "speed": "110"
+    },
+    "Seel": {
+        "id": "086",
+        "type": [
+            "Water"
+        ],
+        "total": "325",
+        "hp": "65",
+        "attack": "45",
+        "defense": "55",
+        "sp-attack": "45",
+        "sp-defense": "70",
+        "speed": "45"
+    },
+    "Dewgong": {
+        "id": "087",
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "total": "475",
+        "hp": "90",
+        "attack": "70",
+        "defense": "80",
+        "sp-attack": "70",
+        "sp-defense": "95",
+        "speed": "70"
+    },
+    "Grimer": {
+        "id": "088",
+        "type": [
+            "Poison"
+        ],
+        "total": "325",
+        "hp": "80",
+        "attack": "80",
+        "defense": "50",
+        "sp-attack": "40",
+        "sp-defense": "50",
+        "speed": "25"
+    },
+    "Muk": {
+        "id": "089",
+        "type": [
+            "Poison"
+        ],
+        "total": "500",
+        "hp": "105",
+        "attack": "105",
+        "defense": "75",
+        "sp-attack": "65",
+        "sp-defense": "100",
+        "speed": "50"
+    },
+    "Shellder": {
+        "id": "090",
+        "type": [
+            "Water"
+        ],
+        "total": "305",
+        "hp": "30",
+        "attack": "65",
+        "defense": "100",
+        "sp-attack": "45",
+        "sp-defense": "25",
+        "speed": "40"
+    },
+    "Cloyster": {
+        "id": "091",
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "total": "525",
+        "hp": "50",
+        "attack": "95",
+        "defense": "180",
+        "sp-attack": "85",
+        "sp-defense": "45",
+        "speed": "70"
+    },
+    "Gastly": {
+        "id": "092",
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "total": "310",
+        "hp": "30",
+        "attack": "35",
+        "defense": "30",
+        "sp-attack": "100",
+        "sp-defense": "35",
+        "speed": "80"
+    },
+    "Haunter": {
+        "id": "093",
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "total": "405",
+        "hp": "45",
+        "attack": "50",
+        "defense": "45",
+        "sp-attack": "115",
+        "sp-defense": "55",
+        "speed": "95"
+    },
+    "Gengar": {
+        "id": "094",
+        "type": [
+            "Ghost",
+            "Poison"
+        ],
+        "total": "500",
+        "hp": "60",
+        "attack": "65",
+        "defense": "60",
+        "sp-attack": "130",
+        "sp-defense": "75",
+        "speed": "110"
+    },
+    "Onix": {
+        "id": "095",
+        "type": [
+            "Rock",
+            "Ground"
+        ],
+        "total": "385",
+        "hp": "35",
+        "attack": "45",
+        "defense": "160",
+        "sp-attack": "30",
+        "sp-defense": "45",
+        "speed": "70"
+    },
+    "Drowzee": {
+        "id": "096",
+        "type": [
+            "Psychic"
+        ],
+        "total": "328",
+        "hp": "60",
+        "attack": "48",
+        "defense": "45",
+        "sp-attack": "43",
+        "sp-defense": "90",
+        "speed": "42"
+    },
+    "Hypno": {
+        "id": "097",
+        "type": [
+            "Psychic"
+        ],
+        "total": "483",
+        "hp": "85",
+        "attack": "73",
+        "defense": "70",
+        "sp-attack": "73",
+        "sp-defense": "115",
+        "speed": "67"
+    },
+    "Krabby": {
+        "id": "098",
+        "type": [
+            "Water"
+        ],
+        "total": "325",
+        "hp": "30",
+        "attack": "105",
+        "defense": "90",
+        "sp-attack": "25",
+        "sp-defense": "25",
+        "speed": "50"
+    },
+    "Kingler": {
+        "id": "099",
+        "type": [
+            "Water"
+        ],
+        "total": "475",
+        "hp": "55",
+        "attack": "130",
+        "defense": "115",
+        "sp-attack": "50",
+        "sp-defense": "50",
+        "speed": "75"
+    },
+    "Voltorb": {
+        "id": "100",
+        "type": [
+            "Electric"
+        ],
+        "total": "330",
+        "hp": "40",
+        "attack": "30",
+        "defense": "50",
+        "sp-attack": "55",
+        "sp-defense": "55",
+        "speed": "100"
+    },
+    "Electrode": {
+        "id": "101",
+        "type": [
+            "Electric"
+        ],
+        "total": "490",
+        "hp": "60",
+        "attack": "50",
+        "defense": "70",
+        "sp-attack": "80",
+        "sp-defense": "80",
+        "speed": "150"
+    },
+    "Exeggcute": {
+        "id": "102",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "total": "325",
+        "hp": "60",
+        "attack": "40",
+        "defense": "80",
+        "sp-attack": "60",
+        "sp-defense": "45",
+        "speed": "40"
+    },
+    "Exeggutor": {
+        "id": "103",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "total": "530",
+        "hp": "95",
+        "attack": "95",
+        "defense": "85",
+        "sp-attack": "125",
+        "sp-defense": "75",
+        "speed": "55"
+    },
+    "Cubone": {
+        "id": "104",
+        "type": [
+            "Ground"
+        ],
+        "total": "320",
+        "hp": "50",
+        "attack": "50",
+        "defense": "95",
+        "sp-attack": "40",
+        "sp-defense": "50",
+        "speed": "35"
+    },
+    "Marowak": {
+        "id": "105",
+        "type": [
+            "Ground"
+        ],
+        "total": "425",
+        "hp": "60",
+        "attack": "80",
+        "defense": "110",
+        "sp-attack": "50",
+        "sp-defense": "80",
+        "speed": "45"
+    },
+    "Hitmonlee": {
+        "id": "106",
+        "type": [
+            "Fighting"
+        ],
+        "total": "455",
+        "hp": "50",
+        "attack": "120",
+        "defense": "53",
+        "sp-attack": "35",
+        "sp-defense": "110",
+        "speed": "87"
+    },
+    "Hitmonchan": {
+        "id": "107",
+        "type": [
+            "Fighting"
+        ],
+        "total": "455",
+        "hp": "50",
+        "attack": "105",
+        "defense": "79",
+        "sp-attack": "35",
+        "sp-defense": "110",
+        "speed": "76"
+    },
+    "Lickitung": {
+        "id": "108",
+        "type": [
+            "Normal"
+        ],
+        "total": "385",
+        "hp": "90",
+        "attack": "55",
+        "defense": "75",
+        "sp-attack": "60",
+        "sp-defense": "75",
+        "speed": "30"
+    },
+    "Koffing": {
+        "id": "109",
+        "type": [
+            "Poison"
+        ],
+        "total": "340",
+        "hp": "40",
+        "attack": "65",
+        "defense": "95",
+        "sp-attack": "60",
+        "sp-defense": "45",
+        "speed": "35"
+    },
+    "Weezing": {
+        "id": "110",
+        "type": [
+            "Poison"
+        ],
+        "total": "490",
+        "hp": "65",
+        "attack": "90",
+        "defense": "120",
+        "sp-attack": "85",
+        "sp-defense": "70",
+        "speed": "60"
+    },
+    "Rhyhorn": {
+        "id": "111",
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "total": "345",
+        "hp": "80",
+        "attack": "85",
+        "defense": "95",
+        "sp-attack": "30",
+        "sp-defense": "30",
+        "speed": "25"
+    },
+    "Rhydon": {
+        "id": "112",
+        "type": [
+            "Ground",
+            "Rock"
+        ],
+        "total": "485",
+        "hp": "105",
+        "attack": "130",
+        "defense": "120",
+        "sp-attack": "45",
+        "sp-defense": "45",
+        "speed": "40"
+    },
+    "Chansey": {
+        "id": "113",
+        "type": [
+            "Normal"
+        ],
+        "total": "450",
+        "hp": "250",
+        "attack": "5",
+        "defense": "5",
+        "sp-attack": "35",
+        "sp-defense": "105",
+        "speed": "50"
+    },
+    "Tangela": {
+        "id": "114",
+        "type": [
+            "Grass"
+        ],
+        "total": "435",
+        "hp": "65",
+        "attack": "55",
+        "defense": "115",
+        "sp-attack": "100",
+        "sp-defense": "40",
+        "speed": "60"
+    },
+    "Kangaskhan": {
+        "id": "115",
+        "type": [
+            "Normal"
+        ],
+        "total": "490",
+        "hp": "105",
+        "attack": "95",
+        "defense": "80",
+        "sp-attack": "40",
+        "sp-defense": "80",
+        "speed": "90"
+    },
+    "Horsea": {
+        "id": "116",
+        "type": [
+            "Water"
+        ],
+        "total": "295",
+        "hp": "30",
+        "attack": "40",
+        "defense": "70",
+        "sp-attack": "70",
+        "sp-defense": "25",
+        "speed": "60"
+    },
+    "Seadra": {
+        "id": "117",
+        "type": [
+            "Water"
+        ],
+        "total": "440",
+        "hp": "55",
+        "attack": "65",
+        "defense": "95",
+        "sp-attack": "95",
+        "sp-defense": "45",
+        "speed": "85"
+    },
+    "Goldeen": {
+        "id": "118",
+        "type": [
+            "Water"
+        ],
+        "total": "320",
+        "hp": "45",
+        "attack": "67",
+        "defense": "60",
+        "sp-attack": "35",
+        "sp-defense": "50",
+        "speed": "63"
+    },
+    "Seaking": {
+        "id": "119",
+        "type": [
+            "Water"
+        ],
+        "total": "450",
+        "hp": "80",
+        "attack": "92",
+        "defense": "65",
+        "sp-attack": "65",
+        "sp-defense": "80",
+        "speed": "68"
+    },
+    "Staryu": {
+        "id": "120",
+        "type": [
+            "Water"
+        ],
+        "total": "340",
+        "hp": "30",
+        "attack": "45",
+        "defense": "55",
+        "sp-attack": "70",
+        "sp-defense": "55",
+        "speed": "85"
+    },
+    "Starmie": {
+        "id": "121",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "total": "520",
+        "hp": "60",
+        "attack": "75",
+        "defense": "85",
+        "sp-attack": "100",
+        "sp-defense": "85",
+        "speed": "115"
+    },
+    "Mr. Mime": {
+        "id": "122",
+        "type": [
+            "Psychic",
+            "Fairy"
+        ],
+        "total": "460",
+        "hp": "40",
+        "attack": "45",
+        "defense": "65",
+        "sp-attack": "100",
+        "sp-defense": "120",
+        "speed": "90"
+    },
+    "Scyther": {
+        "id": "123",
+        "type": [
+            "Bug",
+            "Flying"
+        ],
+        "total": "500",
+        "hp": "70",
+        "attack": "110",
+        "defense": "80",
+        "sp-attack": "55",
+        "sp-defense": "80",
+        "speed": "105"
+    },
+    "Jynx": {
+        "id": "124",
+        "type": [
+            "Ice",
+            "Psychic"
+        ],
+        "total": "455",
+        "hp": "65",
+        "attack": "50",
+        "defense": "35",
+        "sp-attack": "115",
+        "sp-defense": "95",
+        "speed": "95"
+    },
+    "Electabuzz": {
+        "id": "125",
+        "type": [
+            "Electric"
+        ],
+        "total": "490",
+        "hp": "65",
+        "attack": "83",
+        "defense": "57",
+        "sp-attack": "95",
+        "sp-defense": "85",
+        "speed": "105"
+    },
+    "Magmar": {
+        "id": "126",
+        "type": [
+            "Fire"
+        ],
+        "total": "495",
+        "hp": "65",
+        "attack": "95",
+        "defense": "57",
+        "sp-attack": "100",
+        "sp-defense": "85",
+        "speed": "93"
+    },
+    "Pinsir": {
+        "id": "127",
+        "type": [
+            "Bug"
+        ],
+        "total": "500",
+        "hp": "65",
+        "attack": "125",
+        "defense": "100",
+        "sp-attack": "55",
+        "sp-defense": "70",
+        "speed": "85"
+    },
+    "Tauros": {
+        "id": "128",
+        "type": [
+            "Normal"
+        ],
+        "total": "490",
+        "hp": "75",
+        "attack": "100",
+        "defense": "95",
+        "sp-attack": "40",
+        "sp-defense": "70",
+        "speed": "110"
+    },
+    "Magikarp": {
+        "id": "129",
+        "type": [
+            "Water"
+        ],
+        "total": "200",
+        "hp": "20",
+        "attack": "10",
+        "defense": "55",
+        "sp-attack": "15",
+        "sp-defense": "20",
+        "speed": "80"
+    },
+    "Gyarados": {
+        "id": "130",
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "total": "540",
+        "hp": "95",
+        "attack": "125",
+        "defense": "79",
+        "sp-attack": "60",
+        "sp-defense": "100",
+        "speed": "81"
+    },
+    "Lapras": {
+        "id": "131",
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "total": "535",
+        "hp": "130",
+        "attack": "85",
+        "defense": "80",
+        "sp-attack": "85",
+        "sp-defense": "95",
+        "speed": "60"
+    },
+    "Ditto": {
+        "id": "132",
+        "type": [
+            "Normal"
+        ],
+        "total": "288",
+        "hp": "48",
+        "attack": "48",
+        "defense": "48",
+        "sp-attack": "48",
+        "sp-defense": "48",
+        "speed": "48"
+    },
+    "Eevee": {
+        "id": "133",
+        "type": [
+            "Normal"
+        ],
+        "total": "325",
+        "hp": "55",
+        "attack": "55",
+        "defense": "50",
+        "sp-attack": "45",
+        "sp-defense": "65",
+        "speed": "55"
+    },
+    "Vaporeon": {
+        "id": "134",
+        "type": [
+            "Water"
+        ],
+        "total": "525",
+        "hp": "130",
+        "attack": "65",
+        "defense": "60",
+        "sp-attack": "110",
+        "sp-defense": "95",
+        "speed": "65"
+    },
+    "Jolteon": {
+        "id": "135",
+        "type": [
+            "Electric"
+        ],
+        "total": "525",
+        "hp": "65",
+        "attack": "65",
+        "defense": "60",
+        "sp-attack": "110",
+        "sp-defense": "95",
+        "speed": "130"
+    },
+    "Flareon": {
+        "id": "136",
+        "type": [
+            "Fire"
+        ],
+        "total": "525",
+        "hp": "65",
+        "attack": "130",
+        "defense": "60",
+        "sp-attack": "95",
+        "sp-defense": "110",
+        "speed": "65"
+    },
+    "Porygon": {
+        "id": "137",
+        "type": [
+            "Normal"
+        ],
+        "total": "395",
+        "hp": "65",
+        "attack": "60",
+        "defense": "70",
+        "sp-attack": "85",
+        "sp-defense": "75",
+        "speed": "40"
+    },
+    "Omanyte": {
+        "id": "138",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "total": "355",
+        "hp": "35",
+        "attack": "40",
+        "defense": "100",
+        "sp-attack": "90",
+        "sp-defense": "55",
+        "speed": "35"
+    },
+    "Omastar": {
+        "id": "139",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "total": "495",
+        "hp": "70",
+        "attack": "60",
+        "defense": "125",
+        "sp-attack": "115",
+        "sp-defense": "70",
+        "speed": "55"
+    },
+    "Kabuto": {
+        "id": "140",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "total": "355",
+        "hp": "30",
+        "attack": "80",
+        "defense": "90",
+        "sp-attack": "55",
+        "sp-defense": "45",
+        "speed": "55"
+    },
+    "Kabutops": {
+        "id": "141",
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "total": "495",
+        "hp": "60",
+        "attack": "115",
+        "defense": "105",
+        "sp-attack": "65",
+        "sp-defense": "70",
+        "speed": "80"
+    },
+    "Aerodactyl": {
+        "id": "142",
+        "type": [
+            "Rock",
+            "Flying"
+        ],
+        "total": "515",
+        "hp": "80",
+        "attack": "105",
+        "defense": "65",
+        "sp-attack": "60",
+        "sp-defense": "75",
+        "speed": "130"
+    },
+    "Snorlax": {
+        "id": "143",
+        "type": [
+            "Normal"
+        ],
+        "total": "540",
+        "hp": "160",
+        "attack": "110",
+        "defense": "65",
+        "sp-attack": "65",
+        "sp-defense": "110",
+        "speed": "30"
+    },
+    "Articuno": {
+        "id": "144",
+        "type": [
+            "Ice",
+            "Flying"
+        ],
+        "total": "580",
+        "hp": "90",
+        "attack": "85",
+        "defense": "100",
+        "sp-attack": "95",
+        "sp-defense": "125",
+        "speed": "85"
+    },
+    "Zapdos": {
+        "id": "145",
+        "type": [
+            "Electric",
+            "Flying"
+        ],
+        "total": "580",
+        "hp": "90",
+        "attack": "90",
+        "defense": "85",
+        "sp-attack": "125",
+        "sp-defense": "90",
+        "speed": "100"
+    },
+    "Moltres": {
+        "id": "146",
+        "type": [
+            "Fire",
+            "Flying"
+        ],
+        "total": "580",
+        "hp": "90",
+        "attack": "100",
+        "defense": "90",
+        "sp-attack": "125",
+        "sp-defense": "85",
+        "speed": "90"
+    },
+    "Dratini": {
+        "id": "147",
+        "type": [
+            "Dragon"
+        ],
+        "total": "300",
+        "hp": "41",
+        "attack": "64",
+        "defense": "45",
+        "sp-attack": "50",
+        "sp-defense": "50",
+        "speed": "50"
+    },
+    "Dragonair": {
+        "id": "148",
+        "type": [
+            "Dragon"
+        ],
+        "total": "420",
+        "hp": "61",
+        "attack": "84",
+        "defense": "65",
+        "sp-attack": "70",
+        "sp-defense": "70",
+        "speed": "70"
+    },
+    "Dragonite": {
+        "id": "149",
+        "type": [
+            "Dragon",
+            "Flying"
+        ],
+        "total": "600",
+        "hp": "91",
+        "attack": "134",
+        "defense": "95",
+        "sp-attack": "100",
+        "sp-defense": "100",
+        "speed": "80"
+    },
+    "Mewtwo": {
+        "id": "150",
+        "type": [
+            "Psychic"
+        ],
+        "total": "680",
+        "hp": "106",
+        "attack": "110",
+        "defense": "90",
+        "sp-attack": "154",
+        "sp-defense": "90",
+        "speed": "130"
+    },
+    "Mew": {
+        "id": "151",
+        "type": [
+            "Psychic"
+        ],
+        "total": "600",
+        "hp": "100",
+        "attack": "100",
+        "defense": "100",
+        "sp-attack": "100",
+        "sp-defense": "100",
+        "speed": "100"
+    }
+}
