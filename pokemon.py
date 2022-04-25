@@ -19,21 +19,19 @@ class Pokemon(StatBlock):
     def handle_status(self):
         pass
 
-    def pass_turn(self, other):
-        print(self.name + " - " +
-              str(self.health) + "/" + str(self.get("hp"))
-              )
-        for m in self.known_moves:
-            print(m.name)
-        selected: Move = self.known_moves[int(input("Which move - "))]
-        damage = selected.get_damage(self, other)
+    def print_moves(self):
+        for i in range(len(self.known_moves)):
+            print(str(i+1) + ": " + self.known_moves[i].name)
+
+    def use_move(self, move, target):
+        damage = move.get_damage(self, target)
         effectiveness = 1.0
-        for t in other.types:
-            effectiveness *= database.TYPECHART[selected.dex["type"]][t]
+        for t in target.types:
+            effectiveness *= database.TYPECHART[move.dex["type"]][t]
         damage *= effectiveness
-        damage *= 1.5 if selected.dex["type"] in self.types else 1.0
+        damage *= 1.5 if move.dex["type"] in self.types else 1.0
         damage = int(damage)
-        print(self.name + " used move " + selected.name)
+        print(self.name + " used move " + move.name)
         if effectiveness > 1.0:
             print("It was super effective!")
         if effectiveness < 1.0 and effectiveness != 0.0:
@@ -41,6 +39,4 @@ class Pokemon(StatBlock):
         if effectiveness == 0.0:
             print("It had no effect")
         print(str(damage) + " damage dealt")
-        other.health -= damage
-
-
+        target.health -= damage

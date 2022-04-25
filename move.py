@@ -5,6 +5,7 @@ class Move:
     def __init__(self, name):
         self.name = name
         self.dex = database.MOVEDEX[name]
+        self.priority = (self.name == "Quick Attack")
 
     def get_damage(self, user_stats, target_stats):
         power = self.dex["power"]

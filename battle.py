@@ -1,17 +1,6 @@
 from pokemon import Pokemon
 from move import Move
-
-
-class Team:
-    def __init__(self, ls):
-        self.pkms: list[Pokemon] = ls
-        self.active: int = 0
-
-    def get_active(self):
-        return self.pkms[self.active]
-
-    def switch(self, new):
-        self.active = new
+from team import Team
 
 
 class Battle:
@@ -21,6 +10,9 @@ class Battle:
         self.current_turn = 1
 
     def pass_turn(self):
+        a1 = t1.get_action()
+        a2 = t2.get_action()
+
         order = [self.team1.get_active(), self.team2.get_active()]
         order.sort()
         fast: Pokemon = order[0]
