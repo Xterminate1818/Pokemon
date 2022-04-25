@@ -1,17 +1,17 @@
 {
     "Bulbasaur": {
-        "id": "001",
+        "id": 1,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "318",
-        "hp": "45",
-        "attack": "49",
-        "defense": "49",
-        "sp-attack": "65",
-        "sp-defense": "65",
-        "speed": "45",
+        "total": 318,
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "sp-attack": 65,
+        "sp-defense": 65,
+        "speed": 45,
         "description": "",
         "moves": [
             "Growl",
@@ -41,18 +41,18 @@
         ]
     },
     "Ivysaur": {
-        "id": "002",
+        "id": 2,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "405",
-        "hp": "60",
-        "attack": "62",
-        "defense": "63",
-        "sp-attack": "80",
-        "sp-defense": "80",
-        "speed": "60",
+        "total": 405,
+        "hp": 60,
+        "attack": 62,
+        "defense": 63,
+        "sp-attack": 80,
+        "sp-defense": 80,
+        "speed": 60,
         "description": "",
         "moves": [
             "Growl",
@@ -83,18 +83,18 @@
         ]
     },
     "Venusaur": {
-        "id": "003",
+        "id": 3,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "525",
-        "hp": "80",
-        "attack": "82",
-        "defense": "83",
-        "sp-attack": "100",
-        "sp-defense": "100",
-        "speed": "80",
+        "total": 525,
+        "hp": 80,
+        "attack": 82,
+        "defense": 83,
+        "sp-attack": 100,
+        "sp-defense": 100,
+        "speed": 80,
         "description": "",
         "moves": [
             "Growl",
@@ -127,17 +127,17 @@
         ]
     },
     "Charmander": {
-        "id": "004",
+        "id": 4,
         "type": [
             "Fire"
         ],
-        "total": "309",
-        "hp": "39",
-        "attack": "52",
-        "defense": "43",
-        "sp-attack": "60",
-        "sp-defense": "50",
-        "speed": "65",
+        "total": 309,
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "sp-attack": 60,
+        "sp-defense": 50,
+        "speed": 65,
         "description": "",
         "moves": [
             "Growl",
@@ -175,17 +175,17 @@
         ]
     },
     "Charmeleon": {
-        "id": "005",
+        "id": 5,
         "type": [
             "Fire"
         ],
-        "total": "405",
-        "hp": "58",
-        "attack": "64",
-        "defense": "58",
-        "sp-attack": "80",
-        "sp-defense": "65",
-        "speed": "80",
+        "total": 405,
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "sp-attack": 80,
+        "sp-defense": 65,
+        "speed": 80,
         "description": "",
         "moves": [
             "Ember",
@@ -224,18 +224,18 @@
         ]
     },
     "Charizard": {
-        "id": "006",
+        "id": 6,
         "type": [
             "Fire",
             "Flying"
         ],
-        "total": "534",
-        "hp": "78",
-        "attack": "84",
-        "defense": "78",
-        "sp-attack": "109",
-        "sp-defense": "85",
-        "speed": "100",
+        "total": 534,
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "sp-attack": 109,
+        "sp-defense": 85,
+        "speed": 100,
         "description": "",
         "moves": [
             "Ember",
@@ -278,17 +278,17 @@
         ]
     },
     "Squirtle": {
-        "id": "007",
+        "id": 7,
         "type": [
             "Water"
         ],
-        "total": "314",
-        "hp": "44",
-        "attack": "48",
-        "defense": "65",
-        "sp-attack": "50",
-        "sp-defense": "64",
-        "speed": "43",
+        "total": 314,
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "sp-attack": 50,
+        "sp-defense": 64,
+        "speed": 43,
         "description": "",
         "moves": [
             "Tackle",
@@ -326,17 +326,17 @@
         ]
     },
     "Wartortle": {
-        "id": "008",
+        "id": 8,
         "type": [
             "Water"
         ],
-        "total": "405",
-        "hp": "59",
-        "attack": "63",
-        "defense": "80",
-        "sp-attack": "65",
-        "sp-defense": "80",
-        "speed": "58",
+        "total": 405,
+        "hp": 59,
+        "attack": 63,
+        "defense": 80,
+        "sp-attack": 65,
+        "sp-defense": 80,
+        "speed": 58,
         "description": "",
         "moves": [
             "Bubble",
@@ -375,17 +375,17 @@
         ]
     },
     "Blastoise": {
-        "id": "009",
+        "id": 9,
         "type": [
             "Water"
         ],
-        "total": "530",
-        "hp": "79",
-        "attack": "83",
-        "defense": "100",
-        "sp-attack": "85",
-        "sp-defense": "105",
-        "speed": "78",
+        "total": 530,
+        "hp": 79,
+        "attack": 83,
+        "defense": 100,
+        "sp-attack": 85,
+        "sp-defense": 105,
+        "speed": 78,
         "description": "",
         "moves": [
             "Bubble",
@@ -428,17 +428,17 @@
         ]
     },
     "Caterpie": {
-        "id": "010",
+        "id": 10,
         "type": [
             "Bug"
         ],
-        "total": "195",
-        "hp": "45",
-        "attack": "30",
-        "defense": "35",
-        "sp-attack": "20",
-        "sp-defense": "20",
-        "speed": "45",
+        "total": 195,
+        "hp": 45,
+        "attack": 30,
+        "defense": 35,
+        "sp-attack": 20,
+        "sp-defense": 20,
+        "speed": 45,
         "description": "",
         "moves": [
             "String Shot",
@@ -446,17 +446,17 @@
         ]
     },
     "Metapod": {
-        "id": "011",
+        "id": 11,
         "type": [
             "Bug"
         ],
-        "total": "205",
-        "hp": "50",
-        "attack": "20",
-        "defense": "55",
-        "sp-attack": "25",
-        "sp-defense": "25",
-        "speed": "30",
+        "total": 205,
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "sp-attack": 25,
+        "sp-defense": 25,
+        "speed": 30,
         "description": "",
         "moves": [
             "Harden",
@@ -465,18 +465,18 @@
         ]
     },
     "Butterfree": {
-        "id": "012",
+        "id": 12,
         "type": [
             "Bug",
             "Flying"
         ],
-        "total": "395",
-        "hp": "60",
-        "attack": "45",
-        "defense": "50",
-        "sp-attack": "90",
-        "sp-defense": "80",
-        "speed": "70",
+        "total": 395,
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "sp-attack": 90,
+        "sp-defense": 80,
+        "speed": 70,
         "description": "",
         "moves": [
             "Confusion",
@@ -512,18 +512,18 @@
         ]
     },
     "Weedle": {
-        "id": "013",
+        "id": 13,
         "type": [
             "Bug",
             "Poison"
         ],
-        "total": "195",
-        "hp": "40",
-        "attack": "35",
-        "defense": "30",
-        "sp-attack": "20",
-        "sp-defense": "20",
-        "speed": "50",
+        "total": 195,
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "sp-attack": 20,
+        "sp-defense": 20,
+        "speed": 50,
         "description": "",
         "moves": [
             "Poison Sting",
@@ -531,18 +531,18 @@
         ]
     },
     "Kakuna": {
-        "id": "014",
+        "id": 14,
         "type": [
             "Bug",
             "Poison"
         ],
-        "total": "205",
-        "hp": "45",
-        "attack": "25",
-        "defense": "50",
-        "sp-attack": "25",
-        "sp-defense": "25",
-        "speed": "35",
+        "total": 205,
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "sp-attack": 25,
+        "sp-defense": 25,
+        "speed": 35,
         "description": "",
         "moves": [
             "Harden",
@@ -551,18 +551,18 @@
         ]
     },
     "Beedrill": {
-        "id": "015",
+        "id": 15,
         "type": [
             "Bug",
             "Poison"
         ],
-        "total": "395",
-        "hp": "65",
-        "attack": "90",
-        "defense": "40",
-        "sp-attack": "45",
-        "sp-defense": "80",
-        "speed": "75",
+        "total": 395,
+        "hp": 65,
+        "attack": 90,
+        "defense": 40,
+        "sp-attack": 45,
+        "sp-defense": 80,
+        "speed": 75,
         "description": "",
         "moves": [
             "Fury Attack",
@@ -594,18 +594,18 @@
         ]
     },
     "Pidgey": {
-        "id": "016",
+        "id": 16,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "251",
-        "hp": "40",
-        "attack": "45",
-        "defense": "40",
-        "sp-attack": "35",
-        "sp-defense": "35",
-        "speed": "56",
+        "total": 251,
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "sp-attack": 35,
+        "sp-defense": 35,
+        "speed": 56,
         "description": "",
         "moves": [
             "Gust",
@@ -633,18 +633,18 @@
         ]
     },
     "Pidgeotto": {
-        "id": "017",
+        "id": 17,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "349",
-        "hp": "63",
-        "attack": "60",
-        "defense": "55",
-        "sp-attack": "50",
-        "sp-defense": "50",
-        "speed": "71",
+        "total": 349,
+        "hp": 63,
+        "attack": 60,
+        "defense": 55,
+        "sp-attack": 50,
+        "sp-defense": 50,
+        "speed": 71,
         "description": "",
         "moves": [
             "Gust",
@@ -673,18 +673,18 @@
         ]
     },
     "Pidgeot": {
-        "id": "018",
+        "id": 18,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "479",
-        "hp": "83",
-        "attack": "80",
-        "defense": "75",
-        "sp-attack": "70",
-        "sp-defense": "70",
-        "speed": "101",
+        "total": 479,
+        "hp": 83,
+        "attack": 80,
+        "defense": 75,
+        "sp-attack": 70,
+        "sp-defense": 70,
+        "speed": 101,
         "description": "",
         "moves": [
             "Gust",
@@ -715,17 +715,17 @@
         ]
     },
     "Rattata": {
-        "id": "019",
+        "id": 19,
         "type": [
             "Normal"
         ],
-        "total": "253",
-        "hp": "30",
-        "attack": "56",
-        "defense": "35",
-        "sp-attack": "25",
-        "sp-defense": "35",
-        "speed": "72",
+        "total": 253,
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "sp-attack": 25,
+        "sp-defense": 35,
+        "speed": 72,
         "description": "",
         "moves": [
             "Tackle",
@@ -755,17 +755,17 @@
         ]
     },
     "Raticate": {
-        "id": "020",
+        "id": 20,
         "type": [
             "Normal"
         ],
-        "total": "413",
-        "hp": "55",
-        "attack": "81",
-        "defense": "60",
-        "sp-attack": "50",
-        "sp-defense": "70",
-        "speed": "97",
+        "total": 413,
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "sp-attack": 50,
+        "sp-defense": 70,
+        "speed": 97,
         "description": "",
         "moves": [
             "Quick Attack",
@@ -798,18 +798,18 @@
         ]
     },
     "Spearow": {
-        "id": "021",
+        "id": 21,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "262",
-        "hp": "40",
-        "attack": "60",
-        "defense": "30",
-        "sp-attack": "31",
-        "sp-defense": "31",
-        "speed": "70",
+        "total": 262,
+        "hp": 40,
+        "attack": 60,
+        "defense": 30,
+        "sp-attack": 31,
+        "sp-defense": 31,
+        "speed": 70,
         "description": "",
         "moves": [
             "Growl",
@@ -836,18 +836,18 @@
         ]
     },
     "Fearow": {
-        "id": "022",
+        "id": 22,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "442",
-        "hp": "65",
-        "attack": "90",
-        "defense": "65",
-        "sp-attack": "61",
-        "sp-defense": "61",
-        "speed": "100",
+        "total": 442,
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "sp-attack": 61,
+        "sp-defense": 61,
+        "speed": 100,
         "description": "",
         "moves": [
             "Growl",
@@ -876,17 +876,17 @@
         ]
     },
     "Ekans": {
-        "id": "023",
+        "id": 23,
         "type": [
             "Poison"
         ],
-        "total": "288",
-        "hp": "35",
-        "attack": "60",
-        "defense": "44",
-        "sp-attack": "40",
-        "sp-defense": "54",
-        "speed": "55",
+        "total": 288,
+        "hp": 35,
+        "attack": 60,
+        "defense": 44,
+        "sp-attack": 40,
+        "sp-defense": 54,
+        "speed": 55,
         "description": "",
         "moves": [
             "Leer",
@@ -916,17 +916,17 @@
         ]
     },
     "Arbok": {
-        "id": "024",
+        "id": 24,
         "type": [
             "Poison"
         ],
-        "total": "448",
-        "hp": "60",
-        "attack": "95",
-        "defense": "69",
-        "sp-attack": "65",
-        "sp-defense": "79",
-        "speed": "80",
+        "total": 448,
+        "hp": 60,
+        "attack": 95,
+        "defense": 69,
+        "sp-attack": 65,
+        "sp-defense": 79,
+        "speed": 80,
         "description": "",
         "moves": [
             "Leer",
@@ -958,17 +958,17 @@
         ]
     },
     "Pikachu": {
-        "id": "025",
+        "id": 25,
         "type": [
             "Electric"
         ],
-        "total": "320",
-        "hp": "35",
-        "attack": "55",
-        "defense": "40",
-        "sp-attack": "50",
-        "sp-defense": "50",
-        "speed": "90",
+        "total": 320,
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "sp-attack": 50,
+        "sp-defense": 50,
+        "speed": 90,
         "description": "",
         "moves": [
             "Growl",
@@ -1003,17 +1003,17 @@
         ]
     },
     "Raichu": {
-        "id": "026",
+        "id": 26,
         "type": [
             "Electric"
         ],
-        "total": "485",
-        "hp": "60",
-        "attack": "90",
-        "defense": "55",
-        "sp-attack": "90",
-        "sp-defense": "80",
-        "speed": "110",
+        "total": 485,
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "sp-attack": 90,
+        "sp-defense": 80,
+        "speed": 110,
         "description": "",
         "moves": [
             "Growl",
@@ -1049,17 +1049,17 @@
         ]
     },
     "Sandshrew": {
-        "id": "027",
+        "id": 27,
         "type": [
             "Ground"
         ],
-        "total": "300",
-        "hp": "50",
-        "attack": "75",
-        "defense": "85",
-        "sp-attack": "20",
-        "sp-defense": "30",
-        "speed": "40",
+        "total": 300,
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "sp-attack": 20,
+        "sp-defense": 30,
+        "speed": 40,
         "description": "",
         "moves": [
             "Scratch",
@@ -1092,17 +1092,17 @@
         ]
     },
     "Sandslash": {
-        "id": "028",
+        "id": 28,
         "type": [
             "Ground"
         ],
-        "total": "450",
-        "hp": "75",
-        "attack": "100",
-        "defense": "110",
-        "sp-attack": "45",
-        "sp-defense": "55",
-        "speed": "65",
+        "total": 450,
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "sp-attack": 45,
+        "sp-defense": 55,
+        "speed": 65,
         "description": "",
         "moves": [
             "Sand-Attack",
@@ -1137,17 +1137,17 @@
         ]
     },
     "Nidoran\u2640": {
-        "id": "029",
+        "id": 29,
         "type": [
             "Poison"
         ],
-        "total": "275",
-        "hp": "55",
-        "attack": "47",
-        "defense": "52",
-        "sp-attack": "40",
-        "sp-defense": "40",
-        "speed": "41",
+        "total": 275,
+        "hp": 55,
+        "attack": 47,
+        "defense": 52,
+        "sp-attack": 40,
+        "sp-defense": 40,
+        "speed": 41,
         "description": "",
         "moves": [
             "Growl",
@@ -1176,17 +1176,17 @@
         ]
     },
     "Nidorina": {
-        "id": "030",
+        "id": 30,
         "type": [
             "Poison"
         ],
-        "total": "365",
-        "hp": "70",
-        "attack": "62",
-        "defense": "67",
-        "sp-attack": "55",
-        "sp-defense": "55",
-        "speed": "56",
+        "total": 365,
+        "hp": 70,
+        "attack": 62,
+        "defense": 67,
+        "sp-attack": 55,
+        "sp-defense": 55,
+        "speed": 56,
         "description": "",
         "moves": [
             "Growl",
@@ -1220,18 +1220,18 @@
         ]
     },
     "Nidoqueen": {
-        "id": "031",
+        "id": 31,
         "type": [
             "Poison",
             "Ground"
         ],
-        "total": "505",
-        "hp": "90",
-        "attack": "92",
-        "defense": "87",
-        "sp-attack": "75",
-        "sp-defense": "85",
-        "speed": "76",
+        "total": 505,
+        "hp": 90,
+        "attack": 92,
+        "defense": 87,
+        "sp-attack": 75,
+        "sp-defense": 85,
+        "speed": 76,
         "description": "",
         "moves": [
             "Body Slam",
@@ -1280,17 +1280,17 @@
         ]
     },
     "Nidoran\u2642": {
-        "id": "032",
+        "id": 32,
         "type": [
             "Poison"
         ],
-        "total": "273",
-        "hp": "46",
-        "attack": "57",
-        "defense": "40",
-        "sp-attack": "40",
-        "sp-defense": "40",
-        "speed": "50",
+        "total": 273,
+        "hp": 46,
+        "attack": 57,
+        "defense": 40,
+        "sp-attack": 40,
+        "sp-defense": 40,
+        "speed": 50,
         "description": "",
         "moves": [
             "Leer",
@@ -1320,17 +1320,17 @@
         ]
     },
     "Nidorino": {
-        "id": "033",
+        "id": 33,
         "type": [
             "Poison"
         ],
-        "total": "365",
-        "hp": "61",
-        "attack": "72",
-        "defense": "57",
-        "sp-attack": "55",
-        "sp-defense": "55",
-        "speed": "65",
+        "total": 365,
+        "hp": 61,
+        "attack": 72,
+        "defense": 57,
+        "sp-attack": 55,
+        "sp-defense": 55,
+        "speed": 65,
         "description": "",
         "moves": [
             "Horn Attack",
@@ -1364,18 +1364,18 @@
         ]
     },
     "Nidoking": {
-        "id": "034",
+        "id": 34,
         "type": [
             "Poison",
             "Ground"
         ],
-        "total": "505",
-        "hp": "81",
-        "attack": "102",
-        "defense": "77",
-        "sp-attack": "85",
-        "sp-defense": "75",
-        "speed": "85",
+        "total": 505,
+        "hp": 81,
+        "attack": 102,
+        "defense": 77,
+        "sp-attack": 85,
+        "sp-defense": 75,
+        "speed": 85,
         "description": "",
         "moves": [
             "Horn Attack",
@@ -1425,17 +1425,17 @@
         ]
     },
     "Clefairy": {
-        "id": "035",
+        "id": 35,
         "type": [
             "Fairy"
         ],
-        "total": "323",
-        "hp": "70",
-        "attack": "45",
-        "defense": "48",
-        "sp-attack": "60",
-        "sp-defense": "65",
-        "speed": "35",
+        "total": 323,
+        "hp": 70,
+        "attack": 45,
+        "defense": 48,
+        "sp-attack": 60,
+        "sp-defense": 65,
+        "speed": 35,
         "description": "",
         "moves": [
             "Growl",
@@ -1482,17 +1482,17 @@
         ]
     },
     "Clefable": {
-        "id": "036",
+        "id": 36,
         "type": [
             "Fairy"
         ],
-        "total": "483",
-        "hp": "95",
-        "attack": "70",
-        "defense": "73",
-        "sp-attack": "95",
-        "sp-defense": "90",
-        "speed": "60",
+        "total": 483,
+        "hp": 95,
+        "attack": 70,
+        "defense": 73,
+        "sp-attack": 95,
+        "sp-defense": 90,
+        "speed": 60,
         "description": "",
         "moves": [
             "DoubleSlap",
@@ -1540,17 +1540,17 @@
         ]
     },
     "Vulpix": {
-        "id": "037",
+        "id": 37,
         "type": [
             "Fire"
         ],
-        "total": "299",
-        "hp": "38",
-        "attack": "41",
-        "defense": "40",
-        "sp-attack": "50",
-        "sp-defense": "65",
-        "speed": "65",
+        "total": 299,
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "sp-attack": 50,
+        "sp-defense": 65,
+        "speed": 65,
         "description": "",
         "moves": [
             "Ember",
@@ -1578,17 +1578,17 @@
         ]
     },
     "Ninetales": {
-        "id": "038",
+        "id": 38,
         "type": [
             "Fire"
         ],
-        "total": "505",
-        "hp": "73",
-        "attack": "76",
-        "defense": "75",
-        "sp-attack": "81",
-        "sp-defense": "100",
-        "speed": "100",
+        "total": 505,
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "sp-attack": 81,
+        "sp-defense": 100,
+        "speed": 100,
         "description": "",
         "moves": [
             "Ember",
@@ -1617,18 +1617,18 @@
         ]
     },
     "Jigglypuff": {
-        "id": "039",
+        "id": 39,
         "type": [
             "Normal",
             "Fairy"
         ],
-        "total": "270",
-        "hp": "115",
-        "attack": "45",
-        "defense": "20",
-        "sp-attack": "45",
-        "sp-defense": "25",
-        "speed": "20",
+        "total": 270,
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "sp-attack": 45,
+        "sp-defense": 25,
+        "speed": 20,
         "description": "",
         "moves": [
             "Sing",
@@ -1674,18 +1674,18 @@
         ]
     },
     "Wigglytuff": {
-        "id": "040",
+        "id": 40,
         "type": [
             "Normal",
             "Fairy"
         ],
-        "total": "435",
-        "hp": "140",
-        "attack": "70",
-        "defense": "45",
-        "sp-attack": "85",
-        "sp-defense": "50",
-        "speed": "45",
+        "total": 435,
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "sp-attack": 85,
+        "sp-defense": 50,
+        "speed": 45,
         "description": "",
         "moves": [
             "Defense Curl",
@@ -1732,18 +1732,18 @@
         ]
     },
     "Zubat": {
-        "id": "041",
+        "id": 41,
         "type": [
             "Poison",
             "Flying"
         ],
-        "total": "245",
-        "hp": "40",
-        "attack": "45",
-        "defense": "35",
-        "sp-attack": "30",
-        "sp-defense": "40",
-        "speed": "55",
+        "total": 245,
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "sp-attack": 30,
+        "sp-defense": 40,
+        "speed": 55,
         "description": "",
         "moves": [
             "Leech Life",
@@ -1768,18 +1768,18 @@
         ]
     },
     "Golbat": {
-        "id": "042",
+        "id": 42,
         "type": [
             "Poison",
             "Flying"
         ],
-        "total": "455",
-        "hp": "75",
-        "attack": "80",
-        "defense": "70",
-        "sp-attack": "65",
-        "sp-defense": "75",
-        "speed": "90",
+        "total": 455,
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "sp-attack": 65,
+        "sp-defense": 75,
+        "speed": 90,
         "description": "",
         "moves": [
             "Bite",
@@ -1807,18 +1807,18 @@
         ]
     },
     "Oddish": {
-        "id": "043",
+        "id": 43,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "320",
-        "hp": "45",
-        "attack": "50",
-        "defense": "55",
-        "sp-attack": "75",
-        "sp-defense": "65",
-        "speed": "30",
+        "total": 320,
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "sp-attack": 75,
+        "sp-defense": 65,
+        "speed": 30,
         "description": "",
         "moves": [
             "Absorb",
@@ -1845,18 +1845,18 @@
         ]
     },
     "Gloom": {
-        "id": "044",
+        "id": 44,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "395",
-        "hp": "60",
-        "attack": "65",
-        "defense": "70",
-        "sp-attack": "85",
-        "sp-defense": "75",
-        "speed": "40",
+        "total": 395,
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "sp-attack": 85,
+        "sp-defense": 75,
+        "speed": 40,
         "description": "",
         "moves": [
             "Absorb",
@@ -1885,18 +1885,18 @@
         ]
     },
     "Vileplume": {
-        "id": "045",
+        "id": 45,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "490",
-        "hp": "75",
-        "attack": "80",
-        "defense": "85",
-        "sp-attack": "110",
-        "sp-defense": "90",
-        "speed": "50",
+        "total": 490,
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "sp-attack": 110,
+        "sp-defense": 90,
+        "speed": 50,
         "description": "",
         "moves": [
             "Acid",
@@ -1927,18 +1927,18 @@
         ]
     },
     "Paras": {
-        "id": "046",
+        "id": 46,
         "type": [
             "Bug",
             "Grass"
         ],
-        "total": "285",
-        "hp": "35",
-        "attack": "70",
-        "defense": "55",
-        "sp-attack": "45",
-        "sp-defense": "55",
-        "speed": "25",
+        "total": 285,
+        "hp": 35,
+        "attack": 70,
+        "defense": 55,
+        "sp-attack": 45,
+        "sp-defense": 55,
+        "speed": 25,
         "description": "",
         "moves": [
             "Scratch",
@@ -1967,18 +1967,18 @@
         ]
     },
     "Parasect": {
-        "id": "047",
+        "id": 47,
         "type": [
             "Bug",
             "Grass"
         ],
-        "total": "405",
-        "hp": "60",
-        "attack": "95",
-        "defense": "80",
-        "sp-attack": "60",
-        "sp-defense": "80",
-        "speed": "30",
+        "total": 405,
+        "hp": 60,
+        "attack": 95,
+        "defense": 80,
+        "sp-attack": 60,
+        "sp-defense": 80,
+        "speed": 30,
         "description": "",
         "moves": [
             "Leech Life",
@@ -2010,18 +2010,18 @@
         ]
     },
     "Venonat": {
-        "id": "048",
+        "id": 48,
         "type": [
             "Bug",
             "Poison"
         ],
-        "total": "305",
-        "hp": "60",
-        "attack": "55",
-        "defense": "50",
-        "sp-attack": "40",
-        "sp-defense": "55",
-        "speed": "45",
+        "total": 305,
+        "hp": 60,
+        "attack": 55,
+        "defense": 50,
+        "sp-attack": 40,
+        "sp-defense": 55,
+        "speed": 45,
         "description": "",
         "moves": [
             "Disable",
@@ -2049,18 +2049,18 @@
         ]
     },
     "Venomoth": {
-        "id": "049",
+        "id": 49,
         "type": [
             "Bug",
             "Poison"
         ],
-        "total": "450",
-        "hp": "70",
-        "attack": "65",
-        "defense": "60",
-        "sp-attack": "90",
-        "sp-defense": "75",
-        "speed": "90",
+        "total": 450,
+        "hp": 70,
+        "attack": 65,
+        "defense": 60,
+        "sp-attack": 90,
+        "sp-defense": 75,
+        "speed": 90,
         "description": "",
         "moves": [
             "Disable",
@@ -2095,17 +2095,17 @@
         ]
     },
     "Diglett": {
-        "id": "050",
+        "id": 50,
         "type": [
             "Ground"
         ],
-        "total": "265",
-        "hp": "10",
-        "attack": "55",
-        "defense": "25",
-        "sp-attack": "35",
-        "sp-defense": "45",
-        "speed": "95",
+        "total": 265,
+        "hp": 10,
+        "attack": 55,
+        "defense": 25,
+        "sp-attack": 35,
+        "sp-defense": 45,
+        "speed": 95,
         "description": "",
         "moves": [
             "Scratch",
@@ -2131,17 +2131,17 @@
         ]
     },
     "Dugtrio": {
-        "id": "051",
+        "id": 51,
         "type": [
             "Ground"
         ],
-        "total": "425",
-        "hp": "35",
-        "attack": "100",
-        "defense": "50",
-        "sp-attack": "50",
-        "sp-defense": "70",
-        "speed": "120",
+        "total": 425,
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "sp-attack": 50,
+        "sp-defense": 70,
+        "speed": 120,
         "description": "",
         "moves": [
             "Dig",
@@ -2170,17 +2170,17 @@
         ]
     },
     "Meowth": {
-        "id": "052",
+        "id": 52,
         "type": [
             "Normal"
         ],
-        "total": "290",
-        "hp": "40",
-        "attack": "45",
-        "defense": "35",
-        "sp-attack": "40",
-        "sp-defense": "40",
-        "speed": "90",
+        "total": 290,
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "sp-attack": 40,
+        "sp-defense": 40,
+        "speed": 90,
         "description": "",
         "moves": [
             "Growl",
@@ -2210,17 +2210,17 @@
         ]
     },
     "Persian": {
-        "id": "053",
+        "id": 53,
         "type": [
             "Normal"
         ],
-        "total": "440",
-        "hp": "65",
-        "attack": "70",
-        "defense": "60",
-        "sp-attack": "65",
-        "sp-defense": "65",
-        "speed": "115",
+        "total": 440,
+        "hp": 65,
+        "attack": 70,
+        "defense": 60,
+        "sp-attack": 65,
+        "sp-defense": 65,
+        "speed": 115,
         "description": "",
         "moves": [
             "Bite",
@@ -2253,17 +2253,17 @@
         ]
     },
     "Psyduck": {
-        "id": "054",
+        "id": 54,
         "type": [
             "Water"
         ],
-        "total": "320",
-        "hp": "50",
-        "attack": "52",
-        "defense": "48",
-        "sp-attack": "65",
-        "sp-defense": "50",
-        "speed": "55",
+        "total": 320,
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "sp-attack": 65,
+        "sp-defense": 50,
+        "speed": 55,
         "description": "",
         "moves": [
             "Scratch",
@@ -2300,17 +2300,17 @@
         ]
     },
     "Golduck": {
-        "id": "055",
+        "id": 55,
         "type": [
             "Water"
         ],
-        "total": "500",
-        "hp": "80",
-        "attack": "82",
-        "defense": "78",
-        "sp-attack": "95",
-        "sp-defense": "80",
-        "speed": "85",
+        "total": 500,
+        "hp": 80,
+        "attack": 82,
+        "defense": 78,
+        "sp-attack": 95,
+        "sp-defense": 80,
+        "speed": 85,
         "description": "",
         "moves": [
             "Disable",
@@ -2350,17 +2350,17 @@
         ]
     },
     "Mankey": {
-        "id": "056",
+        "id": 56,
         "type": [
             "Fighting"
         ],
-        "total": "305",
-        "hp": "40",
-        "attack": "80",
-        "defense": "35",
-        "sp-attack": "35",
-        "sp-defense": "45",
-        "speed": "70",
+        "total": 305,
+        "hp": 40,
+        "attack": 80,
+        "defense": 35,
+        "sp-attack": 35,
+        "sp-defense": 45,
+        "speed": 70,
         "description": "",
         "moves": [
             "Leer",
@@ -2397,17 +2397,17 @@
         ]
     },
     "Primeape": {
-        "id": "057",
+        "id": 57,
         "type": [
             "Fighting"
         ],
-        "total": "455",
-        "hp": "65",
-        "attack": "105",
-        "defense": "60",
-        "sp-attack": "60",
-        "sp-defense": "70",
-        "speed": "95",
+        "total": 455,
+        "hp": 65,
+        "attack": 105,
+        "defense": 60,
+        "sp-attack": 60,
+        "sp-defense": 70,
+        "speed": 95,
         "description": "",
         "moves": [
             "Fury Swipes",
@@ -2447,17 +2447,17 @@
         ]
     },
     "Growlithe": {
-        "id": "058",
+        "id": 58,
         "type": [
             "Fire"
         ],
-        "total": "350",
-        "hp": "55",
-        "attack": "70",
-        "defense": "45",
-        "sp-attack": "70",
-        "sp-defense": "50",
-        "speed": "60",
+        "total": 350,
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "sp-attack": 70,
+        "sp-defense": 50,
+        "speed": 60,
         "description": "",
         "moves": [
             "Bite",
@@ -2486,17 +2486,17 @@
         ]
     },
     "Arcanine": {
-        "id": "059",
+        "id": 59,
         "type": [
             "Fire"
         ],
-        "total": "555",
-        "hp": "90",
-        "attack": "110",
-        "defense": "80",
-        "sp-attack": "100",
-        "sp-defense": "80",
-        "speed": "95",
+        "total": 555,
+        "hp": 90,
+        "attack": 110,
+        "defense": 80,
+        "sp-attack": 100,
+        "sp-defense": 80,
+        "speed": 95,
         "description": "",
         "moves": [
             "Ember",
@@ -2527,17 +2527,17 @@
         ]
     },
     "Poliwag": {
-        "id": "060",
+        "id": 60,
         "type": [
             "Water"
         ],
-        "total": "300",
-        "hp": "40",
-        "attack": "50",
-        "defense": "40",
-        "sp-attack": "40",
-        "sp-defense": "40",
-        "speed": "90",
+        "total": 300,
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "sp-attack": 40,
+        "sp-defense": 40,
+        "speed": 90,
         "description": "",
         "moves": [
             "Bubble",
@@ -2568,17 +2568,17 @@
         ]
     },
     "Poliwhirl": {
-        "id": "061",
+        "id": 61,
         "type": [
             "Water"
         ],
-        "total": "385",
-        "hp": "65",
-        "attack": "65",
-        "defense": "65",
-        "sp-attack": "50",
-        "sp-defense": "50",
-        "speed": "90",
+        "total": 385,
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "sp-attack": 50,
+        "sp-defense": 50,
+        "speed": 90,
         "description": "",
         "moves": [
             "Bubble",
@@ -2620,18 +2620,18 @@
         ]
     },
     "Poliwrath": {
-        "id": "062",
+        "id": 62,
         "type": [
             "Water",
             "Fighting"
         ],
-        "total": "510",
-        "hp": "90",
-        "attack": "95",
-        "defense": "95",
-        "sp-attack": "70",
-        "sp-defense": "90",
-        "speed": "70",
+        "total": 510,
+        "hp": 90,
+        "attack": 95,
+        "defense": 95,
+        "sp-attack": 70,
+        "sp-defense": 90,
+        "speed": 70,
         "description": "",
         "moves": [
             "Body Slam",
@@ -2674,17 +2674,17 @@
         ]
     },
     "Abra": {
-        "id": "063",
+        "id": 63,
         "type": [
             "Psychic"
         ],
-        "total": "310",
-        "hp": "25",
-        "attack": "20",
-        "defense": "15",
-        "sp-attack": "105",
-        "sp-defense": "55",
-        "speed": "90",
+        "total": 310,
+        "hp": 25,
+        "attack": 20,
+        "defense": 15,
+        "sp-attack": 105,
+        "sp-defense": 55,
+        "speed": 90,
         "description": "",
         "moves": [
             "Teleport",
@@ -2715,17 +2715,17 @@
         ]
     },
     "Kadabra": {
-        "id": "064",
+        "id": 64,
         "type": [
             "Psychic"
         ],
-        "total": "400",
-        "hp": "40",
-        "attack": "35",
-        "defense": "30",
-        "sp-attack": "120",
-        "sp-defense": "70",
-        "speed": "105",
+        "total": 400,
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "sp-attack": 120,
+        "sp-defense": 70,
+        "speed": 105,
         "description": "",
         "moves": [
             "Confusion",
@@ -2765,17 +2765,17 @@
         ]
     },
     "Alakazam": {
-        "id": "065",
+        "id": 65,
         "type": [
             "Psychic"
         ],
-        "total": "500",
-        "hp": "55",
-        "attack": "50",
-        "defense": "45",
-        "sp-attack": "135",
-        "sp-defense": "95",
-        "speed": "120",
+        "total": 500,
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "sp-attack": 135,
+        "sp-defense": 95,
+        "speed": 120,
         "description": "",
         "moves": [
             "Confusion",
@@ -2816,17 +2816,17 @@
         ]
     },
     "Machop": {
-        "id": "066",
+        "id": 66,
         "type": [
             "Fighting"
         ],
-        "total": "305",
-        "hp": "70",
-        "attack": "80",
-        "defense": "50",
-        "sp-attack": "35",
-        "sp-defense": "35",
-        "speed": "35",
+        "total": 305,
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "sp-attack": 35,
+        "sp-defense": 35,
+        "speed": 35,
         "description": "",
         "moves": [
             "Karate Chop",
@@ -2861,17 +2861,17 @@
         ]
     },
     "Machoke": {
-        "id": "067",
+        "id": 67,
         "type": [
             "Fighting"
         ],
-        "total": "405",
-        "hp": "80",
-        "attack": "100",
-        "defense": "70",
-        "sp-attack": "50",
-        "sp-defense": "60",
-        "speed": "45",
+        "total": 405,
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "sp-attack": 50,
+        "sp-defense": 60,
+        "speed": 45,
         "description": "",
         "moves": [
             "Karate Chop",
@@ -2908,17 +2908,17 @@
         ]
     },
     "Machamp": {
-        "id": "068",
+        "id": 68,
         "type": [
             "Fighting"
         ],
-        "total": "505",
-        "hp": "90",
-        "attack": "130",
-        "defense": "80",
-        "sp-attack": "65",
-        "sp-defense": "85",
-        "speed": "55",
+        "total": 505,
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "sp-attack": 65,
+        "sp-defense": 85,
+        "speed": 55,
         "description": "",
         "moves": [
             "Karate Chop",
@@ -2956,18 +2956,18 @@
         ]
     },
     "Bellsprout": {
-        "id": "069",
+        "id": 69,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "300",
-        "hp": "50",
-        "attack": "75",
-        "defense": "35",
-        "sp-attack": "70",
-        "sp-defense": "30",
-        "speed": "40",
+        "total": 300,
+        "hp": 50,
+        "attack": 75,
+        "defense": 35,
+        "sp-attack": 70,
+        "sp-defense": 30,
+        "speed": 40,
         "description": "",
         "moves": [
             "Growth",
@@ -2996,18 +2996,18 @@
         ]
     },
     "Weepinbell": {
-        "id": "070",
+        "id": 70,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "390",
-        "hp": "65",
-        "attack": "90",
-        "defense": "50",
-        "sp-attack": "85",
-        "sp-defense": "45",
-        "speed": "55",
+        "total": 390,
+        "hp": 65,
+        "attack": 90,
+        "defense": 50,
+        "sp-attack": 85,
+        "sp-defense": 45,
+        "speed": 55,
         "description": "",
         "moves": [
             "Growth",
@@ -3037,18 +3037,18 @@
         ]
     },
     "Victreebel": {
-        "id": "071",
+        "id": 71,
         "type": [
             "Grass",
             "Poison"
         ],
-        "total": "490",
-        "hp": "80",
-        "attack": "105",
-        "defense": "65",
-        "sp-attack": "100",
-        "sp-defense": "70",
-        "speed": "70",
+        "total": 490,
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "sp-attack": 100,
+        "sp-defense": 70,
+        "speed": 70,
         "description": "",
         "moves": [
             "Acid",
@@ -3080,18 +3080,18 @@
         ]
     },
     "Tentacool": {
-        "id": "072",
+        "id": 72,
         "type": [
             "Water",
             "Poison"
         ],
-        "total": "335",
-        "hp": "40",
-        "attack": "40",
-        "defense": "35",
-        "sp-attack": "50",
-        "sp-defense": "100",
-        "speed": "70",
+        "total": 335,
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "sp-attack": 50,
+        "sp-defense": 100,
+        "speed": 70,
         "description": "",
         "moves": [
             "Acid",
@@ -3125,18 +3125,18 @@
         ]
     },
     "Tentacruel": {
-        "id": "073",
+        "id": 73,
         "type": [
             "Water",
             "Poison"
         ],
-        "total": "515",
-        "hp": "80",
-        "attack": "70",
-        "defense": "65",
-        "sp-attack": "80",
-        "sp-defense": "120",
-        "speed": "100",
+        "total": 515,
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "sp-attack": 80,
+        "sp-defense": 120,
+        "speed": 100,
         "description": "",
         "moves": [
             "Acid",
@@ -3173,18 +3173,18 @@
         ]
     },
     "Geodude": {
-        "id": "074",
+        "id": 74,
         "type": [
             "Rock",
             "Ground"
         ],
-        "total": "300",
-        "hp": "40",
-        "attack": "80",
-        "defense": "100",
-        "sp-attack": "30",
-        "sp-defense": "30",
-        "speed": "20",
+        "total": 300,
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "sp-attack": 30,
+        "sp-defense": 30,
+        "speed": 20,
         "description": "",
         "moves": [
             "Tackle",
@@ -3220,18 +3220,18 @@
         ]
     },
     "Graveler": {
-        "id": "075",
+        "id": 75,
         "type": [
             "Rock",
             "Ground"
         ],
-        "total": "390",
-        "hp": "55",
-        "attack": "95",
-        "defense": "115",
-        "sp-attack": "45",
-        "sp-defense": "45",
-        "speed": "35",
+        "total": 390,
+        "hp": 55,
+        "attack": 95,
+        "defense": 115,
+        "sp-attack": 45,
+        "sp-defense": 45,
+        "speed": 35,
         "description": "",
         "moves": [
             "Defense Curl",
@@ -3268,18 +3268,18 @@
         ]
     },
     "Golem": {
-        "id": "076",
+        "id": 76,
         "type": [
             "Rock",
             "Ground"
         ],
-        "total": "495",
-        "hp": "80",
-        "attack": "120",
-        "defense": "130",
-        "sp-attack": "55",
-        "sp-defense": "65",
-        "speed": "45",
+        "total": 495,
+        "hp": 80,
+        "attack": 120,
+        "defense": 130,
+        "sp-attack": 55,
+        "sp-defense": 65,
+        "speed": 45,
         "description": "",
         "moves": [
             "Defense Curl",
@@ -3318,17 +3318,17 @@
         ]
     },
     "Ponyta": {
-        "id": "077",
+        "id": 77,
         "type": [
             "Fire"
         ],
-        "total": "410",
-        "hp": "50",
-        "attack": "85",
-        "defense": "55",
-        "sp-attack": "65",
-        "sp-defense": "65",
-        "speed": "90",
+        "total": 410,
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "sp-attack": 65,
+        "sp-defense": 65,
+        "speed": 90,
         "description": "",
         "moves": [
             "Ember",
@@ -3356,17 +3356,17 @@
         ]
     },
     "Rapidash": {
-        "id": "078",
+        "id": 78,
         "type": [
             "Fire"
         ],
-        "total": "500",
-        "hp": "65",
-        "attack": "100",
-        "defense": "70",
-        "sp-attack": "80",
-        "sp-defense": "80",
-        "speed": "105",
+        "total": 500,
+        "hp": 65,
+        "attack": 100,
+        "defense": 70,
+        "sp-attack": 80,
+        "sp-defense": 80,
+        "speed": 105,
         "description": "",
         "moves": [
             "Ember",
@@ -3398,18 +3398,18 @@
         ]
     },
     "Slowpoke": {
-        "id": "079",
+        "id": 79,
         "type": [
             "Water",
             "Psychic"
         ],
-        "total": "315",
-        "hp": "90",
-        "attack": "65",
-        "defense": "65",
-        "sp-attack": "40",
-        "sp-defense": "40",
-        "speed": "15",
+        "total": 315,
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "sp-attack": 40,
+        "sp-defense": 40,
+        "speed": 15,
         "description": "",
         "moves": [
             "Confusion",
@@ -3452,18 +3452,18 @@
         ]
     },
     "Slowbro": {
-        "id": "080",
+        "id": 80,
         "type": [
             "Water",
             "Psychic"
         ],
-        "total": "490",
-        "hp": "95",
-        "attack": "75",
-        "defense": "110",
-        "sp-attack": "100",
-        "sp-defense": "80",
-        "speed": "30",
+        "total": 490,
+        "hp": 95,
+        "attack": 75,
+        "defense": 110,
+        "sp-attack": 100,
+        "sp-defense": 80,
+        "speed": 30,
         "description": "",
         "moves": [
             "Confusion",
@@ -3515,18 +3515,18 @@
         ]
     },
     "Magnemite": {
-        "id": "081",
+        "id": 81,
         "type": [
             "Electric",
             "Steel"
         ],
-        "total": "325",
-        "hp": "25",
-        "attack": "35",
-        "defense": "70",
-        "sp-attack": "95",
-        "sp-defense": "55",
-        "speed": "45",
+        "total": 325,
+        "hp": 25,
+        "attack": 35,
+        "defense": 70,
+        "sp-attack": 95,
+        "sp-defense": 55,
+        "speed": 45,
         "description": "",
         "moves": [
             "Tackle",
@@ -3555,18 +3555,18 @@
         ]
     },
     "Magneton": {
-        "id": "082",
+        "id": 82,
         "type": [
             "Electric",
             "Steel"
         ],
-        "total": "465",
-        "hp": "50",
-        "attack": "60",
-        "defense": "95",
-        "sp-attack": "120",
-        "sp-defense": "70",
-        "speed": "70",
+        "total": 465,
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "sp-attack": 120,
+        "sp-defense": 70,
+        "speed": 70,
         "description": "",
         "moves": [
             "SonicBoom",
@@ -3598,18 +3598,18 @@
         ]
     },
     "Farfetch'd": {
-        "id": "083",
+        "id": 83,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "377",
-        "hp": "52",
-        "attack": "90",
-        "defense": "55",
-        "sp-attack": "58",
-        "sp-defense": "62",
-        "speed": "60",
+        "total": 377,
+        "hp": 52,
+        "attack": 90,
+        "defense": 55,
+        "sp-attack": 58,
+        "sp-defense": 62,
+        "speed": 60,
         "description": "",
         "moves": [
             "Peck",
@@ -3640,18 +3640,18 @@
         ]
     },
     "Doduo": {
-        "id": "084",
+        "id": 84,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "310",
-        "hp": "35",
-        "attack": "85",
-        "defense": "45",
-        "sp-attack": "35",
-        "sp-defense": "35",
-        "speed": "75",
+        "total": 310,
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "sp-attack": 35,
+        "sp-defense": 35,
+        "speed": 75,
         "description": "",
         "moves": [
             "Peck",
@@ -3680,18 +3680,18 @@
         ]
     },
     "Dodrio": {
-        "id": "085",
+        "id": 85,
         "type": [
             "Normal",
             "Flying"
         ],
-        "total": "470",
-        "hp": "60",
-        "attack": "110",
-        "defense": "70",
-        "sp-attack": "60",
-        "sp-defense": "60",
-        "speed": "110",
+        "total": 470,
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "sp-attack": 60,
+        "sp-defense": 60,
+        "speed": 110,
         "description": "",
         "moves": [
             "Fury Attack",
@@ -3723,17 +3723,17 @@
         ]
     },
     "Seel": {
-        "id": "086",
+        "id": 86,
         "type": [
             "Water"
         ],
-        "total": "325",
-        "hp": "65",
-        "attack": "45",
-        "defense": "55",
-        "sp-attack": "45",
-        "sp-defense": "70",
-        "speed": "45",
+        "total": 325,
+        "hp": 65,
+        "attack": 45,
+        "defense": 55,
+        "sp-attack": 45,
+        "sp-defense": 70,
+        "speed": 45,
         "description": "",
         "moves": [
             "Headbutt",
@@ -3764,18 +3764,18 @@
         ]
     },
     "Dewgong": {
-        "id": "087",
+        "id": 87,
         "type": [
             "Water",
             "Ice"
         ],
-        "total": "475",
-        "hp": "90",
-        "attack": "70",
-        "defense": "80",
-        "sp-attack": "70",
-        "sp-defense": "95",
-        "speed": "70",
+        "total": 475,
+        "hp": 90,
+        "attack": 70,
+        "defense": 80,
+        "sp-attack": 70,
+        "sp-defense": 95,
+        "speed": 70,
         "description": "",
         "moves": [
             "Aurora Beam",
@@ -3809,17 +3809,17 @@
         ]
     },
     "Grimer": {
-        "id": "088",
+        "id": 88,
         "type": [
             "Poison"
         ],
-        "total": "325",
-        "hp": "80",
-        "attack": "80",
-        "defense": "50",
-        "sp-attack": "40",
-        "sp-defense": "50",
-        "speed": "25",
+        "total": 325,
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "sp-attack": 40,
+        "sp-defense": 50,
+        "speed": 25,
         "description": "",
         "moves": [
             "Disable",
@@ -3847,17 +3847,17 @@
         ]
     },
     "Muk": {
-        "id": "089",
+        "id": 89,
         "type": [
             "Poison"
         ],
-        "total": "500",
-        "hp": "105",
-        "attack": "105",
-        "defense": "75",
-        "sp-attack": "65",
-        "sp-defense": "100",
-        "speed": "50",
+        "total": 500,
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "sp-attack": 65,
+        "sp-defense": 100,
+        "speed": 50,
         "description": "",
         "moves": [
             "Disable",
@@ -3887,17 +3887,17 @@
         ]
     },
     "Shellder": {
-        "id": "090",
+        "id": 90,
         "type": [
             "Water"
         ],
-        "total": "305",
-        "hp": "30",
-        "attack": "65",
-        "defense": "100",
-        "sp-attack": "45",
-        "sp-defense": "25",
-        "speed": "40",
+        "total": 305,
+        "hp": 30,
+        "attack": 65,
+        "defense": 100,
+        "sp-attack": 45,
+        "sp-defense": 25,
+        "speed": 40,
         "description": "",
         "moves": [
             "Tackle",
@@ -3930,18 +3930,18 @@
         ]
     },
     "Cloyster": {
-        "id": "091",
+        "id": 91,
         "type": [
             "Water",
             "Ice"
         ],
-        "total": "525",
-        "hp": "50",
-        "attack": "95",
-        "defense": "180",
-        "sp-attack": "85",
-        "sp-defense": "45",
-        "speed": "70",
+        "total": 525,
+        "hp": 50,
+        "attack": 95,
+        "defense": 180,
+        "sp-attack": 85,
+        "sp-defense": 45,
+        "speed": 70,
         "description": "",
         "moves": [
             "Aurora Beam",
@@ -3976,18 +3976,18 @@
         ]
     },
     "Gastly": {
-        "id": "092",
+        "id": 92,
         "type": [
             "Ghost",
             "Poison"
         ],
-        "total": "310",
-        "hp": "30",
-        "attack": "35",
-        "defense": "30",
-        "sp-attack": "100",
-        "sp-defense": "35",
-        "speed": "80",
+        "total": 310,
+        "hp": 30,
+        "attack": 35,
+        "defense": 30,
+        "sp-attack": 100,
+        "sp-defense": 35,
+        "speed": 80,
         "description": "",
         "moves": [
             "Confuse Ray",
@@ -4013,18 +4013,18 @@
         ]
     },
     "Haunter": {
-        "id": "093",
+        "id": 93,
         "type": [
             "Ghost",
             "Poison"
         ],
-        "total": "405",
-        "hp": "45",
-        "attack": "50",
-        "defense": "45",
-        "sp-attack": "115",
-        "sp-defense": "55",
-        "speed": "95",
+        "total": 405,
+        "hp": 45,
+        "attack": 50,
+        "defense": 45,
+        "sp-attack": 115,
+        "sp-defense": 55,
+        "speed": 95,
         "description": "",
         "moves": [
             "Confuse Ray",
@@ -4050,18 +4050,18 @@
         ]
     },
     "Gengar": {
-        "id": "094",
+        "id": 94,
         "type": [
             "Ghost",
             "Poison"
         ],
-        "total": "500",
-        "hp": "60",
-        "attack": "65",
-        "defense": "60",
-        "sp-attack": "130",
-        "sp-defense": "75",
-        "speed": "110",
+        "total": 500,
+        "hp": 60,
+        "attack": 65,
+        "defense": 60,
+        "sp-attack": 130,
+        "sp-defense": 75,
+        "speed": 110,
         "description": "",
         "moves": [
             "Confuse Ray",
@@ -4099,18 +4099,18 @@
         ]
     },
     "Onix": {
-        "id": "095",
+        "id": 95,
         "type": [
             "Rock",
             "Ground"
         ],
-        "total": "385",
-        "hp": "35",
-        "attack": "45",
-        "defense": "160",
-        "sp-attack": "30",
-        "sp-defense": "45",
-        "speed": "70",
+        "total": 385,
+        "hp": 35,
+        "attack": 45,
+        "defense": 160,
+        "sp-attack": 30,
+        "sp-defense": 45,
+        "speed": 70,
         "description": "",
         "moves": [
             "Screech",
@@ -4141,17 +4141,17 @@
         ]
     },
     "Drowzee": {
-        "id": "096",
+        "id": 96,
         "type": [
             "Psychic"
         ],
-        "total": "328",
-        "hp": "60",
-        "attack": "48",
-        "defense": "45",
-        "sp-attack": "43",
-        "sp-defense": "90",
-        "speed": "42",
+        "total": 328,
+        "hp": 60,
+        "attack": 48,
+        "defense": 45,
+        "sp-attack": 43,
+        "sp-defense": 90,
+        "speed": 42,
         "description": "",
         "moves": [
             "Hypnosis",
@@ -4190,17 +4190,17 @@
         ]
     },
     "Hypno": {
-        "id": "097",
+        "id": 97,
         "type": [
             "Psychic"
         ],
-        "total": "483",
-        "hp": "85",
-        "attack": "73",
-        "defense": "70",
-        "sp-attack": "73",
-        "sp-defense": "115",
-        "speed": "67",
+        "total": 483,
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "sp-attack": 73,
+        "sp-defense": 115,
+        "speed": 67,
         "description": "",
         "moves": [
             "Confusion",
@@ -4242,17 +4242,17 @@
         ]
     },
     "Krabby": {
-        "id": "098",
+        "id": 98,
         "type": [
             "Water"
         ],
-        "total": "325",
-        "hp": "30",
-        "attack": "105",
-        "defense": "90",
-        "sp-attack": "25",
-        "sp-defense": "25",
-        "speed": "50",
+        "total": 325,
+        "hp": 30,
+        "attack": 105,
+        "defense": 90,
+        "sp-attack": 25,
+        "sp-defense": 25,
+        "speed": 50,
         "description": "",
         "moves": [
             "Bubble",
@@ -4283,17 +4283,17 @@
         ]
     },
     "Kingler": {
-        "id": "099",
+        "id": 99,
         "type": [
             "Water"
         ],
-        "total": "475",
-        "hp": "55",
-        "attack": "130",
-        "defense": "115",
-        "sp-attack": "50",
-        "sp-defense": "50",
-        "speed": "75",
+        "total": 475,
+        "hp": 55,
+        "attack": 130,
+        "defense": 115,
+        "sp-attack": 50,
+        "sp-defense": 50,
+        "speed": 75,
         "description": "",
         "moves": [
             "Bubble",
@@ -4326,17 +4326,17 @@
         ]
     },
     "Voltorb": {
-        "id": "100",
+        "id": 100,
         "type": [
             "Electric"
         ],
-        "total": "330",
-        "hp": "40",
-        "attack": "30",
-        "defense": "50",
-        "sp-attack": "55",
-        "sp-defense": "55",
-        "speed": "100",
+        "total": 330,
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "sp-attack": 55,
+        "sp-defense": 55,
+        "speed": 100,
         "description": "",
         "moves": [
             "Screech",
@@ -4366,17 +4366,17 @@
         ]
     },
     "Electrode": {
-        "id": "101",
+        "id": 101,
         "type": [
             "Electric"
         ],
-        "total": "490",
-        "hp": "60",
-        "attack": "50",
-        "defense": "70",
-        "sp-attack": "80",
-        "sp-defense": "80",
-        "speed": "150",
+        "total": 490,
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "sp-attack": 80,
+        "sp-defense": 80,
+        "speed": 150,
         "description": "",
         "moves": [
             "Screech",
@@ -4409,18 +4409,18 @@
         ]
     },
     "Exeggcute": {
-        "id": "102",
+        "id": 102,
         "type": [
             "Grass",
             "Psychic"
         ],
-        "total": "325",
-        "hp": "60",
-        "attack": "40",
-        "defense": "80",
-        "sp-attack": "60",
-        "sp-defense": "45",
-        "speed": "40",
+        "total": 325,
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "sp-attack": 60,
+        "sp-defense": 45,
+        "speed": 40,
         "description": "",
         "moves": [
             "Barrage",
@@ -4450,18 +4450,18 @@
         ]
     },
     "Exeggutor": {
-        "id": "103",
+        "id": 103,
         "type": [
             "Grass",
             "Psychic"
         ],
-        "total": "530",
-        "hp": "95",
-        "attack": "95",
-        "defense": "85",
-        "sp-attack": "125",
-        "sp-defense": "75",
-        "speed": "55",
+        "total": 530,
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "sp-attack": 125,
+        "sp-defense": 75,
+        "speed": 55,
         "description": "",
         "moves": [
             "Barrage",
@@ -4496,17 +4496,17 @@
         ]
     },
     "Cubone": {
-        "id": "104",
+        "id": 104,
         "type": [
             "Ground"
         ],
-        "total": "320",
-        "hp": "50",
-        "attack": "50",
-        "defense": "95",
-        "sp-attack": "40",
-        "sp-defense": "50",
-        "speed": "35",
+        "total": 320,
+        "hp": 50,
+        "attack": 50,
+        "defense": 95,
+        "sp-attack": 40,
+        "sp-defense": 50,
+        "speed": 35,
         "description": "",
         "moves": [
             "Bone Club",
@@ -4544,17 +4544,17 @@
         ]
     },
     "Marowak": {
-        "id": "105",
+        "id": 105,
         "type": [
             "Ground"
         ],
-        "total": "425",
-        "hp": "60",
-        "attack": "80",
-        "defense": "110",
-        "sp-attack": "50",
-        "sp-defense": "80",
-        "speed": "45",
+        "total": 425,
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "sp-attack": 50,
+        "sp-defense": 80,
+        "speed": 45,
         "description": "",
         "moves": [
             "Bone Club",
@@ -4595,17 +4595,17 @@
         ]
     },
     "Hitmonlee": {
-        "id": "106",
+        "id": 106,
         "type": [
             "Fighting"
         ],
-        "total": "455",
-        "hp": "50",
-        "attack": "120",
-        "defense": "53",
-        "sp-attack": "35",
-        "sp-defense": "110",
-        "speed": "87",
+        "total": 455,
+        "hp": 50,
+        "attack": 120,
+        "defense": 53,
+        "sp-attack": 35,
+        "sp-defense": 110,
+        "speed": 87,
         "description": "",
         "moves": [
             "Double Kick",
@@ -4637,17 +4637,17 @@
         ]
     },
     "Hitmonchan": {
-        "id": "107",
+        "id": 107,
         "type": [
             "Fighting"
         ],
-        "total": "455",
-        "hp": "50",
-        "attack": "105",
-        "defense": "79",
-        "sp-attack": "35",
-        "sp-defense": "110",
-        "speed": "76",
+        "total": 455,
+        "hp": 50,
+        "attack": 105,
+        "defense": 79,
+        "sp-attack": 35,
+        "sp-defense": 110,
+        "speed": 76,
         "description": "",
         "moves": [
             "Agility",
@@ -4679,17 +4679,17 @@
         ]
     },
     "Lickitung": {
-        "id": "108",
+        "id": 108,
         "type": [
             "Normal"
         ],
-        "total": "385",
-        "hp": "90",
-        "attack": "55",
-        "defense": "75",
-        "sp-attack": "60",
-        "sp-defense": "75",
-        "speed": "30",
+        "total": 385,
+        "hp": 90,
+        "attack": 55,
+        "defense": 75,
+        "sp-attack": 60,
+        "sp-defense": 75,
+        "speed": 30,
         "description": "",
         "moves": [
             "Supersonic",
@@ -4732,17 +4732,17 @@
         ]
     },
     "Koffing": {
-        "id": "109",
+        "id": 109,
         "type": [
             "Poison"
         ],
-        "total": "340",
-        "hp": "40",
-        "attack": "65",
-        "defense": "95",
-        "sp-attack": "60",
-        "sp-defense": "45",
-        "speed": "35",
+        "total": 340,
+        "hp": 40,
+        "attack": 65,
+        "defense": 95,
+        "sp-attack": 60,
+        "sp-defense": 45,
+        "speed": 35,
         "description": "",
         "moves": [
             "Smog",
@@ -4767,17 +4767,17 @@
         ]
     },
     "Weezing": {
-        "id": "110",
+        "id": 110,
         "type": [
             "Poison"
         ],
-        "total": "490",
-        "hp": "65",
-        "attack": "90",
-        "defense": "120",
-        "sp-attack": "85",
-        "sp-defense": "70",
-        "speed": "60",
+        "total": 490,
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "sp-attack": 85,
+        "sp-defense": 70,
+        "speed": 60,
         "description": "",
         "moves": [
             "Sludge",
@@ -4804,18 +4804,18 @@
         ]
     },
     "Rhyhorn": {
-        "id": "111",
+        "id": 111,
         "type": [
             "Ground",
             "Rock"
         ],
-        "total": "345",
-        "hp": "80",
-        "attack": "85",
-        "defense": "95",
-        "sp-attack": "30",
-        "sp-defense": "30",
-        "speed": "25",
+        "total": 345,
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "sp-attack": 30,
+        "sp-defense": 30,
+        "speed": 25,
         "description": "",
         "moves": [
             "Horn Attack",
@@ -4848,18 +4848,18 @@
         ]
     },
     "Rhydon": {
-        "id": "112",
+        "id": 112,
         "type": [
             "Ground",
             "Rock"
         ],
-        "total": "485",
-        "hp": "105",
-        "attack": "130",
-        "defense": "120",
-        "sp-attack": "45",
-        "sp-defense": "45",
-        "speed": "40",
+        "total": 485,
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "sp-attack": 45,
+        "sp-defense": 45,
+        "speed": 40,
         "description": "",
         "moves": [
             "Fury Attack",
@@ -4907,17 +4907,17 @@
         ]
     },
     "Chansey": {
-        "id": "113",
+        "id": 113,
         "type": [
             "Normal"
         ],
-        "total": "450",
-        "hp": "250",
-        "attack": "5",
-        "defense": "5",
-        "sp-attack": "35",
-        "sp-defense": "105",
-        "speed": "50",
+        "total": 450,
+        "hp": 250,
+        "attack": 5,
+        "defense": 5,
+        "sp-attack": 35,
+        "sp-defense": 105,
+        "speed": 50,
         "description": "",
         "moves": [
             "DoubleSlap",
@@ -4967,17 +4967,17 @@
         ]
     },
     "Tangela": {
-        "id": "114",
+        "id": 114,
         "type": [
             "Grass"
         ],
-        "total": "435",
-        "hp": "65",
-        "attack": "55",
-        "defense": "115",
-        "sp-attack": "100",
-        "sp-defense": "40",
-        "speed": "60",
+        "total": 435,
+        "hp": 65,
+        "attack": 55,
+        "defense": 115,
+        "sp-attack": 100,
+        "sp-defense": 40,
+        "speed": 60,
         "description": "",
         "moves": [
             "Bind",
@@ -5007,17 +5007,17 @@
         ]
     },
     "Kangaskhan": {
-        "id": "115",
+        "id": 115,
         "type": [
             "Normal"
         ],
-        "total": "490",
-        "hp": "105",
-        "attack": "95",
-        "defense": "80",
-        "sp-attack": "40",
-        "sp-defense": "80",
-        "speed": "90",
+        "total": 490,
+        "hp": 105,
+        "attack": 95,
+        "defense": 80,
+        "sp-attack": 40,
+        "sp-defense": 80,
+        "speed": 90,
         "description": "",
         "moves": [
             "Comet Punch",
@@ -5059,17 +5059,17 @@
         ]
     },
     "Horsea": {
-        "id": "116",
+        "id": 116,
         "type": [
             "Water"
         ],
-        "total": "295",
-        "hp": "30",
-        "attack": "40",
-        "defense": "70",
-        "sp-attack": "70",
-        "sp-defense": "25",
-        "speed": "60",
+        "total": 295,
+        "hp": 30,
+        "attack": 40,
+        "defense": 70,
+        "sp-attack": 70,
+        "sp-defense": 25,
+        "speed": 60,
         "description": "",
         "moves": [
             "Bubble",
@@ -5097,17 +5097,17 @@
         ]
     },
     "Seadra": {
-        "id": "117",
+        "id": 117,
         "type": [
             "Water"
         ],
-        "total": "440",
-        "hp": "55",
-        "attack": "65",
-        "defense": "95",
-        "sp-attack": "95",
-        "sp-defense": "45",
-        "speed": "85",
+        "total": 440,
+        "hp": 55,
+        "attack": 65,
+        "defense": 95,
+        "sp-attack": 95,
+        "sp-defense": 45,
+        "speed": 85,
         "description": "",
         "moves": [
             "Bubble",
@@ -5137,17 +5137,17 @@
         ]
     },
     "Goldeen": {
-        "id": "118",
+        "id": 118,
         "type": [
             "Water"
         ],
-        "total": "320",
-        "hp": "45",
-        "attack": "67",
-        "defense": "60",
-        "sp-attack": "35",
-        "sp-defense": "50",
-        "speed": "63",
+        "total": 320,
+        "hp": 45,
+        "attack": 67,
+        "defense": 60,
+        "sp-attack": 35,
+        "sp-defense": 50,
+        "speed": 63,
         "description": "",
         "moves": [
             "Peck",
@@ -5178,17 +5178,17 @@
         ]
     },
     "Seaking": {
-        "id": "119",
+        "id": 119,
         "type": [
             "Water"
         ],
-        "total": "450",
-        "hp": "80",
-        "attack": "92",
-        "defense": "65",
-        "sp-attack": "65",
-        "sp-defense": "80",
-        "speed": "68",
+        "total": 450,
+        "hp": 80,
+        "attack": 92,
+        "defense": 65,
+        "sp-attack": 65,
+        "sp-defense": 80,
+        "speed": 68,
         "description": "",
         "moves": [
             "Peck",
@@ -5221,17 +5221,17 @@
         ]
     },
     "Staryu": {
-        "id": "120",
+        "id": 120,
         "type": [
             "Water"
         ],
-        "total": "340",
-        "hp": "30",
-        "attack": "45",
-        "defense": "55",
-        "sp-attack": "70",
-        "sp-defense": "55",
-        "speed": "85",
+        "total": 340,
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "sp-attack": 70,
+        "sp-defense": 55,
+        "speed": 85,
         "description": "",
         "moves": [
             "Tackle",
@@ -5270,18 +5270,18 @@
         ]
     },
     "Starmie": {
-        "id": "121",
+        "id": 121,
         "type": [
             "Water",
             "Psychic"
         ],
-        "total": "520",
-        "hp": "60",
-        "attack": "75",
-        "defense": "85",
-        "sp-attack": "100",
-        "sp-defense": "85",
-        "speed": "115",
+        "total": 520,
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "sp-attack": 100,
+        "sp-defense": 85,
+        "speed": 115,
         "description": "",
         "moves": [
             "Harden",
@@ -5321,18 +5321,18 @@
         ]
     },
     "Mr. Mime": {
-        "id": "122",
+        "id": 122,
         "type": [
             "Psychic",
             "Fairy"
         ],
-        "total": "460",
-        "hp": "40",
-        "attack": "45",
-        "defense": "65",
-        "sp-attack": "100",
-        "sp-defense": "120",
-        "speed": "90",
+        "total": 460,
+        "hp": 40,
+        "attack": 45,
+        "defense": 65,
+        "sp-attack": 100,
+        "sp-defense": 120,
+        "speed": 90,
         "description": "",
         "moves": [
             "Barrier",
@@ -5372,18 +5372,18 @@
         ]
     },
     "Scyther": {
-        "id": "123",
+        "id": 123,
         "type": [
             "Bug",
             "Flying"
         ],
-        "total": "500",
-        "hp": "70",
-        "attack": "110",
-        "defense": "80",
-        "sp-attack": "55",
-        "sp-defense": "80",
-        "speed": "105",
+        "total": 500,
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "sp-attack": 55,
+        "sp-defense": 80,
+        "speed": 105,
         "description": "",
         "moves": [
             "Quick Attack",
@@ -5410,18 +5410,18 @@
         ]
     },
     "Jynx": {
-        "id": "124",
+        "id": 124,
         "type": [
             "Ice",
             "Psychic"
         ],
-        "total": "455",
-        "hp": "65",
-        "attack": "50",
-        "defense": "35",
-        "sp-attack": "115",
-        "sp-defense": "95",
-        "speed": "95",
+        "total": 455,
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "sp-attack": 115,
+        "sp-defense": 95,
+        "speed": 95,
         "description": "",
         "moves": [
             "Lovely Kiss",
@@ -5461,17 +5461,17 @@
         ]
     },
     "Electabuzz": {
-        "id": "125",
+        "id": 125,
         "type": [
             "Electric"
         ],
-        "total": "490",
-        "hp": "65",
-        "attack": "83",
-        "defense": "57",
-        "sp-attack": "95",
-        "sp-defense": "85",
-        "speed": "105",
+        "total": 490,
+        "hp": 65,
+        "attack": 83,
+        "defense": 57,
+        "sp-attack": 95,
+        "sp-defense": 85,
+        "speed": 105,
         "description": "",
         "moves": [
             "Leer",
@@ -5512,17 +5512,17 @@
         ]
     },
     "Magmar": {
-        "id": "126",
+        "id": 126,
         "type": [
             "Fire"
         ],
-        "total": "495",
-        "hp": "65",
-        "attack": "95",
-        "defense": "57",
-        "sp-attack": "100",
-        "sp-defense": "85",
-        "speed": "93",
+        "total": 495,
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "sp-attack": 100,
+        "sp-defense": 85,
+        "speed": 93,
         "description": "",
         "moves": [
             "Ember",
@@ -5558,17 +5558,17 @@
         ]
     },
     "Pinsir": {
-        "id": "127",
+        "id": 127,
         "type": [
             "Bug"
         ],
-        "total": "500",
-        "hp": "65",
-        "attack": "125",
-        "defense": "100",
-        "sp-attack": "55",
-        "sp-defense": "70",
-        "speed": "85",
+        "total": 500,
+        "hp": 65,
+        "attack": 125,
+        "defense": 100,
+        "sp-attack": 55,
+        "sp-defense": 70,
+        "speed": 85,
         "description": "",
         "moves": [
             "ViceGrip",
@@ -5597,17 +5597,17 @@
         ]
     },
     "Tauros": {
-        "id": "128",
+        "id": 128,
         "type": [
             "Normal"
         ],
-        "total": "490",
-        "hp": "75",
-        "attack": "100",
-        "defense": "95",
-        "sp-attack": "40",
-        "sp-defense": "70",
-        "speed": "110",
+        "total": 490,
+        "hp": 75,
+        "attack": 100,
+        "defense": 95,
+        "sp-attack": 40,
+        "sp-defense": 70,
+        "speed": 110,
         "description": "",
         "moves": [
             "Tackle",
@@ -5640,17 +5640,17 @@
         ]
     },
     "Magikarp": {
-        "id": "129",
+        "id": 129,
         "type": [
             "Water"
         ],
-        "total": "200",
-        "hp": "20",
-        "attack": "10",
-        "defense": "55",
-        "sp-attack": "15",
-        "sp-defense": "20",
-        "speed": "80",
+        "total": 200,
+        "hp": 20,
+        "attack": 10,
+        "defense": 55,
+        "sp-attack": 15,
+        "sp-defense": 20,
+        "speed": 80,
         "description": "",
         "moves": [
             "Splash",
@@ -5658,18 +5658,18 @@
         ]
     },
     "Gyarados": {
-        "id": "130",
+        "id": 130,
         "type": [
             "Water",
             "Flying"
         ],
-        "total": "540",
-        "hp": "95",
-        "attack": "125",
-        "defense": "79",
-        "sp-attack": "60",
-        "sp-defense": "100",
-        "speed": "81",
+        "total": 540,
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "sp-attack": 60,
+        "sp-defense": 100,
+        "speed": 81,
         "description": "",
         "moves": [
             "Bite",
@@ -5709,18 +5709,18 @@
         ]
     },
     "Lapras": {
-        "id": "131",
+        "id": 131,
         "type": [
             "Water",
             "Ice"
         ],
-        "total": "535",
-        "hp": "130",
-        "attack": "85",
-        "defense": "80",
-        "sp-attack": "85",
-        "sp-defense": "95",
-        "speed": "60",
+        "total": 535,
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "sp-attack": 85,
+        "sp-defense": 95,
+        "speed": 60,
         "description": "",
         "moves": [
             "Growl",
@@ -5760,34 +5760,34 @@
         ]
     },
     "Ditto": {
-        "id": "132",
+        "id": 132,
         "type": [
             "Normal"
         ],
-        "total": "288",
-        "hp": "48",
-        "attack": "48",
-        "defense": "48",
-        "sp-attack": "48",
-        "sp-defense": "48",
-        "speed": "48",
+        "total": 288,
+        "hp": 48,
+        "attack": 48,
+        "defense": 48,
+        "sp-attack": 48,
+        "sp-defense": 48,
+        "speed": 48,
         "description": "",
         "moves": [
             "Transform"
         ]
     },
     "Eevee": {
-        "id": "133",
+        "id": 133,
         "type": [
             "Normal"
         ],
-        "total": "325",
-        "hp": "55",
-        "attack": "55",
-        "defense": "50",
-        "sp-attack": "45",
-        "sp-defense": "65",
-        "speed": "55",
+        "total": 325,
+        "hp": 55,
+        "attack": 55,
+        "defense": 50,
+        "sp-attack": 45,
+        "sp-defense": 65,
+        "speed": 55,
         "description": "",
         "moves": [
             "Sand-Attack",
@@ -5812,17 +5812,17 @@
         ]
     },
     "Vaporeon": {
-        "id": "134",
+        "id": 134,
         "type": [
             "Water"
         ],
-        "total": "525",
-        "hp": "130",
-        "attack": "65",
-        "defense": "60",
-        "sp-attack": "110",
-        "sp-defense": "95",
-        "speed": "65",
+        "total": 525,
+        "hp": 130,
+        "attack": 65,
+        "defense": 60,
+        "sp-attack": 110,
+        "sp-defense": 95,
+        "speed": 65,
         "description": "",
         "moves": [
             "Quick Attack",
@@ -5860,17 +5860,17 @@
         ]
     },
     "Jolteon": {
-        "id": "135",
+        "id": 135,
         "type": [
             "Electric"
         ],
-        "total": "525",
-        "hp": "65",
-        "attack": "65",
-        "defense": "60",
-        "sp-attack": "110",
-        "sp-defense": "95",
-        "speed": "130",
+        "total": 525,
+        "hp": 65,
+        "attack": 65,
+        "defense": 60,
+        "sp-attack": 110,
+        "sp-defense": 95,
+        "speed": 130,
         "description": "",
         "moves": [
             "Quick Attack",
@@ -5908,17 +5908,17 @@
         ]
     },
     "Flareon": {
-        "id": "136",
+        "id": 136,
         "type": [
             "Fire"
         ],
-        "total": "525",
-        "hp": "65",
-        "attack": "130",
-        "defense": "60",
-        "sp-attack": "95",
-        "sp-defense": "110",
-        "speed": "65",
+        "total": 525,
+        "hp": 65,
+        "attack": 130,
+        "defense": 60,
+        "sp-attack": 95,
+        "sp-defense": 110,
+        "speed": 65,
         "description": "",
         "moves": [
             "Ember",
@@ -5952,17 +5952,17 @@
         ]
     },
     "Porygon": {
-        "id": "137",
+        "id": 137,
         "type": [
             "Normal"
         ],
-        "total": "395",
-        "hp": "65",
-        "attack": "60",
-        "defense": "70",
-        "sp-attack": "85",
-        "sp-defense": "75",
-        "speed": "40",
+        "total": 395,
+        "hp": 65,
+        "attack": 60,
+        "defense": 70,
+        "sp-attack": 85,
+        "sp-defense": 75,
+        "speed": 40,
         "description": "",
         "moves": [
             "Conversion",
@@ -5998,18 +5998,18 @@
         ]
     },
     "Omanyte": {
-        "id": "138",
+        "id": 138,
         "type": [
             "Rock",
             "Water"
         ],
-        "total": "355",
-        "hp": "35",
-        "attack": "40",
-        "defense": "100",
-        "sp-attack": "90",
-        "sp-defense": "55",
-        "speed": "35",
+        "total": 355,
+        "hp": 35,
+        "attack": 40,
+        "defense": 100,
+        "sp-attack": 90,
+        "sp-defense": 55,
+        "speed": 35,
         "description": "",
         "moves": [
             "Water Gun",
@@ -6037,18 +6037,18 @@
         ]
     },
     "Omastar": {
-        "id": "139",
+        "id": 139,
         "type": [
             "Rock",
             "Water"
         ],
-        "total": "495",
-        "hp": "70",
-        "attack": "60",
-        "defense": "125",
-        "sp-attack": "115",
-        "sp-defense": "70",
-        "speed": "55",
+        "total": 495,
+        "hp": 70,
+        "attack": 60,
+        "defense": 125,
+        "sp-attack": 115,
+        "sp-defense": 70,
+        "speed": 55,
         "description": "",
         "moves": [
             "Horn Attack",
@@ -6082,18 +6082,18 @@
         ]
     },
     "Kabuto": {
-        "id": "140",
+        "id": 140,
         "type": [
             "Rock",
             "Water"
         ],
-        "total": "355",
-        "hp": "30",
-        "attack": "80",
-        "defense": "90",
-        "sp-attack": "55",
-        "sp-defense": "45",
-        "speed": "55",
+        "total": 355,
+        "hp": 30,
+        "attack": 80,
+        "defense": 90,
+        "sp-attack": 55,
+        "sp-defense": 45,
+        "speed": 55,
         "description": "",
         "moves": [
             "Harden",
@@ -6121,18 +6121,18 @@
         ]
     },
     "Kabutops": {
-        "id": "141",
+        "id": 141,
         "type": [
             "Rock",
             "Water"
         ],
-        "total": "495",
-        "hp": "60",
-        "attack": "115",
-        "defense": "105",
-        "sp-attack": "65",
-        "sp-defense": "70",
-        "speed": "80",
+        "total": 495,
+        "hp": 60,
+        "attack": 115,
+        "defense": 105,
+        "sp-attack": 65,
+        "sp-defense": 70,
+        "speed": 80,
         "description": "",
         "moves": [
             "Absorb",
@@ -6168,18 +6168,18 @@
         ]
     },
     "Aerodactyl": {
-        "id": "142",
+        "id": 142,
         "type": [
             "Rock",
             "Flying"
         ],
-        "total": "515",
-        "hp": "80",
-        "attack": "105",
-        "defense": "65",
-        "sp-attack": "60",
-        "sp-defense": "75",
-        "speed": "130",
+        "total": 515,
+        "hp": 80,
+        "attack": 105,
+        "defense": 65,
+        "sp-attack": 60,
+        "sp-defense": 75,
+        "speed": 130,
         "description": "",
         "moves": [
             "Agility",
@@ -6209,17 +6209,17 @@
         ]
     },
     "Snorlax": {
-        "id": "143",
+        "id": 143,
         "type": [
             "Normal"
         ],
-        "total": "540",
-        "hp": "160",
-        "attack": "110",
-        "defense": "65",
-        "sp-attack": "65",
-        "sp-defense": "110",
-        "speed": "30",
+        "total": 540,
+        "hp": 160,
+        "attack": 110,
+        "defense": 65,
+        "sp-attack": 65,
+        "sp-defense": 110,
+        "speed": 30,
         "description": "",
         "moves": [
             "Amnesia",
@@ -6268,18 +6268,18 @@
         ]
     },
     "Articuno": {
-        "id": "144",
+        "id": 144,
         "type": [
             "Ice",
             "Flying"
         ],
-        "total": "580",
-        "hp": "90",
-        "attack": "85",
-        "defense": "100",
-        "sp-attack": "95",
-        "sp-defense": "125",
-        "speed": "85",
+        "total": 580,
+        "hp": 90,
+        "attack": 85,
+        "defense": 100,
+        "sp-attack": 95,
+        "sp-defense": 125,
+        "speed": 85,
         "description": "",
         "moves": [
             "Ice Beam",
@@ -6310,18 +6310,18 @@
         ]
     },
     "Zapdos": {
-        "id": "145",
+        "id": 145,
         "type": [
             "Electric",
             "Flying"
         ],
-        "total": "580",
-        "hp": "90",
-        "attack": "90",
-        "defense": "85",
-        "sp-attack": "125",
-        "sp-defense": "90",
-        "speed": "100",
+        "total": 580,
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "sp-attack": 125,
+        "sp-defense": 90,
+        "speed": 100,
         "description": "",
         "moves": [
             "Drill Peck",
@@ -6352,18 +6352,18 @@
         ]
     },
     "Moltres": {
-        "id": "146",
+        "id": 146,
         "type": [
             "Fire",
             "Flying"
         ],
-        "total": "580",
-        "hp": "90",
-        "attack": "100",
-        "defense": "90",
-        "sp-attack": "125",
-        "sp-defense": "85",
-        "speed": "90",
+        "total": 580,
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "sp-attack": 125,
+        "sp-defense": 85,
+        "speed": 90,
         "description": "",
         "moves": [
             "Fire Spin",
@@ -6391,17 +6391,17 @@
         ]
     },
     "Dratini": {
-        "id": "147",
+        "id": 147,
         "type": [
             "Dragon"
         ],
-        "total": "300",
-        "hp": "41",
-        "attack": "64",
-        "defense": "45",
-        "sp-attack": "50",
-        "sp-defense": "50",
-        "speed": "50",
+        "total": 300,
+        "hp": 41,
+        "attack": 64,
+        "defense": 45,
+        "sp-attack": 50,
+        "sp-defense": 50,
+        "speed": 50,
         "description": "",
         "moves": [
             "Leer",
@@ -6437,17 +6437,17 @@
         ]
     },
     "Dragonair": {
-        "id": "148",
+        "id": 148,
         "type": [
             "Dragon"
         ],
-        "total": "420",
-        "hp": "61",
-        "attack": "84",
-        "defense": "65",
-        "sp-attack": "70",
-        "sp-defense": "70",
-        "speed": "70",
+        "total": 420,
+        "hp": 61,
+        "attack": 84,
+        "defense": 65,
+        "sp-attack": 70,
+        "sp-defense": 70,
+        "speed": 70,
         "description": "",
         "moves": [
             "Leer",
@@ -6485,18 +6485,18 @@
         ]
     },
     "Dragonite": {
-        "id": "149",
+        "id": 149,
         "type": [
             "Dragon",
             "Flying"
         ],
-        "total": "600",
-        "hp": "91",
-        "attack": "134",
-        "defense": "95",
-        "sp-attack": "100",
-        "sp-defense": "100",
-        "speed": "80",
+        "total": 600,
+        "hp": 91,
+        "attack": 134,
+        "defense": 95,
+        "sp-attack": 100,
+        "sp-defense": 100,
+        "speed": 80,
         "description": "",
         "moves": [
             "Agility",
@@ -6538,17 +6538,17 @@
         ]
     },
     "Mewtwo": {
-        "id": "150",
+        "id": 150,
         "type": [
             "Psychic"
         ],
-        "total": "680",
-        "hp": "106",
-        "attack": "110",
-        "defense": "90",
-        "sp-attack": "154",
-        "sp-defense": "90",
-        "speed": "130",
+        "total": 680,
+        "hp": 106,
+        "attack": 110,
+        "defense": 90,
+        "sp-attack": 154,
+        "sp-defense": 90,
+        "speed": 130,
         "description": "",
         "moves": [
             "Confusion",
@@ -6599,17 +6599,17 @@
         ]
     },
     "Mew": {
-        "id": "151",
+        "id": 151,
         "type": [
             "Psychic"
         ],
-        "total": "600",
-        "hp": "100",
-        "attack": "100",
-        "defense": "100",
-        "sp-attack": "100",
-        "sp-defense": "100",
-        "speed": "100",
+        "total": 600,
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "sp-attack": 100,
+        "sp-defense": 100,
+        "speed": 100,
         "description": "",
         "moves": [
             "Pound",
