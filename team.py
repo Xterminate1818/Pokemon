@@ -46,4 +46,3 @@ class PlayerTeam(Team):
 			choice = input("> ")
 			self.prepped_action = int(choice)
 			return 2
-

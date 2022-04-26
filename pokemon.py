@@ -24,6 +24,7 @@ class Pokemon(StatBlock):
             print(str(i+1) + ": " + self.known_moves[i].name)
 
     def use_move(self, move, target):
+        # Damage calculation
         damage = move.get_damage(self, target)
         effectiveness = 1.0
         for t in target.types:
@@ -40,3 +41,5 @@ class Pokemon(StatBlock):
             print("It had no effect")
         print(str(damage) + " damage dealt")
         target.health -= damage
+        # Secondary effects
+        if move.dex["effects_who"] == "user":

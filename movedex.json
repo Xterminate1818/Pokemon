@@ -6,8 +6,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "User recovers half the HP inflicted on opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Acid": {
         "type": "Poison",
@@ -16,8 +19,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May lower opponent's Special Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "sp_defense",
+        "level": -0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Acid Armor": {
         "type": "Poison",
@@ -26,8 +32,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "defense",
+        "level": 1,
+        "chance": 100,
+        "status": "none"
     },
     "Agility": {
         "type": "Psychic",
@@ -36,8 +45,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Sharply raises user's Speed.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "speed",
+        "level": 1,
+        "chance": 100,
+        "status": "none"
     },
     "Amnesia": {
         "type": "Psychic",
@@ -46,8 +58,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Special Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "sp_defense",
+        "level": 1,
+        "chance": 100,
+        "status": "none"
     },
     "Aurora Beam": {
         "type": "Ice",
@@ -56,8 +71,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May lower opponent's Attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "attack",
+        "level": -0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Barrage": {
         "type": "Normal",
@@ -66,8 +84,11 @@
         "accuracy": "85",
         "pp": "20",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Barrier": {
         "type": "Psychic",
@@ -76,8 +97,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "defense",
+        "level": 1,
+        "chance": 100,
+        "status": "none"
     },
     "Bide": {
         "type": "Normal",
@@ -86,8 +110,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User takes damage for two turns then strikes back double.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Bind": {
         "type": "Normal",
@@ -96,8 +123,11 @@
         "accuracy": "85",
         "pp": "20",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Bite": {
         "type": "Dark",
@@ -106,8 +136,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Blizzard": {
         "type": "Ice",
@@ -116,8 +149,11 @@
         "accuracy": "70",
         "pp": "5",
         "description": "May freeze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Freeze"
     },
     "Body Slam": {
         "type": "Normal",
@@ -126,8 +162,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May paralyze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Paralyze"
     },
     "Bone Club": {
         "type": "Ground",
@@ -136,8 +175,11 @@
         "accuracy": "85",
         "pp": "20",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Bonemerang": {
         "type": "Ground",
@@ -146,8 +188,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Hits twice in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Bubble": {
         "type": "Water",
@@ -156,8 +201,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May lower opponent's Speed.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "speed",
+        "level": -0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Bubble Beam": {
         "type": "Water",
@@ -166,8 +214,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May lower opponent's Speed.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "speed",
+        "level": -0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Clamp": {
         "type": "Water",
@@ -176,8 +227,11 @@
         "accuracy": "85",
         "pp": "15",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Comet Punch": {
         "type": "Normal",
@@ -186,8 +240,11 @@
         "accuracy": "85",
         "pp": "15",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Confuse Ray": {
         "type": "Ghost",
@@ -196,8 +253,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Confuses opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Confuse"
     },
     "Confusion": {
         "type": "Psychic",
@@ -206,8 +266,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "May confuse opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Confuse"
     },
     "Constrict": {
         "type": "Normal",
@@ -216,8 +279,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "May lower opponent's Speed by one stage.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "speed",
+        "level": -0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Conversion": {
         "type": "Normal",
@@ -226,8 +292,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Changes user's type to that of its first move.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Counter": {
         "type": "Fighting",
@@ -236,8 +305,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "When hit by a Physical Attack, user strikes back with 2x power.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Crabhammer": {
         "type": "Water",
@@ -246,8 +318,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "High critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Cut": {
         "type": "Normal",
@@ -256,8 +331,11 @@
         "accuracy": "95",
         "pp": "30",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Defense Curl": {
         "type": "Normal",
@@ -266,8 +344,11 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Raises user's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "defense",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Dig": {
         "type": "Ground",
@@ -276,8 +357,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Digs underground on first turn, attacks on second. Can also escape from caves.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Disable": {
         "type": "Normal",
@@ -286,8 +370,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Opponent can't use its last attack for a few turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Dizzy Punch": {
         "type": "Normal",
@@ -296,8 +383,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May confuse opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Confuse"
     },
     "Double Kick": {
         "type": "Fighting",
@@ -306,8 +396,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Hits twice in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Double Slap": {
         "type": "Normal",
@@ -316,8 +409,11 @@
         "accuracy": "85",
         "pp": "10",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Double Team": {
         "type": "Normal",
@@ -326,8 +422,11 @@
         "accuracy": "-",
         "pp": "15",
         "description": "Raises user's Evasiveness.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Double-Edge": {
         "type": "Normal",
@@ -336,8 +435,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "User receives recoil damage.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Dragon Rage": {
         "type": "Dragon",
@@ -346,8 +448,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Always inflicts 40 HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Dream Eater": {
         "type": "Psychic",
@@ -356,8 +461,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "User recovers half the HP inflicted on a sleeping opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Drill Peck": {
         "type": "Flying",
@@ -366,8 +474,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Earthquake": {
         "type": "Ground",
@@ -376,8 +487,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Power is doubled if opponent is underground from using Dig.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Egg Bomb": {
         "type": "Normal",
@@ -386,8 +500,11 @@
         "accuracy": "75",
         "pp": "10",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Ember": {
         "type": "Fire",
@@ -396,8 +513,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "May burn opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Burn"
     },
     "Explosion": {
         "type": "Normal",
@@ -406,8 +526,11 @@
         "accuracy": "100",
         "pp": "5",
         "description": "User faints.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Fire Blast": {
         "type": "Fire",
@@ -416,8 +539,11 @@
         "accuracy": "85",
         "pp": "5",
         "description": "May burn opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Burn"
     },
     "Fire Punch": {
         "type": "Fire",
@@ -426,8 +552,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May burn opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Burn"
     },
     "Fire Spin": {
         "type": "Fire",
@@ -436,8 +565,11 @@
         "accuracy": "85",
         "pp": "15",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Fissure": {
         "type": "Ground",
@@ -446,8 +578,11 @@
         "accuracy": "30",
         "pp": "5",
         "description": "One-Hit-KO, if it hits.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Flamethrower": {
         "type": "Fire",
@@ -456,8 +591,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May burn opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Burn"
     },
     "Flash": {
         "type": "Normal",
@@ -466,8 +604,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Lowers opponent's Accuracy.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Fly": {
         "type": "Flying",
@@ -476,8 +617,11 @@
         "accuracy": "95",
         "pp": "15",
         "description": "Flies up on first turn, attacks on second turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Focus Energy": {
         "type": "Normal",
@@ -486,8 +630,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Increases critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Fury Attack": {
         "type": "Normal",
@@ -496,8 +643,11 @@
         "accuracy": "85",
         "pp": "20",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Fury Swipes": {
         "type": "Normal",
@@ -506,8 +656,11 @@
         "accuracy": "80",
         "pp": "15",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Glare": {
         "type": "Normal",
@@ -516,8 +669,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Paralyzes opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Paralyze"
     },
     "Growl": {
         "type": "Normal",
@@ -526,8 +682,11 @@
         "accuracy": "100",
         "pp": "40",
         "description": "Lowers opponent's Attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "attack",
+        "level": -0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Growth": {
         "type": "Normal",
@@ -536,8 +695,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Raises user's Attack and Special Attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "sp_attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Guillotine": {
         "type": "Normal",
@@ -546,8 +708,11 @@
         "accuracy": "30",
         "pp": "5",
         "description": "One-Hit-KO, if it hits.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Gust": {
         "type": "Flying",
@@ -556,8 +721,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "Hits Pok\u00e9mon using Fly/Bounce with double power.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Harden": {
         "type": "Normal",
@@ -566,8 +734,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Raises user's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "defense",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Haze": {
         "type": "Ice",
@@ -576,8 +747,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Resets all stat changes.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Headbutt": {
         "type": "Normal",
@@ -586,8 +760,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "High Jump Kick": {
         "type": "Fighting",
@@ -596,8 +773,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "If it misses, the user loses half their HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Horn Attack": {
         "type": "Normal",
@@ -606,8 +786,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Horn Drill": {
         "type": "Normal",
@@ -616,8 +799,11 @@
         "accuracy": "30",
         "pp": "5",
         "description": "One-Hit-KO, if it hits.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Hydro Pump": {
         "type": "Water",
@@ -626,8 +812,11 @@
         "accuracy": "80",
         "pp": "5",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Hyper Beam": {
         "type": "Normal",
@@ -636,8 +825,11 @@
         "accuracy": "90",
         "pp": "5",
         "description": "User must recharge next turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Hyper Fang": {
         "type": "Normal",
@@ -646,8 +838,11 @@
         "accuracy": "90",
         "pp": "15",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Hypnosis": {
         "type": "Psychic",
@@ -656,8 +851,11 @@
         "accuracy": "60",
         "pp": "20",
         "description": "Puts opponent to sleep.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Ice Beam": {
         "type": "Ice",
@@ -666,8 +864,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May freeze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Freeze"
     },
     "Ice Punch": {
         "type": "Ice",
@@ -676,8 +877,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May freeze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Freeze"
     },
     "Jump Kick": {
         "type": "Fighting",
@@ -686,8 +890,11 @@
         "accuracy": "95",
         "pp": "10",
         "description": "If it misses, the user loses half their HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Karate Chop": {
         "type": "Fighting",
@@ -696,8 +903,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "High critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Kinesis": {
         "type": "Psychic",
@@ -706,8 +916,11 @@
         "accuracy": "80",
         "pp": "15",
         "description": "Lowers opponent's Accuracy.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Leech Life": {
         "type": "Bug",
@@ -716,8 +929,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "User recovers half the HP inflicted on opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Leech Seed": {
         "type": "Grass",
@@ -726,8 +942,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Drains HP from opponent each turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Leer": {
         "type": "Normal",
@@ -736,8 +955,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Lowers opponent's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "defense",
+        "level": -0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Lick": {
         "type": "Ghost",
@@ -746,8 +968,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May paralyze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Paralyze"
     },
     "Light Screen": {
         "type": "Psychic",
@@ -756,8 +981,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Halves damage from Special attacks for 5 turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "sp_attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Lovely Kiss": {
         "type": "Normal",
@@ -766,8 +994,11 @@
         "accuracy": "75",
         "pp": "10",
         "description": "Puts opponent to sleep.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Low Kick": {
         "type": "Fighting",
@@ -776,8 +1007,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "The heavier the opponent, the stronger the attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Meditate": {
         "type": "Psychic",
@@ -786,8 +1020,11 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Raises user's Attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Mega Drain": {
         "type": "Grass",
@@ -796,8 +1033,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "User recovers half the HP inflicted on opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Mega Kick": {
         "type": "Normal",
@@ -806,8 +1046,11 @@
         "accuracy": "75",
         "pp": "5",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Mega Punch": {
         "type": "Normal",
@@ -816,8 +1059,11 @@
         "accuracy": "85",
         "pp": "20",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Metronome": {
         "type": "Normal",
@@ -826,8 +1072,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User performs almost any move in the game at random.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Mimic": {
         "type": "Normal",
@@ -836,8 +1085,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "Copies the opponent's last move.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Minimize": {
         "type": "Normal",
@@ -846,8 +1098,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "Sharply raises user's Evasiveness.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 1,
+        "chance": 100,
+        "status": "none"
     },
     "Mirror Move": {
         "type": "Flying",
@@ -856,8 +1111,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "User performs the opponent's last move.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Mist": {
         "type": "Ice",
@@ -866,8 +1124,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "User's stats cannot be changed for a period of time.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Night Shade": {
         "type": "Ghost",
@@ -876,8 +1137,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Inflicts damage equal to user's level.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Pay Day": {
         "type": "Normal",
@@ -886,8 +1150,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "A small amount of money is gained after the battle resolves.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Peck": {
         "type": "Flying",
@@ -896,8 +1163,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Petal Dance": {
         "type": "Grass",
@@ -906,8 +1176,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "User attacks for 2-3 turns but then becomes confused.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "Confuse"
     },
     "Pin Missile": {
         "type": "Bug",
@@ -916,8 +1189,11 @@
         "accuracy": "95",
         "pp": "20",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Poison Gas": {
         "type": "Poison",
@@ -926,8 +1202,11 @@
         "accuracy": "90",
         "pp": "40",
         "description": "Poisons opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Poison"
     },
     "Poison Powder": {
         "type": "Poison",
@@ -936,8 +1215,11 @@
         "accuracy": "75",
         "pp": "35",
         "description": "Poisons opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Poison"
     },
     "Poison Sting": {
         "type": "Poison",
@@ -946,8 +1228,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "May poison the opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Poison"
     },
     "Pound": {
         "type": "Normal",
@@ -956,8 +1241,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Psybeam": {
         "type": "Psychic",
@@ -966,8 +1254,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May confuse opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Confuse"
     },
     "Psychic": {
         "type": "Psychic",
@@ -976,8 +1267,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May lower opponent's Special Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "sp_defense",
+        "level": -0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Psywave": {
         "type": "Psychic",
@@ -986,8 +1280,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Inflicts damage 50-150% of user's level.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Quick Attack": {
         "type": "Normal",
@@ -996,8 +1293,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "User attacks first.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Rage": {
         "type": "Normal",
@@ -1006,8 +1306,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Raises user's Attack when hit.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Razor Leaf": {
         "type": "Grass",
@@ -1016,8 +1319,11 @@
         "accuracy": "95",
         "pp": "25",
         "description": "High critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Razor Wind": {
         "type": "Normal",
@@ -1026,8 +1332,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Charges on first turn, attacks on second. High critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Recover": {
         "type": "Normal",
@@ -1036,8 +1345,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User recovers half its max HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Reflect": {
         "type": "Psychic",
@@ -1046,8 +1358,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Halves damage from Physical attacks for 5 turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Rest": {
         "type": "Psychic",
@@ -1056,8 +1371,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User sleeps for 2 turns, but user is fully healed.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Roar": {
         "type": "Normal",
@@ -1066,8 +1384,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "In battles, the opponent switches. In the wild, the Pok\u00e9mon runs.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Rock Slide": {
         "type": "Rock",
@@ -1076,8 +1397,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Rock Throw": {
         "type": "Rock",
@@ -1086,8 +1410,11 @@
         "accuracy": "90",
         "pp": "15",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Rolling Kick": {
         "type": "Fighting",
@@ -1096,8 +1423,11 @@
         "accuracy": "85",
         "pp": "15",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Sand Attack": {
         "type": "Ground",
@@ -1106,8 +1436,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Lowers opponent's Accuracy.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Scratch": {
         "type": "Normal",
@@ -1116,8 +1449,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Screech": {
         "type": "Normal",
@@ -1126,8 +1462,11 @@
         "accuracy": "85",
         "pp": "40",
         "description": "Sharply lowers opponent's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "defense",
+        "level": -1,
+        "chance": 100,
+        "status": "none"
     },
     "Seismic Toss": {
         "type": "Fighting",
@@ -1136,8 +1475,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Inflicts damage equal to user's level.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Self-Destruct": {
         "type": "Normal",
@@ -1146,8 +1488,11 @@
         "accuracy": "100",
         "pp": "5",
         "description": "User faints.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Sharpen": {
         "type": "Normal",
@@ -1156,8 +1501,11 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Raises user's Attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Sing": {
         "type": "Normal",
@@ -1166,8 +1514,11 @@
         "accuracy": "55",
         "pp": "15",
         "description": "Puts opponent to sleep.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Skull Bash": {
         "type": "Normal",
@@ -1176,8 +1527,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Raises Defense on first turn, attacks on second.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Sky Attack": {
         "type": "Flying",
@@ -1186,8 +1540,11 @@
         "accuracy": "90",
         "pp": "5",
         "description": "Charges on first turn, attacks on second. May cause flinching. High critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 10,
+        "status": "none"
     },
     "Slam": {
         "type": "Normal",
@@ -1196,8 +1553,11 @@
         "accuracy": "75",
         "pp": "20",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Slash": {
         "type": "Normal",
@@ -1206,8 +1566,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "High critical hit ratio.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Sleep Powder": {
         "type": "Grass",
@@ -1216,8 +1579,11 @@
         "accuracy": "75",
         "pp": "15",
         "description": "Puts opponent to sleep.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Sludge": {
         "type": "Poison",
@@ -1226,8 +1592,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May poison opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Poison"
     },
     "Smog": {
         "type": "Poison",
@@ -1236,8 +1605,11 @@
         "accuracy": "70",
         "pp": "20",
         "description": "May poison opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Poison"
     },
     "Smokescreen": {
         "type": "Normal",
@@ -1246,8 +1618,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Lowers opponent's Accuracy.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Soft-Boiled": {
         "type": "Normal",
@@ -1256,8 +1631,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User recovers half its max HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Solar Beam": {
         "type": "Grass",
@@ -1266,8 +1644,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Charges on first turn, attacks on second.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Sonic Boom": {
         "type": "Normal",
@@ -1276,8 +1657,11 @@
         "accuracy": "90",
         "pp": "20",
         "description": "Always inflicts 20 HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Spike Cannon": {
         "type": "Normal",
@@ -1286,8 +1670,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Hits 2-5 times in one turn.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Splash": {
         "type": "Normal",
@@ -1296,8 +1683,11 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Doesn't do ANYTHING.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Spore": {
         "type": "Grass",
@@ -1306,8 +1696,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Puts opponent to sleep.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Sleep"
     },
     "Stomp": {
         "type": "Normal",
@@ -1316,8 +1709,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Strength": {
         "type": "Normal",
@@ -1326,8 +1722,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "String Shot": {
         "type": "Bug",
@@ -1336,8 +1735,11 @@
         "accuracy": "95",
         "pp": "40",
         "description": "Sharply lowers opponent's Speed.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "speed",
+        "level": -1,
+        "chance": 100,
+        "status": "none"
     },
     "Struggle": {
         "type": "Normal",
@@ -1346,8 +1748,11 @@
         "accuracy": "-",
         "pp": "-",
         "description": "Only usable when all PP are gone. Hurts the user.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Stun Spore": {
         "type": "Grass",
@@ -1356,8 +1761,11 @@
         "accuracy": "75",
         "pp": "30",
         "description": "Paralyzes opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Paralyze"
     },
     "Submission": {
         "type": "Fighting",
@@ -1366,8 +1774,11 @@
         "accuracy": "80",
         "pp": "20",
         "description": "User receives recoil damage.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Substitute": {
         "type": "Normal",
@@ -1376,8 +1787,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "Uses HP to creates a decoy that takes hits.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Super Fang": {
         "type": "Normal",
@@ -1386,8 +1800,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Always takes off half of the opponent's HP.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Supersonic": {
         "type": "Normal",
@@ -1396,8 +1813,11 @@
         "accuracy": "55",
         "pp": "20",
         "description": "Confuses opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Confuse"
     },
     "Surf": {
         "type": "Water",
@@ -1406,8 +1826,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Hits all adjacent Pok\u00e9mon.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Swift": {
         "type": "Normal",
@@ -1416,8 +1839,11 @@
         "accuracy": "\u221e",
         "pp": "20",
         "description": "Ignores Accuracy and Evasiveness.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Swords Dance": {
         "type": "Normal",
@@ -1426,8 +1852,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Attack.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 1,
+        "chance": 100,
+        "status": "none"
     },
     "Tackle": {
         "type": "Normal",
@@ -1436,8 +1865,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Tail Whip": {
         "type": "Normal",
@@ -1446,8 +1878,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Lowers opponent's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "defense",
+        "level": -0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Take Down": {
         "type": "Normal",
@@ -1456,8 +1891,11 @@
         "accuracy": "85",
         "pp": "20",
         "description": "User receives recoil damage.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Teleport": {
         "type": "Psychic",
@@ -1466,8 +1904,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Allows user to flee wild battles; also warps player to last Pok\u00e9Center.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Thrash": {
         "type": "Normal",
@@ -1476,8 +1917,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "User attacks for 2-3 turns but then becomes confused.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "Confuse"
     },
     "Thunder": {
         "type": "Electric",
@@ -1486,8 +1930,11 @@
         "accuracy": "70",
         "pp": "10",
         "description": "May paralyze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Paralyze"
     },
     "Thunder Punch": {
         "type": "Electric",
@@ -1496,8 +1943,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May paralyze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Paralyze"
     },
     "Thunder Shock": {
         "type": "Electric",
@@ -1506,8 +1956,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May paralyze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Paralyze"
     },
     "Thunder Wave": {
         "type": "Electric",
@@ -1516,8 +1969,11 @@
         "accuracy": "90",
         "pp": "20",
         "description": "Paralyzes opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Paralyze"
     },
     "Thunderbolt": {
         "type": "Electric",
@@ -1526,8 +1982,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May paralyze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Paralyze"
     },
     "Toxic": {
         "type": "Poison",
@@ -1536,8 +1995,11 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Badly poisons opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "Poison"
     },
     "Transform": {
         "type": "Normal",
@@ -1546,8 +2008,11 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User takes on the form and attacks of the opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "attack",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Tri Attack": {
         "type": "Normal",
@@ -1556,8 +2021,11 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May paralyze, burn or freeze opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Burn"
     },
     "Twineedle": {
         "type": "Bug",
@@ -1566,8 +2034,11 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Hits twice in one turn. May poison opponent.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "Poison"
     },
     "Vine Whip": {
         "type": "Grass",
@@ -1576,8 +2047,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Vise Grip": {
         "type": "Normal",
@@ -1586,8 +2060,11 @@
         "accuracy": "100",
         "pp": "30",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Water Gun": {
         "type": "Water",
@@ -1596,8 +2073,11 @@
         "accuracy": "100",
         "pp": "25",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Waterfall": {
         "type": "Water",
@@ -1606,8 +2086,11 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May cause flinching.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 10,
+        "status": "none"
     },
     "Whirlwind": {
         "type": "Normal",
@@ -1616,8 +2099,11 @@
         "accuracy": "-",
         "pp": "20",
         "description": "In battles, the opponent switches. In the wild, the Pok\u00e9mon runs.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Wing Attack": {
         "type": "Flying",
@@ -1626,8 +2112,11 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     },
     "Withdraw": {
         "type": "Water",
@@ -1636,8 +2125,11 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Raises user's Defense.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "user",
+        "stat_effected": "defense",
+        "level": 0.5,
+        "chance": 100,
+        "status": "none"
     },
     "Wrap": {
         "type": "Normal",
@@ -1646,7 +2138,10 @@
         "accuracy": "90",
         "pp": "20",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "user_effects": [],
-        "target_effects": []
+        "effects_who": "opponent",
+        "stat_effected": "none",
+        "level": 0,
+        "chance": 100,
+        "status": "none"
     }
 }

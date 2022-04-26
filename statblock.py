@@ -2,11 +2,11 @@ import database
 
 
 class Status:
-    PAR = "Paralyzed"
-    PSN = "Poisoned"
-    BRN = "Burned"
-    FRZ = "Frozen"
-    CFD = "Confused"
+    PAR = "Paralyze"
+    PSN = "Poison"
+    BRN = "Burn"
+    FRZ = "Freeze"
+    CFD = "Confuse"
 
     def __init__(self, id, length):
         self.id: int = id
@@ -32,6 +32,7 @@ class StatBlock:
             "sp_defense": 0,
             "speed": 0
         }
+        self.statuses = []
         self.level = 100
 
     def __gt__(self, other):
@@ -39,6 +40,16 @@ class StatBlock:
 
     def __lt__(self, other):
         return self.get("speed") < other.get("speed")
+
+    def on_switch(self):
+        self.stat_stages = {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "sp_attack": 0,
+            "sp_defense": 0,
+            "speed": 0
+        }
 
     def get(self, key):
         ret = self.stats[key]

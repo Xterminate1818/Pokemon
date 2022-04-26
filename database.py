@@ -74,6 +74,52 @@ if __name__ == "__main__":
         with open("pokedex.json", "w") as outfile:
             outfile.write(json.dumps(dump, indent=4))
 
+    def parse_description(desc):
+        desc = desc.lower()
+        effects_who = "none"
+        stat_effected = "none"
+        level = 0
+        chance = 100
+        status = "none"
+        # Who to effect
+        if "user" in desc:
+            effecst_who = "user"
+        elif "opponent" in desc:
+            effects_who = "opponent"
+        # Stat changes
+        if "special attack" in desc:
+            stat_effected = "sp_attack"
+        elif "special defense" in desc:
+            stat_effected = "sp_defense"
+        elif "attack" in desc:
+            stat_effected = "attack"
+        elif "defense" in desc:
+            stat_effected = "defense"
+        elif "speed" in desc:
+            stat_effected = "speed"
+        if stat_effected != "none":
+            level = 0.5
+        if "sharply" in desc:
+            level = 1
+        if "lower" in desc:
+            level = -level
+        # All moves marked as 'may' have a 10% chance
+        if "may" in desc:
+            chance = 10
+        # Status effects
+        if "paralyze" in desc:
+            status = "Paralyze"
+        if "sleep" in desc:
+            status = "Sleep"
+        if "confuse" in desc:
+            status = "Confuse"
+        if "freeze" in desc:
+            status = "Freeze"
+        if "burn" in desc:
+            status = "Burn"
+        if "poison" in desc:
+            status = "Poison"
+        return [effects_who, stat_effected, level, chance, status]
 
     def generate_movedex():
         # Grab html
@@ -88,6 +134,7 @@ if __name__ == "__main__":
         dump = {}
         for move in rows:
             info = move.find_all("td")
+            effects = parse_description(info[6].text)
             temp = {
                 "type": info[1].text,
                 "category": info[2].get("data-sort-value"),
@@ -95,8 +142,11 @@ if __name__ == "__main__":
                 "accuracy": info[4].text.replace("\u2014", "-"),
                 "pp": info[5].text.replace("\u2014", "-"),
                 "description": info[6].text,
-                "user_effects": [],
-                "target_effects": []
+                "effects_who": effects[0],
+                "stat_effected": effects[1],
+                "level": effects[2],
+                "chance": effects[3],
+                "status": effects[4],
             }
             dump[info[0].text] = temp
         # Write to output file
@@ -127,6 +177,6 @@ if __name__ == "__main__":
         with open("typechart.json", "w") as outfile:
             outfile.write(json.dumps(dump, indent=4))
 
-    #generate_pokedex()
+    generate_pokedex()
     #generate_movedex()
     #generate_typechart()
