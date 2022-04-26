@@ -6,7 +6,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "User recovers half the HP inflicted on opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Acid": {
         "type": "Poison",
@@ -15,7 +16,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May lower opponent's Special Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Acid Armor": {
         "type": "Poison",
@@ -24,7 +26,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Agility": {
         "type": "Psychic",
@@ -33,7 +36,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Sharply raises user's Speed.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Amnesia": {
         "type": "Psychic",
@@ -42,7 +46,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Special Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Aurora Beam": {
         "type": "Ice",
@@ -51,7 +56,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May lower opponent's Attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Barrage": {
         "type": "Normal",
@@ -60,7 +66,8 @@
         "accuracy": "85",
         "pp": "20",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Barrier": {
         "type": "Psychic",
@@ -69,7 +76,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bide": {
         "type": "Normal",
@@ -78,7 +86,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User takes damage for two turns then strikes back double.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bind": {
         "type": "Normal",
@@ -87,7 +96,8 @@
         "accuracy": "85",
         "pp": "20",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bite": {
         "type": "Dark",
@@ -96,7 +106,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Blizzard": {
         "type": "Ice",
@@ -105,7 +116,8 @@
         "accuracy": "70",
         "pp": "5",
         "description": "May freeze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Body Slam": {
         "type": "Normal",
@@ -114,7 +126,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May paralyze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bone Club": {
         "type": "Ground",
@@ -123,7 +136,8 @@
         "accuracy": "85",
         "pp": "20",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bonemerang": {
         "type": "Ground",
@@ -132,7 +146,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Hits twice in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bubble": {
         "type": "Water",
@@ -141,7 +156,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May lower opponent's Speed.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Bubble Beam": {
         "type": "Water",
@@ -150,7 +166,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May lower opponent's Speed.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Clamp": {
         "type": "Water",
@@ -159,7 +176,8 @@
         "accuracy": "85",
         "pp": "15",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Comet Punch": {
         "type": "Normal",
@@ -168,7 +186,8 @@
         "accuracy": "85",
         "pp": "15",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Confuse Ray": {
         "type": "Ghost",
@@ -177,7 +196,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Confuses opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Confusion": {
         "type": "Psychic",
@@ -186,7 +206,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "May confuse opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Constrict": {
         "type": "Normal",
@@ -195,7 +216,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "May lower opponent's Speed by one stage.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Conversion": {
         "type": "Normal",
@@ -204,7 +226,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Changes user's type to that of its first move.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Counter": {
         "type": "Fighting",
@@ -213,7 +236,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "When hit by a Physical Attack, user strikes back with 2x power.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Crabhammer": {
         "type": "Water",
@@ -222,7 +246,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "High critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Cut": {
         "type": "Normal",
@@ -231,7 +256,8 @@
         "accuracy": "95",
         "pp": "30",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Defense Curl": {
         "type": "Normal",
@@ -240,7 +266,8 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Raises user's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Dig": {
         "type": "Ground",
@@ -249,7 +276,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Digs underground on first turn, attacks on second. Can also escape from caves.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Disable": {
         "type": "Normal",
@@ -258,7 +286,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Opponent can't use its last attack for a few turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Dizzy Punch": {
         "type": "Normal",
@@ -267,7 +296,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May confuse opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Double Kick": {
         "type": "Fighting",
@@ -276,7 +306,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Hits twice in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Double Slap": {
         "type": "Normal",
@@ -285,7 +316,8 @@
         "accuracy": "85",
         "pp": "10",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Double Team": {
         "type": "Normal",
@@ -294,7 +326,8 @@
         "accuracy": "-",
         "pp": "15",
         "description": "Raises user's Evasiveness.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Double-Edge": {
         "type": "Normal",
@@ -303,7 +336,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "User receives recoil damage.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Dragon Rage": {
         "type": "Dragon",
@@ -312,7 +346,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Always inflicts 40 HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Dream Eater": {
         "type": "Psychic",
@@ -321,7 +356,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "User recovers half the HP inflicted on a sleeping opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Drill Peck": {
         "type": "Flying",
@@ -330,7 +366,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Earthquake": {
         "type": "Ground",
@@ -339,7 +376,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Power is doubled if opponent is underground from using Dig.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Egg Bomb": {
         "type": "Normal",
@@ -348,7 +386,8 @@
         "accuracy": "75",
         "pp": "10",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Ember": {
         "type": "Fire",
@@ -357,7 +396,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "May burn opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Explosion": {
         "type": "Normal",
@@ -366,7 +406,8 @@
         "accuracy": "100",
         "pp": "5",
         "description": "User faints.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fire Blast": {
         "type": "Fire",
@@ -375,7 +416,8 @@
         "accuracy": "85",
         "pp": "5",
         "description": "May burn opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fire Punch": {
         "type": "Fire",
@@ -384,7 +426,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May burn opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fire Spin": {
         "type": "Fire",
@@ -393,7 +436,8 @@
         "accuracy": "85",
         "pp": "15",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fissure": {
         "type": "Ground",
@@ -402,7 +446,8 @@
         "accuracy": "30",
         "pp": "5",
         "description": "One-Hit-KO, if it hits.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Flamethrower": {
         "type": "Fire",
@@ -411,7 +456,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May burn opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Flash": {
         "type": "Normal",
@@ -420,7 +466,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Lowers opponent's Accuracy.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fly": {
         "type": "Flying",
@@ -429,7 +476,8 @@
         "accuracy": "95",
         "pp": "15",
         "description": "Flies up on first turn, attacks on second turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Focus Energy": {
         "type": "Normal",
@@ -438,7 +486,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Increases critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fury Attack": {
         "type": "Normal",
@@ -447,7 +496,8 @@
         "accuracy": "85",
         "pp": "20",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Fury Swipes": {
         "type": "Normal",
@@ -456,7 +506,8 @@
         "accuracy": "80",
         "pp": "15",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Glare": {
         "type": "Normal",
@@ -465,7 +516,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Paralyzes opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Growl": {
         "type": "Normal",
@@ -474,7 +526,8 @@
         "accuracy": "100",
         "pp": "40",
         "description": "Lowers opponent's Attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Growth": {
         "type": "Normal",
@@ -483,7 +536,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Raises user's Attack and Special Attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Guillotine": {
         "type": "Normal",
@@ -492,7 +546,8 @@
         "accuracy": "30",
         "pp": "5",
         "description": "One-Hit-KO, if it hits.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Gust": {
         "type": "Flying",
@@ -501,7 +556,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "Hits Pok\u00e9mon using Fly/Bounce with double power.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Harden": {
         "type": "Normal",
@@ -510,7 +566,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Raises user's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Haze": {
         "type": "Ice",
@@ -519,7 +576,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Resets all stat changes.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Headbutt": {
         "type": "Normal",
@@ -528,7 +586,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "High Jump Kick": {
         "type": "Fighting",
@@ -537,7 +596,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "If it misses, the user loses half their HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Horn Attack": {
         "type": "Normal",
@@ -546,7 +606,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Horn Drill": {
         "type": "Normal",
@@ -555,7 +616,8 @@
         "accuracy": "30",
         "pp": "5",
         "description": "One-Hit-KO, if it hits.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Hydro Pump": {
         "type": "Water",
@@ -564,7 +626,8 @@
         "accuracy": "80",
         "pp": "5",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Hyper Beam": {
         "type": "Normal",
@@ -573,7 +636,8 @@
         "accuracy": "90",
         "pp": "5",
         "description": "User must recharge next turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Hyper Fang": {
         "type": "Normal",
@@ -582,7 +646,8 @@
         "accuracy": "90",
         "pp": "15",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Hypnosis": {
         "type": "Psychic",
@@ -591,7 +656,8 @@
         "accuracy": "60",
         "pp": "20",
         "description": "Puts opponent to sleep.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Ice Beam": {
         "type": "Ice",
@@ -600,7 +666,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May freeze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Ice Punch": {
         "type": "Ice",
@@ -609,7 +676,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May freeze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Jump Kick": {
         "type": "Fighting",
@@ -618,7 +686,8 @@
         "accuracy": "95",
         "pp": "10",
         "description": "If it misses, the user loses half their HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Karate Chop": {
         "type": "Fighting",
@@ -627,7 +696,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "High critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Kinesis": {
         "type": "Psychic",
@@ -636,7 +706,8 @@
         "accuracy": "80",
         "pp": "15",
         "description": "Lowers opponent's Accuracy.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Leech Life": {
         "type": "Bug",
@@ -645,7 +716,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "User recovers half the HP inflicted on opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Leech Seed": {
         "type": "Grass",
@@ -654,7 +726,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Drains HP from opponent each turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Leer": {
         "type": "Normal",
@@ -663,7 +736,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Lowers opponent's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Lick": {
         "type": "Ghost",
@@ -672,7 +746,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May paralyze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Light Screen": {
         "type": "Psychic",
@@ -681,7 +756,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Halves damage from Special attacks for 5 turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Lovely Kiss": {
         "type": "Normal",
@@ -690,7 +766,8 @@
         "accuracy": "75",
         "pp": "10",
         "description": "Puts opponent to sleep.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Low Kick": {
         "type": "Fighting",
@@ -699,7 +776,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "The heavier the opponent, the stronger the attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Meditate": {
         "type": "Psychic",
@@ -708,7 +786,8 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Raises user's Attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Mega Drain": {
         "type": "Grass",
@@ -717,7 +796,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "User recovers half the HP inflicted on opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Mega Kick": {
         "type": "Normal",
@@ -726,7 +806,8 @@
         "accuracy": "75",
         "pp": "5",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Mega Punch": {
         "type": "Normal",
@@ -735,7 +816,8 @@
         "accuracy": "85",
         "pp": "20",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Metronome": {
         "type": "Normal",
@@ -744,7 +826,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User performs almost any move in the game at random.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Mimic": {
         "type": "Normal",
@@ -753,7 +836,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "Copies the opponent's last move.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Minimize": {
         "type": "Normal",
@@ -762,7 +846,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "Sharply raises user's Evasiveness.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Mirror Move": {
         "type": "Flying",
@@ -771,7 +856,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "User performs the opponent's last move.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Mist": {
         "type": "Ice",
@@ -780,7 +866,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "User's stats cannot be changed for a period of time.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Night Shade": {
         "type": "Ghost",
@@ -789,7 +876,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Inflicts damage equal to user's level.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Pay Day": {
         "type": "Normal",
@@ -798,7 +886,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "A small amount of money is gained after the battle resolves.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Peck": {
         "type": "Flying",
@@ -807,7 +896,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Petal Dance": {
         "type": "Grass",
@@ -816,7 +906,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "User attacks for 2-3 turns but then becomes confused.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Pin Missile": {
         "type": "Bug",
@@ -825,7 +916,8 @@
         "accuracy": "95",
         "pp": "20",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Poison Gas": {
         "type": "Poison",
@@ -834,7 +926,8 @@
         "accuracy": "90",
         "pp": "40",
         "description": "Poisons opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Poison Powder": {
         "type": "Poison",
@@ -843,7 +936,8 @@
         "accuracy": "75",
         "pp": "35",
         "description": "Poisons opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Poison Sting": {
         "type": "Poison",
@@ -852,7 +946,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "May poison the opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Pound": {
         "type": "Normal",
@@ -861,7 +956,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Psybeam": {
         "type": "Psychic",
@@ -870,7 +966,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May confuse opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Psychic": {
         "type": "Psychic",
@@ -879,7 +976,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May lower opponent's Special Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Psywave": {
         "type": "Psychic",
@@ -888,7 +986,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Inflicts damage 50-150% of user's level.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Quick Attack": {
         "type": "Normal",
@@ -897,7 +996,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "User attacks first.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Rage": {
         "type": "Normal",
@@ -906,7 +1006,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Raises user's Attack when hit.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Razor Leaf": {
         "type": "Grass",
@@ -915,7 +1016,8 @@
         "accuracy": "95",
         "pp": "25",
         "description": "High critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Razor Wind": {
         "type": "Normal",
@@ -924,7 +1026,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Charges on first turn, attacks on second. High critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Recover": {
         "type": "Normal",
@@ -933,7 +1036,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User recovers half its max HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Reflect": {
         "type": "Psychic",
@@ -942,7 +1046,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Halves damage from Physical attacks for 5 turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Rest": {
         "type": "Psychic",
@@ -951,7 +1056,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User sleeps for 2 turns, but user is fully healed.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Roar": {
         "type": "Normal",
@@ -960,7 +1066,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "In battles, the opponent switches. In the wild, the Pok\u00e9mon runs.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Rock Slide": {
         "type": "Rock",
@@ -969,7 +1076,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Rock Throw": {
         "type": "Rock",
@@ -978,7 +1086,8 @@
         "accuracy": "90",
         "pp": "15",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Rolling Kick": {
         "type": "Fighting",
@@ -987,7 +1096,8 @@
         "accuracy": "85",
         "pp": "15",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sand Attack": {
         "type": "Ground",
@@ -996,7 +1106,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Lowers opponent's Accuracy.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Scratch": {
         "type": "Normal",
@@ -1005,7 +1116,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Screech": {
         "type": "Normal",
@@ -1014,7 +1126,8 @@
         "accuracy": "85",
         "pp": "40",
         "description": "Sharply lowers opponent's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Seismic Toss": {
         "type": "Fighting",
@@ -1023,7 +1136,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Inflicts damage equal to user's level.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Self-Destruct": {
         "type": "Normal",
@@ -1032,7 +1146,8 @@
         "accuracy": "100",
         "pp": "5",
         "description": "User faints.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sharpen": {
         "type": "Normal",
@@ -1041,7 +1156,8 @@
         "accuracy": "-",
         "pp": "30",
         "description": "Raises user's Attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sing": {
         "type": "Normal",
@@ -1050,7 +1166,8 @@
         "accuracy": "55",
         "pp": "15",
         "description": "Puts opponent to sleep.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Skull Bash": {
         "type": "Normal",
@@ -1059,7 +1176,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Raises Defense on first turn, attacks on second.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sky Attack": {
         "type": "Flying",
@@ -1068,7 +1186,8 @@
         "accuracy": "90",
         "pp": "5",
         "description": "Charges on first turn, attacks on second. May cause flinching. High critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Slam": {
         "type": "Normal",
@@ -1077,7 +1196,8 @@
         "accuracy": "75",
         "pp": "20",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Slash": {
         "type": "Normal",
@@ -1086,7 +1206,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "High critical hit ratio.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sleep Powder": {
         "type": "Grass",
@@ -1095,7 +1216,8 @@
         "accuracy": "75",
         "pp": "15",
         "description": "Puts opponent to sleep.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sludge": {
         "type": "Poison",
@@ -1104,7 +1226,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May poison opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Smog": {
         "type": "Poison",
@@ -1113,7 +1236,8 @@
         "accuracy": "70",
         "pp": "20",
         "description": "May poison opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Smokescreen": {
         "type": "Normal",
@@ -1122,7 +1246,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Lowers opponent's Accuracy.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Soft-Boiled": {
         "type": "Normal",
@@ -1131,7 +1256,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User recovers half its max HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Solar Beam": {
         "type": "Grass",
@@ -1140,7 +1266,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "Charges on first turn, attacks on second.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Sonic Boom": {
         "type": "Normal",
@@ -1149,7 +1276,8 @@
         "accuracy": "90",
         "pp": "20",
         "description": "Always inflicts 20 HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Spike Cannon": {
         "type": "Normal",
@@ -1158,7 +1286,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Hits 2-5 times in one turn.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Splash": {
         "type": "Normal",
@@ -1167,7 +1296,8 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Doesn't do ANYTHING.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Spore": {
         "type": "Grass",
@@ -1176,7 +1306,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Puts opponent to sleep.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Stomp": {
         "type": "Normal",
@@ -1185,7 +1316,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Strength": {
         "type": "Normal",
@@ -1194,7 +1326,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "String Shot": {
         "type": "Bug",
@@ -1203,7 +1336,8 @@
         "accuracy": "95",
         "pp": "40",
         "description": "Sharply lowers opponent's Speed.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Struggle": {
         "type": "Normal",
@@ -1212,7 +1346,8 @@
         "accuracy": "-",
         "pp": "-",
         "description": "Only usable when all PP are gone. Hurts the user.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Stun Spore": {
         "type": "Grass",
@@ -1221,7 +1356,8 @@
         "accuracy": "75",
         "pp": "30",
         "description": "Paralyzes opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Submission": {
         "type": "Fighting",
@@ -1230,7 +1366,8 @@
         "accuracy": "80",
         "pp": "20",
         "description": "User receives recoil damage.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Substitute": {
         "type": "Normal",
@@ -1239,7 +1376,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "Uses HP to creates a decoy that takes hits.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Super Fang": {
         "type": "Normal",
@@ -1248,7 +1386,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Always takes off half of the opponent's HP.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Supersonic": {
         "type": "Normal",
@@ -1257,7 +1396,8 @@
         "accuracy": "55",
         "pp": "20",
         "description": "Confuses opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Surf": {
         "type": "Water",
@@ -1266,7 +1406,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "Hits all adjacent Pok\u00e9mon.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Swift": {
         "type": "Normal",
@@ -1275,7 +1416,8 @@
         "accuracy": "\u221e",
         "pp": "20",
         "description": "Ignores Accuracy and Evasiveness.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Swords Dance": {
         "type": "Normal",
@@ -1284,7 +1426,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Sharply raises user's Attack.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Tackle": {
         "type": "Normal",
@@ -1293,7 +1436,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Tail Whip": {
         "type": "Normal",
@@ -1302,7 +1446,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "Lowers opponent's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Take Down": {
         "type": "Normal",
@@ -1311,7 +1456,8 @@
         "accuracy": "85",
         "pp": "20",
         "description": "User receives recoil damage.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Teleport": {
         "type": "Psychic",
@@ -1320,7 +1466,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "Allows user to flee wild battles; also warps player to last Pok\u00e9Center.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Thrash": {
         "type": "Normal",
@@ -1329,7 +1476,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "User attacks for 2-3 turns but then becomes confused.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Thunder": {
         "type": "Electric",
@@ -1338,7 +1486,8 @@
         "accuracy": "70",
         "pp": "10",
         "description": "May paralyze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Thunder Punch": {
         "type": "Electric",
@@ -1347,7 +1496,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May paralyze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Thunder Shock": {
         "type": "Electric",
@@ -1356,7 +1506,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "May paralyze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Thunder Wave": {
         "type": "Electric",
@@ -1365,7 +1516,8 @@
         "accuracy": "90",
         "pp": "20",
         "description": "Paralyzes opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Thunderbolt": {
         "type": "Electric",
@@ -1374,7 +1526,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May paralyze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Toxic": {
         "type": "Poison",
@@ -1383,7 +1536,8 @@
         "accuracy": "90",
         "pp": "10",
         "description": "Badly poisons opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Transform": {
         "type": "Normal",
@@ -1392,7 +1546,8 @@
         "accuracy": "-",
         "pp": "10",
         "description": "User takes on the form and attacks of the opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Tri Attack": {
         "type": "Normal",
@@ -1401,7 +1556,8 @@
         "accuracy": "100",
         "pp": "10",
         "description": "May paralyze, burn or freeze opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Twineedle": {
         "type": "Bug",
@@ -1410,7 +1566,8 @@
         "accuracy": "100",
         "pp": "20",
         "description": "Hits twice in one turn. May poison opponent.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Vine Whip": {
         "type": "Grass",
@@ -1419,7 +1576,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Vise Grip": {
         "type": "Normal",
@@ -1428,7 +1586,8 @@
         "accuracy": "100",
         "pp": "30",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Water Gun": {
         "type": "Water",
@@ -1437,7 +1596,8 @@
         "accuracy": "100",
         "pp": "25",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Waterfall": {
         "type": "Water",
@@ -1446,7 +1606,8 @@
         "accuracy": "100",
         "pp": "15",
         "description": "May cause flinching.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Whirlwind": {
         "type": "Normal",
@@ -1455,7 +1616,8 @@
         "accuracy": "-",
         "pp": "20",
         "description": "In battles, the opponent switches. In the wild, the Pok\u00e9mon runs.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Wing Attack": {
         "type": "Flying",
@@ -1464,7 +1626,8 @@
         "accuracy": "100",
         "pp": "35",
         "description": "",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Withdraw": {
         "type": "Water",
@@ -1473,7 +1636,8 @@
         "accuracy": "-",
         "pp": "40",
         "description": "Raises user's Defense.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     },
     "Wrap": {
         "type": "Normal",
@@ -1482,6 +1646,7 @@
         "accuracy": "90",
         "pp": "20",
         "description": "Traps opponent, damaging them for 4-5 turns.",
-        "tags": []
+        "user_effects": [],
+        "target_effects": []
     }
 }

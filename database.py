@@ -95,7 +95,8 @@ if __name__ == "__main__":
                 "accuracy": info[4].text.replace("\u2014", "-"),
                 "pp": info[5].text.replace("\u2014", "-"),
                 "description": info[6].text,
-                "tags": []
+                "user_effects": [],
+                "target_effects": []
             }
             dump[info[0].text] = temp
         # Write to output file

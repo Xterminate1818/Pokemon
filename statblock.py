@@ -24,12 +24,15 @@ class StatBlock:
             "sp_defense": dex["sp-defense"],
             "speed": dex["speed"]
         }
+        self.stat_stages = {
+            "hp": 0,
+            "attack": 0,
+            "defense": 0,
+            "sp_attack": 0,
+            "sp_defense": 0,
+            "speed": 0
+        }
         self.level = 100
-
-    def __str__(self):
-        return "Hp: {}\nAtk: {}\nDef: {}\nSpa: {}\nSpd: {}\nSpe: {}".format(
-            *self.stats.values()
-        )
 
     def __gt__(self, other):
         return self.get("speed") > other.get("speed")
@@ -41,8 +44,22 @@ class StatBlock:
         ret = self.stats[key]
         ret *= (self.level / 50)
         if key == "hp":
-            ret += 110
-        return ret
+            return ret + 110
+        # Stat stages
+        stage = self.stat_stages[key]
+        numerator = 2
+        denominator = 2
+        if stage > 0:
+            numerator += 2
+        if stage < 0:
+            denominator += abs(stage)
+        return ret * (numerator / denominator)
+
+    def __str__(self):
+        return "Hp: {}\nAtk: {}\nDef: {}\nSpa: {}\nSpd: {}\nSpe: {}".format(
+            self.get("hp"), self.get("attack"), self.get("defense"),
+            self.get("special_attack"), self.get("special_defense"), self.get("speed")
+        )
 
     def get_base(self, key):
         return self.stats[key]
