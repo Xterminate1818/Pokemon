@@ -27,10 +27,13 @@ class Battle:
 		fast.perform_action(slow.get_active())
 		slow.perform_action(fast.get_active())
 
+		fast.get_active().post_move()
+		slow.get_active().post_move()
 
-t1 = PlayerTeam([Pokemon("Bulbasaur", [Move("Vine Whip")])])
-t2 = PlayerTeam([Pokemon("Charmander", [Move("Ember")])])
+		if fast.get_active().is_ko():
+			switch = fast.query_switch()
+			fast.on_switch(switch)
+		if slow.get_active().is_ko():
+			switch = slow.query_switch()
+			slow.perform_action(switch)
 
-b = Battle(t1, t2)
-while True:
-	b.pass_turn()

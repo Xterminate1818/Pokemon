@@ -1,16 +1,5 @@
 import database
-
-
-class Status:
-    PAR = "Paralyze"
-    PSN = "Poison"
-    BRN = "Burn"
-    FRZ = "Freeze"
-    CFD = "Confuse"
-
-    def __init__(self, id, length):
-        self.id: int = id
-        self.length: int = length
+import random
 
 
 class StatBlock:
@@ -32,7 +21,14 @@ class StatBlock:
             "sp_defense": 0,
             "speed": 0
         }
-        self.statuses = []
+        self.statuses = {
+            "Paralyze": False,
+            "Poison": False,
+            "Freeze": 0,
+            "Burn": False,
+            "Confuse": 0,
+            "Infatuate": False,
+        }
         self.level = 100
 
     def __gt__(self, other):
@@ -65,6 +61,15 @@ class StatBlock:
         if stage < 0:
             denominator += abs(stage)
         return ret * (numerator / denominator)
+
+    def modify_stat(self, key, amount):
+        self.stat_stages[key] += amount
+
+    def add_status(self, status):
+        if status == "Freeze" or status == "Confusion":
+            self.statuses[status] = max(self.statuses[status], random.randint(2, 5))
+        else:
+            self.statuses[status] = True
 
     def __str__(self):
         return "Hp: {}\nAtk: {}\nDef: {}\nSpa: {}\nSpd: {}\nSpe: {}".format(
