@@ -1,27 +1,34 @@
 import database
 import random
-from move import Move
 from statblock import StatBlock
 
 
 class Pokemon(StatBlock):
-    def __init__(self, name, mvs):
+    def __init__(self, name, mvs=None):
         super().__init__(name)
+        if mvs is None:
+            mvs = []
         self.name = name
         self.dex = database.POKEDEX[name]
         self.health = int(self.get("hp"))
         self.types = self.dex["type"]
-        self.known_moves = mvs
+        self.known_moves = mvs if mvs is not None else []
 
     def is_ko(self):
         return self.health <= 0
+
+    def to_dict(self):
+        return {
+            "name": self.name,
+            "moves": list(m.name for m in self.known_moves)
+        }
 
     def __str__(self):
         return self.name + str(self.stats)
 
     def print_moves(self):
         for i in range(len(self.known_moves)):
-            print(str(i+1) + ": " + self.known_moves[i].name)
+            print(str(i + 1) + ": " + self.known_moves[i].name)
 
     def pre_move(self, move, target):
         # Frozen
@@ -111,3 +118,37 @@ class Pokemon(StatBlock):
 
         self.secondary_effects(move, target)
 
+
+def ask_pokemon_name():
+    while True:
+        print("Enter a number between 1 and 151 to select a pokemon, or a string to search the pokedex")
+        i = input(database.INPUT_STR)
+        if i.isdigit() and 1 <= int(i) <= 151:
+            return database.get_pokedex_id(int(i))
+        else:
+            search_result = database.search_pokedex_name(i)
+            if len(search_result) == 0:
+                print("No results found for: " + i)
+            for p in database.search_pokedex_name(i):
+                print(str(database.POKEDEX[p]["id"]) + ": " + p)
+
+
+def ask_pokemon_moves(pkm):
+    print("Selecting moves for: " + pkm)
+    print("Available moves: ")
+    print(', '.join(database.POKEDEX[pkm]["moves"]))
+    moves = []
+    for j in range(4):
+        while True:
+            print("What move to use in slot " + str(j + 1) + "? Type NONE to finish move selection.")
+            i = input(database.INPUT_STR)
+            if i == "NONE":
+                return moves
+            elif i not in database.MOVEDEX:
+                print("Unknown move: " + i)
+            elif i in moves:
+                print("Already knows move: " + i)
+            else:
+                moves += [i]
+                break
+    return moves

@@ -19,9 +19,15 @@ def load_typechart() -> dict:
 		return json.load(file)
 
 
+def load_teams() -> dict:
+	with open("teams.json", "r") as file:
+		return json.load(file)
+
+
 POKEDEX = load_pokedex()
 MOVEDEX = load_movedex()
 TYPECHART = load_typechart()
+TEAMS = load_teams()
 
 
 def get_pokedex_id(id):
@@ -37,6 +43,10 @@ def search_pokedex_name(name):
 		if name.lower() in p.lower():
 			ret += [p]
 	return ret
+
+
+INPUT_STR = "> "
+
 
 
 if __name__ == "__main__":
