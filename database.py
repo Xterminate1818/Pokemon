@@ -30,14 +30,14 @@ TYPECHART = load_typechart()
 TEAMS = load_teams()
 
 
-def get_pokedex_id(id):
+def get_pokedex_id(id) -> str:
 	for p in POKEDEX:
 		if POKEDEX[p]["id"] == id:
 			return p
 	raise IndexError
 
 
-def search_pokedex_name(name):
+def search_pokedex_name(name) -> list[str]:
 	ret = []
 	for p in POKEDEX:
 		if name.lower() in p.lower():
