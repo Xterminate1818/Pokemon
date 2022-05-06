@@ -4,7 +4,9 @@ import random
 
 class StatBlock:
     def __init__(self, name: str):
-        dex = database.POKEDEX[name]
+        self.name = name
+        dex = database.search_pokedex("name", name)
+        self.dex = dex
         self.stats = {
             "hp": dex["hp"],
             "attack": dex["attack"],

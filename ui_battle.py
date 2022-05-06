@@ -18,8 +18,11 @@ class BattleFrame(ttk.Frame):
 
         self.moves_frame.grid(column=0, row=1)
 
-        self.log = ScrolledText(self)
+        self.log = ScrolledText(self, width=30, height=15)
         self.log.grid(column=2, row=0, rowspan=2)
+
+        self.return_button = ttk.Button(self, text="Return to Menu", command=root.switch_mainmenu)
+        self.return_button.grid(row=2, column=2)
 
 
 if __name__ == "__main__":

@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 from collections import defaultdict
 
 
-def load_pokedex() -> dict:
+def load_pokedex() -> list[dict]:
 	with open("pokedex.json", "r") as file:
 		return json.load(file)
 
 
-def load_movedex() -> dict:
+def load_movedex() -> list[dict]:
 	with open("movedex.json", "r") as file:
 		return json.load(file)
 
@@ -24,33 +24,46 @@ def load_teams() -> dict:
 		return json.load(file)
 
 
-POKEDEX = load_pokedex()
-MOVEDEX = load_movedex()
+POKEDEX: list[dict] = load_pokedex()
+MOVEDEX: list[dict] = load_movedex()
 TYPECHART = load_typechart()
 TEAMS = load_teams()
 
 
-def get_pokedex_id(id) -> str:
-	for p in POKEDEX:
-		if POKEDEX[p]["id"] == id:
-			return p
-	raise IndexError
+def _search(what: list, key: str, value, comp) -> list[dict]:
+	comp_func = {
+		"==": value.__eq__,
+		"!=": value.__ne__,
+		"<=": value.__le__,
+		">=": value.__ge__,
+		"<": value.__lt__,
+		">": value.__gt__
+	}[comp]
+	if isinstance(value, str):
+		if comp == "==":
+			comp_func = lambda a, b=value: (b.lower() in a.lower())
+		elif comp == "!=":
+			comp_func = lambda a, b=value: (b.lower() not in a.lower())
 
-
-def search_pokedex_name(name) -> list[str]:
 	ret = []
-	for p in POKEDEX:
-		if name.lower() in p.lower():
-			ret += [p]
+	for i in what:
+		if comp_func(i[key]):
+			ret += [i]
 	return ret
 
 
-INPUT_STR = "> "
+def search_pokedex(key: str, value, comp="=="):
+	return _search(POKEDEX, key, value, comp)
 
 
+def search_movedex(key: str, value, comp="=="):
+	return _search(MOVEDEX, key, value, comp)
+
+
+INPUT_STR = ">"
 
 if __name__ == "__main__":
-	def get_moves(name: str):
+	def get_moves(name: str) -> list[str]:
 		url = "https://pokemondb.net/pokedex/" + name + "/moves/1"
 		page = requests.get(url)
 		# Parse html and get the main table
@@ -64,7 +77,7 @@ if __name__ == "__main__":
 		return ret
 
 
-	def generate_pokedex():
+	def generate_pokedex() -> None:
 		# Grab html
 		url = "https://pokemondb.net/pokedex/stats/gen1"
 		page = requests.get(url)
@@ -74,11 +87,12 @@ if __name__ == "__main__":
 		rows = pokedex.find_all("tr")
 		rows.pop(0)
 
-		dump = {}
+		dump = []
 		for pkm in rows:
 			info = pkm.find_all("td")
 			temp = {
 				"id": int(info[0].text),
+				"name": str(info[1].text),
 				"type": info[2].text.strip().split(" "),
 				"total": int(info[3].text),
 				"hp": int(info[4].text),
@@ -95,14 +109,14 @@ if __name__ == "__main__":
 			name = name.replace("♀", "-f").replace("♂", "-m").replace("'", "").replace(". ", "-")
 			print(name)
 			temp["moves"] = get_moves(name)
+			dump.append(temp)
 
-			dump[info[1].text] = temp
 		# Write to output file
 		with open("pokedex.json", "w") as outfile:
 			outfile.write(json.dumps(dump, indent=4))
 
 
-	def parse_description(desc):
+	def parse_description(desc) -> list:
 		desc = desc.lower()
 		effects_who = "none"
 		stat_effected = "none"
@@ -160,11 +174,12 @@ if __name__ == "__main__":
 		rows = movedex.find_all("tr")
 		rows.pop(0)
 
-		dump = {}
+		dump = []
 		for move in rows:
 			info = move.find_all("td")
 			effects = parse_description(info[6].text)
 			temp = {
+				"name": info[0].text,
 				"type": info[1].text,
 				"category": info[2].get("data-sort-value"),
 				"power": info[3].text.replace("\u2014", "-"),
@@ -177,7 +192,7 @@ if __name__ == "__main__":
 				"chance": effects[3],
 				"status": effects[4],
 			}
-			dump[info[0].text] = temp
+			dump.append(temp)
 		# Write to output file
 		with open("movedex.json", "w") as outfile:
 			outfile.write(json.dumps(dump, indent=4))

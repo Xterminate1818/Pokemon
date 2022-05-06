@@ -10,20 +10,20 @@ class PokedexFrame(ttk.Frame):
 
         self.info_frame = ttk.Frame(self)
         self.info_legends = [
-            ttk.Label(self.info_frame, text="ID", width=12),
-            ttk.Label(self.info_frame, text="Name", width=12),
-            ttk.Label(self.info_frame, text="Stat Total", width=12),
-            ttk.Label(self.info_frame, text="HP", width=12),
-            ttk.Label(self.info_frame, text="Attack", width=12),
-            ttk.Label(self.info_frame, text="Defense", width=12),
-            ttk.Label(self.info_frame, text="Special Attack", width=12),
-            ttk.Label(self.info_frame, text="Special Defense", width=12),
-            ttk.Label(self.info_frame, text="Speed", width=12)
+            ttk.Label(self.info_frame, text="ID", width=14),
+            ttk.Label(self.info_frame, text="Name", width=14),
+            ttk.Label(self.info_frame, text="Stat Total", width=14),
+            ttk.Label(self.info_frame, text="HP", width=14),
+            ttk.Label(self.info_frame, text="Attack", width=14),
+            ttk.Label(self.info_frame, text="Defense", width=14),
+            ttk.Label(self.info_frame, text="Special Attack", width=14),
+            ttk.Label(self.info_frame, text="Special Defense", width=14),
+            ttk.Label(self.info_frame, text="Speed", width=14)
         ]
         self.info_variables = list(tk.StringVar() for _ in range(9))
         self.info_labels = []
         for i in range(9):
-            self.info_labels.append(ttk.Label(self.info_frame, textvariable=self.info_variables[i], width=10, anchor=tk.E))
+            self.info_labels.append(ttk.Label(self.info_frame, textvariable=self.info_variables[i], width=12, anchor=tk.E))
 
         for i in range(9):
             self.info_legends[i].grid(row=i, column=0)
@@ -42,14 +42,23 @@ class PokedexFrame(ttk.Frame):
         self.search_button = ttk.Button(self, text="Search", command=self._on_search)
         self.search_button.grid(row=2, column=1)
 
+        self.return_button = ttk.Button(self, text="Return to Menu", command=self.back_out)
+        self.return_button.grid(row=3, column=0)
+        self.return_func = root.switch_mainmenu
+
         self.select_pokemon()
 
+    def back_out(self):
+        self.selected_id = 1
+        self.select_pokemon()
+        self.search_box.delete(0, tk.END)
+        self.return_func()
+
     def select_pokemon(self):
-        name = database.get_pokedex_id(self.selected_id)
-        dex = database.POKEDEX[name]
+        dex = database.search_pokedex("id", self.selected_id)[0]
         iv = self.info_variables
         iv[0].set(dex["id"])
-        iv[1].set(name)
+        iv[1].set(dex["name"])
         iv[2].set(dex["total"])
         iv[3].set(dex["hp"])
         iv[4].set(dex["attack"])
@@ -67,10 +76,9 @@ class PokedexFrame(ttk.Frame):
         self.select_pokemon()
 
     def _on_search(self):
-        str = self.search_box.get()
-        results = database.search_pokedex_name(str.lower())
+        results = database.search_pokedex("name", self.search_box.get())
         if len(results) > 0:
-            self.selected_id = database.POKEDEX[results[0]]["id"]
+            self.selected_id = results[0]["id"]
             self.select_pokemon()
 
 

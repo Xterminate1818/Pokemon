@@ -1,1 +1,30 @@
-{}
+{
+    "Starter Team": [
+        {
+            "name": "Venusaur",
+            "moves": [
+                "Vine Whip",
+                "Poison Powder",
+                "Razor Leaf"
+            ]
+        },
+        {
+            "name": "Charizard",
+            "moves": [
+                "Scratch",
+                "Flamethrower",
+                "Fire Spin",
+                "Slash"
+            ]
+        },
+        {
+            "name": "Blastoise",
+            "moves": [
+                "Bubble",
+                "Skull Bash",
+                "Surf",
+                "Mega Kick"
+            ]
+        }
+    ]
+}

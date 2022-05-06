@@ -4,10 +4,9 @@ from statblock import StatBlock
 
 class Move:
     def __init__(self, name):
-        self.name = name
         self.dex = database.MOVEDEX[name]
-        self.pp = 999 if self.dex["pp"] == "-" else int(self.dex["pp"])
-        self.priority = (self.name == "Quick Attack")
+        self.pp = 0 if self.dex["pp"] == "-" else int(self.dex["pp"])
+        self.priority = (self.dex["name"] == "Quick Attack")
 
     def get_damage(self, user_stats, target_stats):
         power = self.dex["power"]

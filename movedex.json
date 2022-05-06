@@ -1,5 +1,6 @@
-{
-    "Absorb": {
+[
+    {
+        "name": "Absorb",
         "type": "Grass",
         "category": "special",
         "power": "20",
@@ -12,7 +13,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Acid": {
+    {
+        "name": "Acid",
         "type": "Poison",
         "category": "special",
         "power": "40",
@@ -25,7 +27,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Acid Armor": {
+    {
+        "name": "Acid Armor",
         "type": "Poison",
         "category": "status",
         "power": "-",
@@ -38,7 +41,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Agility": {
+    {
+        "name": "Agility",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -51,7 +55,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Amnesia": {
+    {
+        "name": "Amnesia",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -64,7 +69,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Aurora Beam": {
+    {
+        "name": "Aurora Beam",
         "type": "Ice",
         "category": "special",
         "power": "65",
@@ -77,7 +83,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Barrage": {
+    {
+        "name": "Barrage",
         "type": "Normal",
         "category": "physical",
         "power": "15",
@@ -90,7 +97,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Barrier": {
+    {
+        "name": "Barrier",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -103,7 +111,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Bide": {
+    {
+        "name": "Bide",
         "type": "Normal",
         "category": "physical",
         "power": "-",
@@ -116,7 +125,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Bind": {
+    {
+        "name": "Bind",
         "type": "Normal",
         "category": "physical",
         "power": "15",
@@ -129,7 +139,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Bite": {
+    {
+        "name": "Bite",
         "type": "Dark",
         "category": "physical",
         "power": "60",
@@ -142,7 +153,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Blizzard": {
+    {
+        "name": "Blizzard",
         "type": "Ice",
         "category": "special",
         "power": "110",
@@ -155,7 +167,8 @@
         "chance": 10,
         "status": "Freeze"
     },
-    "Body Slam": {
+    {
+        "name": "Body Slam",
         "type": "Normal",
         "category": "physical",
         "power": "85",
@@ -168,7 +181,8 @@
         "chance": 10,
         "status": "Paralyze"
     },
-    "Bone Club": {
+    {
+        "name": "Bone Club",
         "type": "Ground",
         "category": "physical",
         "power": "65",
@@ -181,7 +195,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Bonemerang": {
+    {
+        "name": "Bonemerang",
         "type": "Ground",
         "category": "physical",
         "power": "50",
@@ -194,7 +209,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Bubble": {
+    {
+        "name": "Bubble",
         "type": "Water",
         "category": "special",
         "power": "40",
@@ -207,7 +223,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Bubble Beam": {
+    {
+        "name": "Bubble Beam",
         "type": "Water",
         "category": "special",
         "power": "65",
@@ -220,7 +237,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Clamp": {
+    {
+        "name": "Clamp",
         "type": "Water",
         "category": "physical",
         "power": "35",
@@ -233,7 +251,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Comet Punch": {
+    {
+        "name": "Comet Punch",
         "type": "Normal",
         "category": "physical",
         "power": "18",
@@ -246,7 +265,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Confuse Ray": {
+    {
+        "name": "Confuse Ray",
         "type": "Ghost",
         "category": "status",
         "power": "-",
@@ -259,7 +279,8 @@
         "chance": 100,
         "status": "Confuse"
     },
-    "Confusion": {
+    {
+        "name": "Confusion",
         "type": "Psychic",
         "category": "special",
         "power": "50",
@@ -272,7 +293,8 @@
         "chance": 10,
         "status": "Confuse"
     },
-    "Constrict": {
+    {
+        "name": "Constrict",
         "type": "Normal",
         "category": "physical",
         "power": "10",
@@ -285,7 +307,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Conversion": {
+    {
+        "name": "Conversion",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -298,7 +321,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Counter": {
+    {
+        "name": "Counter",
         "type": "Fighting",
         "category": "physical",
         "power": "-",
@@ -311,7 +335,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Crabhammer": {
+    {
+        "name": "Crabhammer",
         "type": "Water",
         "category": "physical",
         "power": "100",
@@ -324,7 +349,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Cut": {
+    {
+        "name": "Cut",
         "type": "Normal",
         "category": "physical",
         "power": "50",
@@ -337,7 +363,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Defense Curl": {
+    {
+        "name": "Defense Curl",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -350,7 +377,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Dig": {
+    {
+        "name": "Dig",
         "type": "Ground",
         "category": "physical",
         "power": "80",
@@ -363,7 +391,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Disable": {
+    {
+        "name": "Disable",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -376,7 +405,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Dizzy Punch": {
+    {
+        "name": "Dizzy Punch",
         "type": "Normal",
         "category": "physical",
         "power": "70",
@@ -389,7 +419,8 @@
         "chance": 10,
         "status": "Confuse"
     },
-    "Double Kick": {
+    {
+        "name": "Double Kick",
         "type": "Fighting",
         "category": "physical",
         "power": "30",
@@ -402,7 +433,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Double Slap": {
+    {
+        "name": "Double Slap",
         "type": "Normal",
         "category": "physical",
         "power": "15",
@@ -415,7 +447,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Double Team": {
+    {
+        "name": "Double Team",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -428,7 +461,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Double-Edge": {
+    {
+        "name": "Double-Edge",
         "type": "Normal",
         "category": "physical",
         "power": "120",
@@ -441,7 +475,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Dragon Rage": {
+    {
+        "name": "Dragon Rage",
         "type": "Dragon",
         "category": "special",
         "power": "-",
@@ -454,7 +489,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Dream Eater": {
+    {
+        "name": "Dream Eater",
         "type": "Psychic",
         "category": "special",
         "power": "100",
@@ -467,7 +503,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Drill Peck": {
+    {
+        "name": "Drill Peck",
         "type": "Flying",
         "category": "physical",
         "power": "80",
@@ -480,7 +517,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Earthquake": {
+    {
+        "name": "Earthquake",
         "type": "Ground",
         "category": "physical",
         "power": "100",
@@ -493,7 +531,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Egg Bomb": {
+    {
+        "name": "Egg Bomb",
         "type": "Normal",
         "category": "physical",
         "power": "100",
@@ -506,7 +545,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Ember": {
+    {
+        "name": "Ember",
         "type": "Fire",
         "category": "special",
         "power": "40",
@@ -519,7 +559,8 @@
         "chance": 10,
         "status": "Burn"
     },
-    "Explosion": {
+    {
+        "name": "Explosion",
         "type": "Normal",
         "category": "physical",
         "power": "250",
@@ -532,7 +573,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Fire Blast": {
+    {
+        "name": "Fire Blast",
         "type": "Fire",
         "category": "special",
         "power": "110",
@@ -545,7 +587,8 @@
         "chance": 10,
         "status": "Burn"
     },
-    "Fire Punch": {
+    {
+        "name": "Fire Punch",
         "type": "Fire",
         "category": "physical",
         "power": "75",
@@ -558,7 +601,8 @@
         "chance": 10,
         "status": "Burn"
     },
-    "Fire Spin": {
+    {
+        "name": "Fire Spin",
         "type": "Fire",
         "category": "special",
         "power": "35",
@@ -571,7 +615,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Fissure": {
+    {
+        "name": "Fissure",
         "type": "Ground",
         "category": "physical",
         "power": "-",
@@ -584,7 +629,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Flamethrower": {
+    {
+        "name": "Flamethrower",
         "type": "Fire",
         "category": "special",
         "power": "90",
@@ -597,7 +643,8 @@
         "chance": 10,
         "status": "Burn"
     },
-    "Flash": {
+    {
+        "name": "Flash",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -610,7 +657,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Fly": {
+    {
+        "name": "Fly",
         "type": "Flying",
         "category": "physical",
         "power": "90",
@@ -623,7 +671,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Focus Energy": {
+    {
+        "name": "Focus Energy",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -636,7 +685,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Fury Attack": {
+    {
+        "name": "Fury Attack",
         "type": "Normal",
         "category": "physical",
         "power": "15",
@@ -649,7 +699,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Fury Swipes": {
+    {
+        "name": "Fury Swipes",
         "type": "Normal",
         "category": "physical",
         "power": "18",
@@ -662,7 +713,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Glare": {
+    {
+        "name": "Glare",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -675,7 +727,8 @@
         "chance": 100,
         "status": "Paralyze"
     },
-    "Growl": {
+    {
+        "name": "Growl",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -688,7 +741,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Growth": {
+    {
+        "name": "Growth",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -701,7 +755,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Guillotine": {
+    {
+        "name": "Guillotine",
         "type": "Normal",
         "category": "physical",
         "power": "-",
@@ -714,7 +769,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Gust": {
+    {
+        "name": "Gust",
         "type": "Flying",
         "category": "special",
         "power": "40",
@@ -727,7 +783,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Harden": {
+    {
+        "name": "Harden",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -740,7 +797,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Haze": {
+    {
+        "name": "Haze",
         "type": "Ice",
         "category": "status",
         "power": "-",
@@ -753,7 +811,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Headbutt": {
+    {
+        "name": "Headbutt",
         "type": "Normal",
         "category": "physical",
         "power": "70",
@@ -766,7 +825,8 @@
         "chance": 10,
         "status": "none"
     },
-    "High Jump Kick": {
+    {
+        "name": "High Jump Kick",
         "type": "Fighting",
         "category": "physical",
         "power": "130",
@@ -779,7 +839,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Horn Attack": {
+    {
+        "name": "Horn Attack",
         "type": "Normal",
         "category": "physical",
         "power": "65",
@@ -792,7 +853,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Horn Drill": {
+    {
+        "name": "Horn Drill",
         "type": "Normal",
         "category": "physical",
         "power": "-",
@@ -805,7 +867,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Hydro Pump": {
+    {
+        "name": "Hydro Pump",
         "type": "Water",
         "category": "special",
         "power": "110",
@@ -818,7 +881,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Hyper Beam": {
+    {
+        "name": "Hyper Beam",
         "type": "Normal",
         "category": "special",
         "power": "150",
@@ -831,7 +895,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Hyper Fang": {
+    {
+        "name": "Hyper Fang",
         "type": "Normal",
         "category": "physical",
         "power": "80",
@@ -844,7 +909,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Hypnosis": {
+    {
+        "name": "Hypnosis",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -857,7 +923,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Ice Beam": {
+    {
+        "name": "Ice Beam",
         "type": "Ice",
         "category": "special",
         "power": "90",
@@ -870,7 +937,8 @@
         "chance": 10,
         "status": "Freeze"
     },
-    "Ice Punch": {
+    {
+        "name": "Ice Punch",
         "type": "Ice",
         "category": "physical",
         "power": "75",
@@ -883,7 +951,8 @@
         "chance": 10,
         "status": "Freeze"
     },
-    "Jump Kick": {
+    {
+        "name": "Jump Kick",
         "type": "Fighting",
         "category": "physical",
         "power": "100",
@@ -896,7 +965,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Karate Chop": {
+    {
+        "name": "Karate Chop",
         "type": "Fighting",
         "category": "physical",
         "power": "50",
@@ -909,7 +979,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Kinesis": {
+    {
+        "name": "Kinesis",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -922,7 +993,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Leech Life": {
+    {
+        "name": "Leech Life",
         "type": "Bug",
         "category": "physical",
         "power": "80",
@@ -935,7 +1007,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Leech Seed": {
+    {
+        "name": "Leech Seed",
         "type": "Grass",
         "category": "status",
         "power": "-",
@@ -948,7 +1021,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Leer": {
+    {
+        "name": "Leer",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -961,7 +1035,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Lick": {
+    {
+        "name": "Lick",
         "type": "Ghost",
         "category": "physical",
         "power": "30",
@@ -974,7 +1049,8 @@
         "chance": 10,
         "status": "Paralyze"
     },
-    "Light Screen": {
+    {
+        "name": "Light Screen",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -987,7 +1063,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Lovely Kiss": {
+    {
+        "name": "Lovely Kiss",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1000,7 +1077,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Low Kick": {
+    {
+        "name": "Low Kick",
         "type": "Fighting",
         "category": "physical",
         "power": "-",
@@ -1013,7 +1091,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Meditate": {
+    {
+        "name": "Meditate",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -1026,7 +1105,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Mega Drain": {
+    {
+        "name": "Mega Drain",
         "type": "Grass",
         "category": "special",
         "power": "40",
@@ -1039,7 +1119,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Mega Kick": {
+    {
+        "name": "Mega Kick",
         "type": "Normal",
         "category": "physical",
         "power": "120",
@@ -1052,7 +1133,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Mega Punch": {
+    {
+        "name": "Mega Punch",
         "type": "Normal",
         "category": "physical",
         "power": "80",
@@ -1065,7 +1147,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Metronome": {
+    {
+        "name": "Metronome",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1078,7 +1161,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Mimic": {
+    {
+        "name": "Mimic",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1091,7 +1175,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Minimize": {
+    {
+        "name": "Minimize",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1104,7 +1189,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Mirror Move": {
+    {
+        "name": "Mirror Move",
         "type": "Flying",
         "category": "status",
         "power": "-",
@@ -1117,7 +1203,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Mist": {
+    {
+        "name": "Mist",
         "type": "Ice",
         "category": "status",
         "power": "-",
@@ -1130,7 +1217,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Night Shade": {
+    {
+        "name": "Night Shade",
         "type": "Ghost",
         "category": "special",
         "power": "-",
@@ -1143,7 +1231,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Pay Day": {
+    {
+        "name": "Pay Day",
         "type": "Normal",
         "category": "physical",
         "power": "40",
@@ -1156,7 +1245,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Peck": {
+    {
+        "name": "Peck",
         "type": "Flying",
         "category": "physical",
         "power": "35",
@@ -1169,7 +1259,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Petal Dance": {
+    {
+        "name": "Petal Dance",
         "type": "Grass",
         "category": "special",
         "power": "120",
@@ -1182,7 +1273,8 @@
         "chance": 100,
         "status": "Confuse"
     },
-    "Pin Missile": {
+    {
+        "name": "Pin Missile",
         "type": "Bug",
         "category": "physical",
         "power": "25",
@@ -1195,7 +1287,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Poison Gas": {
+    {
+        "name": "Poison Gas",
         "type": "Poison",
         "category": "status",
         "power": "-",
@@ -1208,7 +1301,8 @@
         "chance": 100,
         "status": "Poison"
     },
-    "Poison Powder": {
+    {
+        "name": "Poison Powder",
         "type": "Poison",
         "category": "status",
         "power": "-",
@@ -1221,7 +1315,8 @@
         "chance": 100,
         "status": "Poison"
     },
-    "Poison Sting": {
+    {
+        "name": "Poison Sting",
         "type": "Poison",
         "category": "physical",
         "power": "15",
@@ -1234,7 +1329,8 @@
         "chance": 10,
         "status": "Poison"
     },
-    "Pound": {
+    {
+        "name": "Pound",
         "type": "Normal",
         "category": "physical",
         "power": "40",
@@ -1247,7 +1343,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Psybeam": {
+    {
+        "name": "Psybeam",
         "type": "Psychic",
         "category": "special",
         "power": "65",
@@ -1260,7 +1357,8 @@
         "chance": 10,
         "status": "Confuse"
     },
-    "Psychic": {
+    {
+        "name": "Psychic",
         "type": "Psychic",
         "category": "special",
         "power": "90",
@@ -1273,7 +1371,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Psywave": {
+    {
+        "name": "Psywave",
         "type": "Psychic",
         "category": "special",
         "power": "-",
@@ -1286,7 +1385,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Quick Attack": {
+    {
+        "name": "Quick Attack",
         "type": "Normal",
         "category": "physical",
         "power": "40",
@@ -1299,7 +1399,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Rage": {
+    {
+        "name": "Rage",
         "type": "Normal",
         "category": "physical",
         "power": "20",
@@ -1312,7 +1413,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Razor Leaf": {
+    {
+        "name": "Razor Leaf",
         "type": "Grass",
         "category": "physical",
         "power": "55",
@@ -1325,7 +1427,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Razor Wind": {
+    {
+        "name": "Razor Wind",
         "type": "Normal",
         "category": "special",
         "power": "80",
@@ -1338,7 +1441,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Recover": {
+    {
+        "name": "Recover",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1351,7 +1455,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Reflect": {
+    {
+        "name": "Reflect",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -1364,7 +1469,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Rest": {
+    {
+        "name": "Rest",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -1377,7 +1483,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Roar": {
+    {
+        "name": "Roar",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1390,7 +1497,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Rock Slide": {
+    {
+        "name": "Rock Slide",
         "type": "Rock",
         "category": "physical",
         "power": "75",
@@ -1403,7 +1511,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Rock Throw": {
+    {
+        "name": "Rock Throw",
         "type": "Rock",
         "category": "physical",
         "power": "50",
@@ -1416,7 +1525,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Rolling Kick": {
+    {
+        "name": "Rolling Kick",
         "type": "Fighting",
         "category": "physical",
         "power": "60",
@@ -1429,7 +1539,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Sand Attack": {
+    {
+        "name": "Sand Attack",
         "type": "Ground",
         "category": "status",
         "power": "-",
@@ -1442,7 +1553,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Scratch": {
+    {
+        "name": "Scratch",
         "type": "Normal",
         "category": "physical",
         "power": "40",
@@ -1455,7 +1567,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Screech": {
+    {
+        "name": "Screech",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1468,7 +1581,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Seismic Toss": {
+    {
+        "name": "Seismic Toss",
         "type": "Fighting",
         "category": "physical",
         "power": "-",
@@ -1481,7 +1595,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Self-Destruct": {
+    {
+        "name": "Self-Destruct",
         "type": "Normal",
         "category": "physical",
         "power": "200",
@@ -1494,7 +1609,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Sharpen": {
+    {
+        "name": "Sharpen",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1507,7 +1623,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Sing": {
+    {
+        "name": "Sing",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1520,7 +1637,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Skull Bash": {
+    {
+        "name": "Skull Bash",
         "type": "Normal",
         "category": "physical",
         "power": "130",
@@ -1533,7 +1651,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Sky Attack": {
+    {
+        "name": "Sky Attack",
         "type": "Flying",
         "category": "physical",
         "power": "140",
@@ -1546,7 +1665,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Slam": {
+    {
+        "name": "Slam",
         "type": "Normal",
         "category": "physical",
         "power": "80",
@@ -1559,7 +1679,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Slash": {
+    {
+        "name": "Slash",
         "type": "Normal",
         "category": "physical",
         "power": "70",
@@ -1572,7 +1693,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Sleep Powder": {
+    {
+        "name": "Sleep Powder",
         "type": "Grass",
         "category": "status",
         "power": "-",
@@ -1585,7 +1707,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Sludge": {
+    {
+        "name": "Sludge",
         "type": "Poison",
         "category": "special",
         "power": "65",
@@ -1598,7 +1721,8 @@
         "chance": 10,
         "status": "Poison"
     },
-    "Smog": {
+    {
+        "name": "Smog",
         "type": "Poison",
         "category": "special",
         "power": "30",
@@ -1611,7 +1735,8 @@
         "chance": 10,
         "status": "Poison"
     },
-    "Smokescreen": {
+    {
+        "name": "Smokescreen",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1624,7 +1749,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Soft-Boiled": {
+    {
+        "name": "Soft-Boiled",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1637,7 +1763,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Solar Beam": {
+    {
+        "name": "Solar Beam",
         "type": "Grass",
         "category": "special",
         "power": "120",
@@ -1650,7 +1777,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Sonic Boom": {
+    {
+        "name": "Sonic Boom",
         "type": "Normal",
         "category": "special",
         "power": "-",
@@ -1663,7 +1791,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Spike Cannon": {
+    {
+        "name": "Spike Cannon",
         "type": "Normal",
         "category": "physical",
         "power": "20",
@@ -1676,7 +1805,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Splash": {
+    {
+        "name": "Splash",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1689,7 +1819,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Spore": {
+    {
+        "name": "Spore",
         "type": "Grass",
         "category": "status",
         "power": "-",
@@ -1702,7 +1833,8 @@
         "chance": 100,
         "status": "Sleep"
     },
-    "Stomp": {
+    {
+        "name": "Stomp",
         "type": "Normal",
         "category": "physical",
         "power": "65",
@@ -1715,7 +1847,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Strength": {
+    {
+        "name": "Strength",
         "type": "Normal",
         "category": "physical",
         "power": "80",
@@ -1728,7 +1861,8 @@
         "chance": 100,
         "status": "none"
     },
-    "String Shot": {
+    {
+        "name": "String Shot",
         "type": "Bug",
         "category": "status",
         "power": "-",
@@ -1741,7 +1875,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Struggle": {
+    {
+        "name": "Struggle",
         "type": "Normal",
         "category": "physical",
         "power": "50",
@@ -1754,7 +1889,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Stun Spore": {
+    {
+        "name": "Stun Spore",
         "type": "Grass",
         "category": "status",
         "power": "-",
@@ -1767,7 +1903,8 @@
         "chance": 100,
         "status": "Paralyze"
     },
-    "Submission": {
+    {
+        "name": "Submission",
         "type": "Fighting",
         "category": "physical",
         "power": "80",
@@ -1780,7 +1917,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Substitute": {
+    {
+        "name": "Substitute",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1793,7 +1931,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Super Fang": {
+    {
+        "name": "Super Fang",
         "type": "Normal",
         "category": "physical",
         "power": "-",
@@ -1806,7 +1945,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Supersonic": {
+    {
+        "name": "Supersonic",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1819,7 +1959,8 @@
         "chance": 100,
         "status": "Confuse"
     },
-    "Surf": {
+    {
+        "name": "Surf",
         "type": "Water",
         "category": "special",
         "power": "90",
@@ -1832,7 +1973,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Swift": {
+    {
+        "name": "Swift",
         "type": "Normal",
         "category": "special",
         "power": "60",
@@ -1845,7 +1987,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Swords Dance": {
+    {
+        "name": "Swords Dance",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1858,7 +2001,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Tackle": {
+    {
+        "name": "Tackle",
         "type": "Normal",
         "category": "physical",
         "power": "40",
@@ -1871,7 +2015,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Tail Whip": {
+    {
+        "name": "Tail Whip",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -1884,7 +2029,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Take Down": {
+    {
+        "name": "Take Down",
         "type": "Normal",
         "category": "physical",
         "power": "90",
@@ -1897,7 +2043,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Teleport": {
+    {
+        "name": "Teleport",
         "type": "Psychic",
         "category": "status",
         "power": "-",
@@ -1910,7 +2057,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Thrash": {
+    {
+        "name": "Thrash",
         "type": "Normal",
         "category": "physical",
         "power": "120",
@@ -1923,7 +2071,8 @@
         "chance": 100,
         "status": "Confuse"
     },
-    "Thunder": {
+    {
+        "name": "Thunder",
         "type": "Electric",
         "category": "special",
         "power": "110",
@@ -1936,7 +2085,8 @@
         "chance": 10,
         "status": "Paralyze"
     },
-    "Thunder Punch": {
+    {
+        "name": "Thunder Punch",
         "type": "Electric",
         "category": "physical",
         "power": "75",
@@ -1949,7 +2099,8 @@
         "chance": 10,
         "status": "Paralyze"
     },
-    "Thunder Shock": {
+    {
+        "name": "Thunder Shock",
         "type": "Electric",
         "category": "special",
         "power": "40",
@@ -1962,7 +2113,8 @@
         "chance": 10,
         "status": "Paralyze"
     },
-    "Thunder Wave": {
+    {
+        "name": "Thunder Wave",
         "type": "Electric",
         "category": "status",
         "power": "-",
@@ -1975,7 +2127,8 @@
         "chance": 100,
         "status": "Paralyze"
     },
-    "Thunderbolt": {
+    {
+        "name": "Thunderbolt",
         "type": "Electric",
         "category": "special",
         "power": "90",
@@ -1988,7 +2141,8 @@
         "chance": 10,
         "status": "Paralyze"
     },
-    "Toxic": {
+    {
+        "name": "Toxic",
         "type": "Poison",
         "category": "status",
         "power": "-",
@@ -2001,7 +2155,8 @@
         "chance": 100,
         "status": "Poison"
     },
-    "Transform": {
+    {
+        "name": "Transform",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -2014,7 +2169,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Tri Attack": {
+    {
+        "name": "Tri Attack",
         "type": "Normal",
         "category": "special",
         "power": "80",
@@ -2027,7 +2183,8 @@
         "chance": 10,
         "status": "Burn"
     },
-    "Twineedle": {
+    {
+        "name": "Twineedle",
         "type": "Bug",
         "category": "physical",
         "power": "25",
@@ -2040,7 +2197,8 @@
         "chance": 10,
         "status": "Poison"
     },
-    "Vine Whip": {
+    {
+        "name": "Vine Whip",
         "type": "Grass",
         "category": "physical",
         "power": "45",
@@ -2053,7 +2211,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Vise Grip": {
+    {
+        "name": "Vise Grip",
         "type": "Normal",
         "category": "physical",
         "power": "55",
@@ -2066,7 +2225,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Water Gun": {
+    {
+        "name": "Water Gun",
         "type": "Water",
         "category": "special",
         "power": "40",
@@ -2079,7 +2239,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Waterfall": {
+    {
+        "name": "Waterfall",
         "type": "Water",
         "category": "physical",
         "power": "80",
@@ -2092,7 +2253,8 @@
         "chance": 10,
         "status": "none"
     },
-    "Whirlwind": {
+    {
+        "name": "Whirlwind",
         "type": "Normal",
         "category": "status",
         "power": "-",
@@ -2105,7 +2267,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Wing Attack": {
+    {
+        "name": "Wing Attack",
         "type": "Flying",
         "category": "physical",
         "power": "60",
@@ -2118,7 +2281,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Withdraw": {
+    {
+        "name": "Withdraw",
         "type": "Water",
         "category": "status",
         "power": "-",
@@ -2131,7 +2295,8 @@
         "chance": 100,
         "status": "none"
     },
-    "Wrap": {
+    {
+        "name": "Wrap",
         "type": "Normal",
         "category": "physical",
         "power": "15",
@@ -2144,4 +2309,4 @@
         "chance": 100,
         "status": "none"
     }
-}
+]

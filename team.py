@@ -101,3 +101,7 @@ def ask_team():
             with open("teams.json", "w") as outfile:
                 outfile.write(json.dumps(database.TEAMS, indent=4))
             return
+
+
+if __name__ == "__main__":
+    ask_team()
