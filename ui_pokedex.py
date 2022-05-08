@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import database
+from PIL import Image, ImageTk
 
 
 class PokedexFrame(ttk.Frame):
@@ -9,6 +10,7 @@ class PokedexFrame(ttk.Frame):
         self.selected_id = 1
 
         self.info_frame = ttk.Frame(self)
+
         self.info_legends = [
             ttk.Label(self.info_frame, text="ID", width=14),
             ttk.Label(self.info_frame, text="Name", width=14),
@@ -46,6 +48,9 @@ class PokedexFrame(ttk.Frame):
         self.return_button.grid(row=3, column=0)
         self.return_func = root.switch_mainmenu
 
+        self.image_label = tk.Label(self)
+        self.image_label.grid(row=4, column=0)
+
         self.select_pokemon()
 
     def back_out(self):
@@ -55,6 +60,7 @@ class PokedexFrame(ttk.Frame):
         self.return_func()
 
     def select_pokemon(self):
+        self.change_image()
         dex = database.search_pokedex("id", self.selected_id)[0]
         iv = self.info_variables
         iv[0].set(dex["id"])
@@ -66,6 +72,12 @@ class PokedexFrame(ttk.Frame):
         iv[6].set(dex["sp-attack"])
         iv[7].set(dex["sp-defense"])
         iv[8].set(dex["speed"])
+
+    def change_image(self):
+        with Image.open("./images/" + str(self.selected_id) + ".png") as image:
+            resize_image = image.resize((100, 100))
+            img = ImageTk.PhotoImage(resize_image)
+            self.image_label.config(image=img)
 
     def _on_next(self):
         self.selected_id = min(151, self.selected_id + 1)

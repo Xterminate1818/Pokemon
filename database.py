@@ -222,6 +222,23 @@ if __name__ == "__main__":
 		with open("typechart.json", "w") as outfile:
 			outfile.write(json.dumps(dump, indent=4))
 
+	def generate_images():
+		# Grab html
+		url = "https://pokemondb.net/pokedex/game/red-blue-yellow"
+		page = requests.get(url)
+		# Parse html and get the main table
+		soup = BeautifulSoup(page.content, "html.parser")
+		index = 1
+		for i in soup.find_all("img", class_="img-sprite img-sprite-v1"):
+			print(i["src"])
+			image_url = i["src"]
+			image_data = requests.get(image_url).content
+			with open("images/" + str(index) + ".png", 'wb') as handler:
+				handler.write(image_data)
+			index += 1
+
+
+# generate_images()
 # generate_pokedex()
 # generate_movedex()
 # generate_typechart()
