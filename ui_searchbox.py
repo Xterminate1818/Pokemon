@@ -4,13 +4,16 @@ import database
 
 
 class SearchBox(tk.Frame):
-    def __init__(self, root):
-        super().__init__(root)
-        self.list = ["bulbasaur", "charmander", "squirtle", "pikachu", "charmeleon", "charizard"]
+    def __init__(self, root, search, command=None):
+        super().__init__(root, takefocus=tk.NO)
+        self.command = command
 
+        self.search = search
+        self.bind('<Return>', self._on_enter)
         self.results_var = tk.StringVar()
         self.list_box = tk.Listbox(self, listvariable=self.results_var)
         self.list_box.bind('<Return>', self._on_enter)
+        self.list_box.bind('<Button-1>', self._on_enter)
         self.list_box.bind('<Tab>', self._on_tab)
 
         self.search_var: tk.StringVar = tk.StringVar(self)
@@ -21,17 +24,17 @@ class SearchBox(tk.Frame):
 
         self.reset()
 
+    def get(self):
+        return self.search_var.get()
+
     def reset(self):
         self.search_var.set("")
+        self.entry.delete(0, tk.END)
         self.update_search()
 
     def update_search(self, *args):
-        results = []
+        results = self.search(self.search_var.get())
         self.list_box.grid(row=1, column=0)
-        for i in self.list:
-            if self.search_var.get() in i and self.search_var.get() != i:
-                results += [i]
-
         if self.search_var.get().strip() == "" or len(results) == 0:
             self.results_var.set("")
             self.list_box.config(height=0)
@@ -46,6 +49,8 @@ class SearchBox(tk.Frame):
             completion = self.list_box.get(selection)
             self.search_var.set(completion)
             self.update_search()
+            if self.command:
+                self.command()
 
     def _on_tab(self, event):
         self.list_box.focus_set()
@@ -57,10 +62,28 @@ class SearchBox(tk.Frame):
             self.list_box.selection_set((selection[0] + 1) % self.list_box.size())
 
 
+import database
+
+
+class PokedexSearchBox(SearchBox):
+    def __init__(self, root, command=None):
+        super().__init__(root, lambda v, k="name": database.search_pokedex(k, v), command=command)
+
+    def update_search(self, *args):
+        results = list(i["name"] for i in self.search(self.search_var.get()))
+        self.list_box.grid(row=1, column=0)
+        if self.search_var.get().strip() == "" or len(results) == 0:
+            self.results_var.set("")
+            self.list_box.config(height=0)
+            self.list_box.grid_forget()
+            return
+        self.results_var.set(results)
+        self.list_box.config(height=min(len(results), 6))
+
+
 if __name__ == "__main__":
     root = tk.Tk()
     root.resizable(True, True)
-    b = SearchBox(root)
+    b = PokedexSearchBox(root)
     b.pack()
     root.mainloop()
-
