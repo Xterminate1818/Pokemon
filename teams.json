@@ -5,7 +5,8 @@
             "moves": [
                 "Vine Whip",
                 "Poison Powder",
-                "Razor Leaf"
+                "Razor Leaf",
+                "No Move"
             ]
         },
         {
@@ -24,6 +25,33 @@
                 "Skull Bash",
                 "Surf",
                 "Mega Kick"
+            ]
+        },
+        {
+            "name": "",
+            "moves": [
+                "No Move",
+                "No Move",
+                "No Move",
+                "No Move"
+            ]
+        },
+        {
+            "name": "",
+            "moves": [
+                "No Move",
+                "No Move",
+                "No Move",
+                "No Move"
+            ]
+        },
+        {
+            "name": "",
+            "moves": [
+                "No Move",
+                "No Move",
+                "No Move",
+                "No Move"
             ]
         }
     ]

@@ -2,6 +2,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from collections import defaultdict
+from PIL import Image
 
 
 def load_pokedex() -> list[dict]:
@@ -24,13 +25,22 @@ def load_teams() -> dict:
 		return json.load(file)
 
 
+def get_sprite(_id):
+	return Image.open("./images/" + str(_id) + ".png")
+
 POKEDEX: list[dict] = load_pokedex()
 MOVEDEX: list[dict] = load_movedex()
 TYPECHART = load_typechart()
 TEAMS = load_teams()
 
 
-def _search(what: list, key: str, value, comp) -> list[dict]:
+def add_team(name: str, info: list[dict]):
+	TEAMS[name] = info
+	with open("teams.json", "w") as outfile:
+		outfile.write(json.dumps(TEAMS, indent=4))
+
+
+def _search(what: list, key: str, value, comp, get=None, amount=None) -> list[dict]:
 	comp_func = {
 		"==": value.__eq__,
 		"!=": value.__ne__,
@@ -48,16 +58,23 @@ def _search(what: list, key: str, value, comp) -> list[dict]:
 	ret = []
 	for i in what:
 		if comp_func(i[key]):
-			ret += [i]
+			if get is None:
+				ret += [i]
+			else:
+				ret += [i[get]]
+	if amount is not None and len(ret) > amount:
+		ret = ret[:amount]
+	if amount == 1:
+		return ret[0] if len(ret) > 0 else None
 	return ret
 
 
-def search_pokedex(key: str, value, comp="=="):
-	return _search(POKEDEX, key, value, comp)
+def search_pokedex(key: str, value, comp="==", get=None, amount=None):
+	return _search(POKEDEX, key, value, comp, get=get, amount=amount)
 
 
-def search_movedex(key: str, value, comp="=="):
-	return _search(MOVEDEX, key, value, comp)
+def search_movedex(key: str, value, comp="==", get=None, amount=None):
+	return _search(MOVEDEX, key, value, comp, get=get, amount=amount)
 
 
 INPUT_STR = ">"
@@ -222,6 +239,7 @@ if __name__ == "__main__":
 		with open("typechart.json", "w") as outfile:
 			outfile.write(json.dumps(dump, indent=4))
 
+
 	def generate_images():
 		# Grab html
 		url = "https://pokemondb.net/pokedex/game/red-blue-yellow"
@@ -236,7 +254,6 @@ if __name__ == "__main__":
 			with open("images/" + str(index) + ".png", 'wb') as handler:
 				handler.write(image_data)
 			index += 1
-
 
 # generate_images()
 # generate_pokedex()

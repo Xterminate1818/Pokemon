@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 import database
-from ui_searchbox import PokedexSearchBox
+from ui_extras import PokedexSearchBox
 
 
 class PokedexFrame(ttk.Frame):
@@ -15,7 +15,7 @@ class PokedexFrame(ttk.Frame):
         self.image_label.grid(row=0, column=0)
 
         self.primary_info_variable = tk.StringVar(self)
-        self.primary_info = ttk.Label(self, textvariable=self.primary_info_variable, takefocus=tk.NO)
+        self.primary_info = ttk.Label(self, textvariable=self.primary_info_variable, takefocus=tk.NO, font=(20,))
         self.primary_info.grid(row=1, column=0)
 
         self.stats_frame = ttk.Frame(self, takefocus=tk.NO)
@@ -65,7 +65,7 @@ class PokedexFrame(ttk.Frame):
 
     def select_pokemon(self):
         self.change_image()
-        dex = database.search_pokedex("id", self.selected_id)[0]
+        dex = database.search_pokedex("id", self.selected_id, amount=1)
         iv = self.info_variables
         self.primary_info_variable.set("#" + str(dex["id"]).rjust(3, '0') + " - " + dex["name"])
         iv[0].set(dex["hp"])
@@ -77,7 +77,7 @@ class PokedexFrame(ttk.Frame):
         iv[6].set(dex["total"])
 
     def change_image(self):
-        image = Image.open("./images/" + str(self.selected_id) + ".png")
+        image = database.get_sprite(self.selected_id)
         resize_image = image.resize((150, 150))
         img = ImageTk.PhotoImage(resize_image)
         self.current_image_reference = img

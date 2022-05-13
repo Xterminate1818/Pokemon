@@ -23,7 +23,7 @@ class TeamsFrame(ttk.Frame):
 		self.name_var: tk.StringVar = tk.StringVar(self)
 		self.name: ttk.Label = ttk.Label(self, textvariable=self.name_var)
 		self.name.grid(row=1, column=0)
-		self.moves = list[ttk.Combobox] = []
+		self.moves: list[ttk.Combobox] = []
 
 		self.selection: ttk.Entry = ttk.Entry(self)
 		self.selection.grid(row=2, column=0, columnspan=2)
